@@ -1,4 +1,12 @@
-C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/instruction_decoder_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/instruction_decoder_test.vhd
+C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/instruction_decoder_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/instruction_decoder_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -10,13 +18,33 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity instruction_decoder_test
 -- Compiling architecture behavioral of instruction_decoder_test
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_32.vhd
+} {} {}} ./lib/or_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity and_gate_32
--- Compiling architecture dataflow of and_gate_32
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} ./lib/syncram.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity syncram
+-- Compiling architecture behavioral of syncram
+
+} {} {}} ./lib/nand_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dec_n_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dec_n_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -27,6 +55,32 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package eecs361
 -- Compiling entity dec_n_test
 -- Compiling architecture behavioral of dec_n_test
+
+} {} {}} ./test/mux_n_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_n_test
+-- Compiling architecture behavioral of mux_n_test
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/processor_bills_branch_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/processor_bills_branch_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -39,23 +93,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity processor_bills_branch_test
 -- Compiling architecture behavioral of processor_bills_branch_test
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Compiling package eecs361
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity dffr
--- Compiling architecture behavioral of dffr
-
-} {} {}} ./control/instruction_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/control/instruction_decoder.vhd
+} {} {}} ./control/instruction_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -67,6 +105,34 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity instruction_decoder
 -- Compiling architecture instruction_decoder_logic of instruction_decoder
 
+} {} {}} ./lib/dec_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} ./test/processor_bills_branch_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity processor_bills_branch_test
+-- Compiling architecture behavioral of processor_bills_branch_test
+
+} {} {}} ./lib/dffr.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nand_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nand_gate_32.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -75,7 +141,28 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity nand_gate_32
 -- Compiling architecture dataflow of nand_gate_32
 
-} {} {}} ./alu/full_adder_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/alu/full_adder_1.vhd
+} {} {}} ./test/register_file_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity register_file_test
+-- Compiling architecture behavioral of register_file_test
+-- Compiling architecture init_test of register_file_test
+-- Loading entity register_file_test
+
+} {} {}} ./lib/nand_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} ./alu/full_adder_1.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/full_adder_1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -85,7 +172,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity adder_1
 -- Compiling architecture adder_1_logic of adder_1
 
-} {} {}} ./alu/alu_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/alu/alu_1.vhd
+} {} {}} ./alu/alu_1.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Armaan Dhingra\Desktop\pipelined-processor\alu\alu_1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -94,6 +181,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package eecs361
 -- Compiling entity alu_1
 -- Compiling architecture alu_1_logic of alu_1
+
+} {} {}} ./lib/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dff.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -133,7 +228,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity alu_1_test
 -- Compiling architecture behavioral of alu_1_test
 
-} {} {}} ./control/branch_resolver.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/control/branch_resolver.vhd
+} {} {}} ./control/branch_resolver.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -145,7 +240,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity branch_resolver
 -- Compiling architecture branch_resolver_logic of branch_resolver
 
-} {} {}} ./alu/alu_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/alu/alu_32.vhd
+} {} {}} ./alu/alu_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Armaan Dhingra\Desktop\pipelined-processor\alu\alu_32.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -167,6 +262,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package eecs361
 -- Compiling entity sram_test
 -- Compiling architecture behavioral of sram_test
+
+} {} {}} ./lib/dffr_a.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate_n.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -226,6 +329,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity alu_32_test
 -- Compiling architecture behavioral of alu_32_test
 
+} {} {}} ./lib/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/mux_n_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/mux_n_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -244,6 +355,49 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity mux_n
 -- Compiling architecture behavioral of mux_n
 
+} {} {}} ./test/pc_controller_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity pc_controller_test
+-- Compiling architecture behavioral of pc_controller_test
+
+} {} {}} ./test/alu_32_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity alu_32_test
+-- Compiling architecture behavioral of alu_32_test
+
+} {} {}} ./test/instruction_decoder_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity instruction_decoder_test
+-- Compiling architecture behavioral of instruction_decoder_test
+
+} {} {}} ./lib/or_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -251,6 +405,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity and_gate
 -- Compiling architecture dataflow of and_gate
+
+} {} {}} ./test/dffr_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity dffr_test
+-- Compiling architecture behavioral of dffr_test
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/register_file_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/register_file_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -276,6 +440,34 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity processor_unsigned_add_test
 -- Compiling architecture behavioral of processor_unsigned_add_test
 
+} {} {}} ./lib/and_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} ./test/processor_unsigned_add_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity processor_unsigned_add_test
+-- Compiling architecture behavioral of processor_unsigned_add_test
+
+} {} {}} ./extender/extender.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity extender
+-- Compiling architecture extender_logic of extender
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/shifter_32_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/shifter_32_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -288,14 +480,79 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity shifter_32_test
 -- Compiling architecture behavioral of shifter_32_test
 
-} {} {}} ./extender/extender.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/extender/extender.vhd
+} {} {}} ./test/extender_test.vhd {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
--- Compiling entity extender
--- Compiling architecture extender_logic of extender
+-- Loading package eecs361
+-- Compiling entity extender_test
+-- Compiling architecture behavioral of extender_test
+** Warning: C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} ./lib/and_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_n
+-- Compiling architecture dataflow of and_gate_n
+
+} {} {}} ./lib/nand_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} ./test/shifter_32_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity shifter_32_test
+-- Compiling architecture behavioral of shifter_32_test
+
+} {} {}} ./processor.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity processor
+-- Compiling architecture processor_logic of processor
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361_gates.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361_gates.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/register_1_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/register_1_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -309,28 +566,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity register_1_test
 -- Compiling architecture behavioral of register_1_test
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361_gates.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/eecs361_gates.vhd
+} {} {}} ./alu/shifter_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Armaan Dhingra\Desktop\pipelined-processor\alu\shifter_32.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling package eecs361_gates
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_32.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity or_gate_32
--- Compiling architecture dataflow of or_gate_32
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_32.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xor_gate_32
--- Compiling architecture dataflow of xor_gate_32
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity shifter_32
+-- Compiling architecture shifter_32_logic of shifter_32
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/pc_controller_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/pc_controller_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -343,15 +587,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity pc_controller_test
 -- Compiling architecture behavioral of pc_controller_test
 
-} {} {}} ./alu/shifter_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/alu/shifter_32.vhd
+} {} {}} ./test/register_1_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity shifter_32
--- Compiling architecture shifter_32_logic of shifter_32
+-- Compiling entity register_1_test
+-- Compiling architecture behavioral of register_1_test
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dff_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dff_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -363,13 +609,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity dff_test
 -- Compiling architecture behavioral of dff_test
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate.vhd
+} {} {}} ./lib/not_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity or_gate
--- Compiling architecture dataflow of or_gate
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -379,7 +625,31 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity xor_gate
 -- Compiling architecture dataflow of xor_gate
 
-} {} {}} ./register/read_32x32registers.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/register/read_32x32registers.vhd
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} ./lib/mux_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} ./lib/xor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} ./register/read_32x32registers.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -388,6 +658,30 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package eecs361
 -- Compiling entity read_32x32registers
 -- Compiling architecture read_32x32registers_logic of read_32x32registers
+
+} {} {}} ./lib/nor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_n.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_n.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/processor_sort_corrected_branch_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -399,38 +693,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package eecs361
 -- Compiling entity processor_sort_corrected_branch_test
 -- Compiling architecture behavioral of processor_sort_corrected_branch_test
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/or_gate_n.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity or_gate_n
--- Compiling architecture dataflow of or_gate_n
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xor_gate_n.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xor_gate_n
--- Compiling architecture dataflow of xor_gate_n
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate
--- Compiling architecture dataflow of nor_gate
-
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xnor_gate
--- Compiling architecture dataflow of xnor_gate
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/branch_resolver_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/branch_resolver_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -444,6 +706,46 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity branch_resolver_test
 -- Compiling architecture behavioral of branch_resolver_test
 
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} ./lib/not_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} ./lib/nor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr_a.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr_a.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dffr_a_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dffr_a_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -454,15 +756,27 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity dffr_a_test
 -- Compiling architecture behavioral of dffr_a_test
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr_a.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dffr_a.vhd
+} {} {}} ./lib/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity dffr_a
--- Compiling architecture behavioral of dffr_a
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
 
-} {} {}} ./register/register_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/register/register_1.vhd
+} {} {}} ./test/dffr_a_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity dffr_a_test
+-- Compiling architecture behavioral of dffr_a_test
+
+} {} {}} ./register/register_1.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -472,6 +786,44 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity register_1
 -- Compiling architecture register_1_logic of register_1
 
+} {} {}} ./test/sram_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity sram_test
+-- Compiling architecture behavioral of sram_test
+
+} {} {}} ./lib/nor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} ./lib/eecs361_gates.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361_gates.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
+
+} {} {}} ./lib/mux_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dec_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/dec_n.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -480,6 +832,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity dec_n
 -- Compiling architecture behavioral of dec_n
+
+} {} {}} ./lib/and_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dffr_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/dffr_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -491,13 +851,23 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity dffr_test
 -- Compiling architecture behavioral of dffr_test
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate_32.vhd
+} {} {}} ./test/dff_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nor_gate_32
--- Compiling architecture dataflow of nor_gate_32
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity dff_test
+-- Compiling architecture behavioral of dff_test
+
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate_32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/sram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/sram.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -511,15 +881,25 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity sram
 -- Compiling architecture behavioral of sram
 
-} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/xnor_gate_32.vhd
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/nor_gate_32.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity xnor_gate_32
--- Compiling architecture dataflow of xnor_gate_32
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
 
-} {} {}} ./register/register_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/register/register_file.vhd
+} {} {}} ./test/dec_n_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity dec_n_test
+-- Compiling architecture behavioral of dec_n_test
+
+} {} {}} ./register/register_file.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -529,6 +909,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity register_file
 -- Compiling architecture register_file_logic of register_file
 
+} {} {}} ./lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/not_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/not_gate_32.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -536,6 +924,36 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity not_gate_32
 -- Compiling architecture dataflow of not_gate_32
+
+} {} {}} ./lib/sram.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} ./lib/xnor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} ./pipeline_registers/if_id_register.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Armaan Dhingra\Desktop\pipelined-processor\pipeline_registers\if_id_register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity if_id_register
+-- Compiling architecture if_id_logic of if_id_register
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/extender_test.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/extender_test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -548,22 +966,32 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture behavioral of extender_test
 ** Warning: C:/Users/Leanna/Documents/EECS361/pipelined-processor/test/extender_test.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 
-} {} {}} ./pipeline_registers/if_id_register.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/pipeline_registers/if_id_register.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
-** Error: C:/Users/Leanna/Documents/EECS361/pipelined-processor/pipeline_registers/if_id_register.vhd(7): near "EOF": syntax error
-
-} {8.0 9.0} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_n.vhd
+} {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/and_gate_n.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity and_gate_n
 -- Compiling architecture dataflow of and_gate_n
+
+} {} {}} ./lib/or_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} ./test/processor_sort_corrected_branch_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity processor_sort_corrected_branch_test
+-- Compiling architecture behavioral of processor_sort_corrected_branch_test
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/not_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/not_gate.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -573,7 +1001,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity not_gate
 -- Compiling architecture dataflow of not_gate
 
-} {} {}} ./control/pc_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/control/pc_controller.vhd
+} {} {}} ./lib/xnor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} ./test/branch_resolver_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -582,8 +1018,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_arith
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity pc_controller
--- Compiling architecture pc_controller_logic of pc_controller
+-- Compiling entity branch_resolver_test
+-- Compiling architecture behavioral of branch_resolver_test
 
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/mux.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -595,6 +1031,44 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity mux
 -- Compiling architecture structural of mux
 
+} {} {}} ./control/pc_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity pc_controller
+-- Compiling architecture pc_controller_logic of pc_controller
+
+} {} {}} ./lib/dff.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behavioral of dff
+
+} {} {}} ./lib/not_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} ./test/alu_1_test.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity alu_1_test
+-- Compiling architecture behavioral of alu_1_test
+
 } {} {}} C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/not_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Leanna/Documents/EECS361/pipelined-processor/lib/not_gate_n.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -602,5 +1076,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity not_gate_n
 -- Compiling architecture dataflow of not_gate_n
+
+} {} {}} ./lib/xnor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
 
 } {} {}}
