@@ -17,12 +17,12 @@ end if_id_register;
 architecture if_id_logic of if_id_register is
 
 begin
-	output_inst_loop: for i in 0 to 31 generate:
+	output_inst_loop: for i in 0 to 31 generate
 		dff_inst: dffr_a
 			port map(clk=>clk, arst =>reset, aload=>'0', adata=>'0', d=>input_inst(i), enable=>'1', q=>output_inst(i));
 	end generate;
 		
-	output_pc_loop: for i in 0 to 31 generate:
+	output_pc_loop: for i in 0 to 31 generate
 		dff_pc: dffr_a
 			port map(clk=>clk, arst =>reset, aload=>'0', adata=>'0', d=>input_pc(i), enable=>'1', q=>output_pc(i));
 	end generate;
