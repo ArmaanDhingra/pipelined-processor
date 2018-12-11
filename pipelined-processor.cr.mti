@@ -459,19 +459,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity processor_unsigned_add_test
 -- Compiling architecture behavioral of processor_unsigned_add_test
 
-} {} {}} {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity id_ex_test
--- Compiling architecture behavioral of id_ex_test
-** Error (suppressible): C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd(16): (vcom-1141) Identifier "id_ex_register" does not identify a component declaration.
-** Error: C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd(46): VHDL Compiler exiting
-
-} {11.0 12.0} {}} ./test/extender_test.vhd {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd}
+} {} {}} ./test/extender_test.vhd {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -920,6 +908,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity xnor_gate_32
 -- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} ./lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
 
 } {} {}} ./register/register_file.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
