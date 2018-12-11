@@ -16,9 +16,6 @@ end if_id_register;
 
 architecture if_id_logic of if_id_register is
 
-signal source_s, source_t : std_logic_vector(4 downto 0);
-signal immediate : std_logic_vector(15 downto 0);
-
 begin
 	output_inst_loop: for i in 0 to 31 generate:
 		dff_inst: dffr_a

@@ -18,26 +18,26 @@ entity id_ex_register is
 
 end id_ex_register;
 
-architecture if_ex_logic of if_ex_register is
+architecture id_ex_logic of id_ex_register is
 
 begin
 
-	output_pc_loop: for i in 0 to 31 generate:
+	output_pc_loop: for i in 0 to 31 generate
 		dff_pc: dffr_a
 			port map(clk=>clk, arst =>reset, aload=>'0', adata=>'0', d=>input_pc(i), enable=>'1', q=>output_pc(i));
 	end generate;
 
-	output_a_loop: for i in 0 to 31 generate:
+	output_a_loop: for i in 0 to 31 generate
 		dff_a: dffr_a
 			port map(clk=>clk, arst =>reset, aload=>'0', adata=>'0', d=>input_a(i), enable=>'1', q=>output_a(i));
 	end generate;
 
-	output_b_loop: for i in 0 to 31 generate:
+	output_b_loop: for i in 0 to 31 generate
 		dff_b: dffr_a
 			port map(clk=>clk, arst =>reset, aload=>'0', adata=>'0', d=>input_b(i), enable=>'1', q=>output_b(i));
 	end generate;
 
-	output_immediate_loop: for i in 0 to 31 generate:
+	output_immediate_loop: for i in 0 to 31 generate
 		dff_immediate: dffr_a
 			port map(clk=>clk, arst =>reset, aload=>'0', adata=>'0', d=>input_immediate(i), enable=>'1', q=>output_immediate(i));
 	end generate;
