@@ -11,7 +11,7 @@ dC:/intelFPGA/18.1
 Eadder_1
 Z0 w1543338465
 Z1 DPx4 work 13 eecs361_gates 0 22 G@G3>3naH[gM9iCRR86lk0
-Z2 DPx4 work 7 eecs361 0 22 `Igg7Pa[k@9HFX=ToBkaQ3
+Z2 DPx4 work 7 eecs361 0 22 61UW]TQ0L84D=U:iPVKhi0
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z5 dC:/Users/Armaan Dhingra/Desktop/pipelined-processor
@@ -23,9 +23,9 @@ Vha=k9Mm[W5?n;]XFl79UF0
 !s100 @gkoDmdIJMQ8Oo;2?65Qb3
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1544502921
+Z9 !s110 1544505550
 !i10b 1
-Z10 !s108 1544502921.000000
+Z10 !s108 1544505550.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/full_adder_1.vhd|
 Z12 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/full_adder_1.vhd|
 !i113 1
@@ -66,11 +66,11 @@ V9Ym]X]DFF<dz_o[S2:YUg0
 !s100 2S2fKJlKPV?z[G^mFk1MW3
 R8
 32
-R9
+Z17 !s110 1544505549
 !i10b 1
-R10
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_1.vhd|
-Z18 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_1.vhd|
+Z18 !s108 1544505549.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_1.vhd|
+Z20 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_1.vhd|
 !i113 1
 R13
 R14
@@ -86,34 +86,34 @@ VWBNR2kD`o[mYN^;0GV0?>2
 !s100 @lBZGOQ=mKa1gzEPJ27n[0
 R8
 32
-R9
-!i10b 1
-R10
 R17
+!i10b 1
 R18
+R19
+R20
 !i113 1
 R13
 R14
 Ealu_1_test
-Z19 w1543338468
+Z21 w1543338468
 R1
 R2
 R3
 R4
 R5
-Z20 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd
-Z21 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd
+Z22 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd
+Z23 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd
 l0
 L16
 VEVL4P0B=95O3L]ALj;^nY1
 !s100 H:G:`?@=Sf2nY0ilo>`BO1
 R8
 32
-Z22 !s110 1544502933
+Z24 !s110 1544505603
 !i10b 1
-Z23 !s108 1544502933.000000
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd|
-Z25 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd|
+Z25 !s108 1544505603.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd|
+Z27 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_1_test.vhd|
 !i113 1
 R13
 R14
@@ -129,11 +129,11 @@ VoG:nL<H03_dMU3]fDgQgd1
 !s100 k5cF8;`7MZFR5nVXAMC=73
 R8
 32
-R22
-!i10b 1
-R23
 R24
+!i10b 1
 R25
+R26
+R27
 !i113 1
 R13
 R14
@@ -144,19 +144,19 @@ R2
 R3
 R4
 R5
-Z26 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd
-Z27 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd
+Z28 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd
+Z29 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd
 l0
 L17
 V7OXS[z60e]<Ld^[W`7Gm^0
 !s100 :gJRcM9W7nWz9Wi?8jmYF2
 R8
 32
-R9
+R17
 !i10b 1
-R10
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd|
-Z29 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd|
+R18
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd|
+Z31 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/alu_32.vhd|
 !i113 1
 R13
 R14
@@ -172,44 +172,44 @@ VkWcA<ZULWhAfNAZWXL7f51
 !s100 4@AVTgOlh=VZNTd5bb[B[2
 R8
 32
-R9
+R17
 !i10b 1
-R10
-R28
-R29
+R18
+R30
+R31
 !i113 1
 R13
 R14
 Ealu_32_test
-R19
+R21
 R1
 R2
-Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z31 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z33 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R3
 R4
 R5
-Z32 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd
-Z33 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd
+Z34 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd
+Z35 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd
 l0
 L19
 VcFOcGTlF>6YhBWoLIRzL`1
 !s100 BIAY]TQ1j_GTd;HCJZ0N90
 R8
 32
-R22
+Z36 !s110 1544505604
 !i10b 1
-R23
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd|
-Z35 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd|
+R25
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd|
+Z38 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/alu_32_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 11 alu_32_test 0 22 cFOcGTlF>6YhBWoLIRzL`1
@@ -219,32 +219,32 @@ VUze<:kM:994zM=n=g`U]E3
 !s100 CJ:=]U;9GK[WbcbD7gYlZ2
 R8
 32
-R22
+R36
 !i10b 1
-R23
-R34
-R35
+R25
+R37
+R38
 !i113 1
 R13
 R14
 Eand_gate
-Z36 w1447354224
+Z39 w1447354224
 R3
 R4
 R5
-Z37 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd
-Z38 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd
+Z40 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd
+Z41 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd
 l0
 L5
 VhE_e_Rgm[N3PdZh[V=Az?1
 !s100 9zM?`;meNomBE;big9UG12
 R8
 32
-Z39 !s110 1544502931
+Z42 !s110 1544505599
 !i10b 1
-Z40 !s108 1544502931.000000
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd|
-Z42 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd|
+Z43 !s108 1544505599.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd|
+Z45 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate.vhd|
 !i113 1
 R13
 R14
@@ -258,32 +258,32 @@ VC@ldnBQ6jEzl^]@212YPz1
 !s100 Wc2cnMoUL`Rn2T[ECHYDg0
 R8
 32
-R39
-!i10b 1
-R40
-R41
 R42
+!i10b 1
+R43
+R44
+R45
 !i113 1
 R13
 R14
 Eand_gate_32
-R36
+R39
 R3
 R4
 R5
-Z43 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd
-Z44 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd
+Z46 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd
+Z47 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd
 l0
 L5
 V;K@lPb^fUn5NRPE9^YUWn1
 !s100 KSRcRaLU>DVF[looI[MAB1
 R8
 32
-R39
+R42
 !i10b 1
-R40
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd|
-Z46 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd|
+R43
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd|
+Z49 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -297,32 +297,32 @@ V_L`Mb12In>DaA6S>F3dR_2
 !s100 7eGi4aE3j0c6RNWj8;hYn2
 R8
 32
-R39
+R42
 !i10b 1
-R40
-R45
-R46
+R43
+R48
+R49
 !i113 1
 R13
 R14
 Eand_gate_n
-R36
+R39
 R3
 R4
 R5
-Z47 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd
-Z48 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd
+Z50 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd
+Z51 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd
 l0
 L5
 V9MR1C1[7b:z414JH]o[Q72
 !s100 BgW1<b848=U4b0Fm5IB4V0
 R8
 32
-R39
+Z52 !s110 1544505600
 !i10b 1
-R40
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd|
-Z50 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd|
+R43
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd|
+Z54 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/and_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -336,11 +336,11 @@ VNZceK8zIhSAfFLMf;8WfJ0
 !s100 TlhKh<Ln2>7=AINQTiM_c3
 R8
 32
-R39
+R52
 !i10b 1
-R40
-R49
-R50
+R43
+R53
+R54
 !i113 1
 R13
 R14
@@ -348,32 +348,32 @@ Ebranch_resolver
 R0
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z51 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd
-Z52 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd
+Z55 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd
+Z56 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd
 l0
 L25
 VkgNHO[WiiZU;i]UD7ZDC;2
 !s100 Q5cZin:maMXGJRV<;kSFa3
 R8
 32
-Z53 !s110 1544502922
+R9
 !i10b 1
-Z54 !s108 1544502922.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd|
-Z56 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd|
+R10
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd|
+Z58 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/branch_resolver.vhd|
 !i113 1
 R13
 R14
 Abranch_resolver_logic
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 15 branch_resolver 0 22 kgNHO[WiiZU;i]UD7ZDC;2
@@ -383,44 +383,44 @@ VnzjTmeFL;>kHHZDSWTMz<2
 !s100 V6km7[hH_@WD1P@oc[;711
 R8
 32
-R53
+R9
 !i10b 1
-R54
-R55
-R56
+R10
+R57
+R58
 !i113 1
 R13
 R14
 Ebranch_resolver_test
-R19
+R21
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z57 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd
-Z58 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd
+Z59 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd
+Z60 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd
 l0
 L25
 Vh8O>:1WbfL8ieN<ILB>kY3
 !s100 BQ3jTz[7[Dk;ADh=BbAk?1
 R8
 32
-Z59 !s110 1544502934
+Z61 !s110 1544505605
 !i10b 1
-R23
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
-Z61 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
+Z62 !s108 1544505604.000000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
+Z64 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 20 branch_resolver_test 0 22 h8O>:1WbfL8ieN<ILB>kY3
@@ -430,38 +430,81 @@ V9Dhh6n`g]OEjBY16l8Lg_2
 !s100 Eb`7DlAz7]JKQ;>EE3TA60
 R8
 32
-R59
-!i10b 1
-R23
-R60
 R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R13
+R14
+Econtrol_signals
+Z65 w1544506885
+R1
+R2
+R3
+R4
+R5
+Z66 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control_signals.vhd
+Z67 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control_signals.vhd
+l0
+L6
+VbMzo>0QNoIeQzSBaQK0lf3
+!s100 cXOXiOaB^HhnQ1a?=[TGT0
+R8
+32
+Z68 !s110 1544506891
+!i10b 1
+Z69 !s108 1544506891.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control_signals.vhd|
+Z71 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control_signals.vhd|
+!i113 1
+R13
+R14
+Acs_logic
+R1
+R2
+R3
+R4
+DEx4 work 15 control_signals 0 22 bMzo>0QNoIeQzSBaQK0lf3
+l30
+L28
+V;MkkR1E32anSA<hV^PB<U3
+!s100 WAjeOF9baM22j[PXTi5>B3
+R8
+32
+R68
+!i10b 1
+R69
+R70
+R71
 !i113 1
 R13
 R14
 Edec_n
-R36
-R31
+R39
+R33
 R3
 R4
 R5
-Z62 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd
-Z63 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd
+Z72 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd
+Z73 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd
 l0
 L5
 V0a>XSXG3^zhkzX^i4@9Ea1
 !s100 TFYiE@E?[zcS;UYZJZ]e]0
 R8
 32
-R39
+R52
 !i10b 1
-R40
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd|
-Z65 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd|
+Z74 !s108 1544505600.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd|
+Z76 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dec_n.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
+R33
 R3
 R4
 DEx4 work 5 dec_n 0 22 0a>XSXG3^zhkzX^i4@9Ea1
@@ -471,34 +514,34 @@ VaL_C;f4Cnzb@MDAjLf1Ed3
 !s100 55g?PRCWKJcmYh6jzUGZ80
 R8
 32
-R39
+R52
 !i10b 1
-R40
-R64
-R65
+R74
+R75
+R76
 !i113 1
 R13
 R14
 Edec_n_test
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z66 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd
-Z67 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd
+Z77 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd
+Z78 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd
 l0
 L5
 VYR<f20Ihg5MNEiM4HkRb:3
 !s100 7;bA2Rd;bzQgEnz4gE0;i0
 R8
 32
-R59
+R61
 !i10b 1
-Z68 !s108 1544502934.000000
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd|
-Z70 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd|
+Z79 !s108 1544505605.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd|
+Z81 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dec_n_test.vhd|
 !i113 1
 R13
 R14
@@ -514,32 +557,32 @@ V[1EV8U7emfXUlJIBI7_MW1
 !s100 @lB8XF3IO2^4MdLFKBQ9?0
 R8
 32
-R59
+R61
 !i10b 1
-R68
-R69
-R70
+R79
+R80
+R81
 !i113 1
 R13
 R14
 Edff
-R36
+R39
 R3
 R4
 R5
-Z71 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd
-Z72 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd
+Z82 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd
+Z83 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd
 l0
 L4
 V?Dl0]I?oihzd6e58lnTeT3
 !s100 6RF6aKO;bLUdc^Uo1TlJA1
 R8
 32
-Z73 !s110 1544502924
+Z84 !s110 1544505551
 !i10b 1
-Z74 !s108 1544502924.000000
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd|
-Z76 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd|
+Z85 !s108 1544505551.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd|
+Z87 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dff.vhd|
 !i113 1
 R13
 R14
@@ -553,34 +596,34 @@ Ve^^=95d6ZUNM<z0RP@Q=G0
 !s100 YQ?Mf61<mPk;FAfQWmbPe2
 R8
 32
-R73
+R84
 !i10b 1
-R74
-R75
-R76
+R85
+R86
+R87
 !i113 1
 R13
 R14
 Edff_test
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z77 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd
-Z78 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd
+Z88 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd
+Z89 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd
 l0
 L5
 VcS:67emY2M3B15DeD>T??0
 !s100 RMU:49IZZEnM@B`5Yd>5b3
 R8
 32
-Z79 !s110 1544502935
+Z90 !s110 1544505606
 !i10b 1
-R68
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd|
-Z81 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd|
+Z91 !s108 1544505606.000000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd|
+Z93 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dff_test.vhd|
 !i113 1
 R13
 R14
@@ -596,32 +639,32 @@ V>UilPnM>5ZNMN3diUmCUg1
 !s100 ;1KT;H9Ee8ZG2;mUbhi4O3
 R8
 32
-R79
+R90
 !i10b 1
-R68
-R80
-R81
+R91
+R92
+R93
 !i113 1
 R13
 R14
 Edffr
-R36
+R39
 R3
 R4
 R5
-Z82 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd
-Z83 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd
+Z94 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd
+Z95 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd
 l0
 L4
 V]V0nCm<P[hMQe1HJ>dK>m2
 !s100 8^h72ccPiicFMoll6;?B^1
 R8
 32
-R73
+R84
 !i10b 1
-R74
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd|
-Z85 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd|
+R85
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd|
+Z97 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr.vhd|
 !i113 1
 R13
 R14
@@ -635,32 +678,32 @@ VeUY?8[LZleUS82iiKEe5Y0
 !s100 [jSDjV[;ooEXI1fbj<kQH2
 R8
 32
-R73
-!i10b 1
-R74
 R84
+!i10b 1
 R85
+R96
+R97
 !i113 1
 R13
 R14
 Edffr_a
-R36
+R39
 R3
 R4
 R5
-Z86 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd
-Z87 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd
+Z98 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd
+Z99 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd
 l0
 L4
 V4[b^00[Ug:gIIbna]26832
 !s100 Ae06@YlEN>^ZBC[J]R^j?2
 R8
 32
-R73
+R84
 !i10b 1
-R74
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd|
-Z89 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd|
+R85
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd|
+Z101 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/dffr_a.vhd|
 !i113 1
 R13
 R14
@@ -674,34 +717,34 @@ V2e``[JLG1V9mIKaN=UMS62
 !s100 18jIoW:5CWgj6bjeXK^2W3
 R8
 32
-R73
+R84
 !i10b 1
-R74
-R88
-R89
+R85
+R100
+R101
 !i113 1
 R13
 R14
 Edffr_a_test
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z90 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd
-Z91 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd
+Z102 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd
+Z103 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd
 l0
 L5
 VoS8ZAB@j<XB@DCRTPgbAm2
 !s100 iQQKEaWhl1j:`9aDfg`2X1
 R8
 32
-R79
+R90
 !i10b 1
-Z92 !s108 1544502935.000000
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd|
-Z94 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd|
+R91
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd|
+Z105 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_a_test.vhd|
 !i113 1
 R13
 R14
@@ -717,34 +760,34 @@ VmjPfQ;G6<TJD8c2R3Gg0d2
 !s100 0ozhNEQFXaNL1<C];]]212
 R8
 32
-R79
+R90
 !i10b 1
-R92
-R93
-R94
+R91
+R104
+R105
 !i113 1
 R13
 R14
 Edffr_test
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z95 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd
-Z96 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd
+Z106 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd
+Z107 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd
 l0
 L5
 VEnK_CDY7Y_oJ4Ok5Fca=X3
 !s100 i:K0ZmhBIZU0BKZacn^Ra1
 R8
 32
-R79
+R90
 !i10b 1
-R92
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd|
-Z98 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd|
+R91
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd|
+Z109 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/dffr_test.vhd|
 !i113 1
 R13
 R14
@@ -760,11 +803,11 @@ VR5SOeEjNQ;;5A6NK8=]K12
 !s100 E3of8[IV2z]8@4`WRB4R@0
 R8
 32
-R79
+R90
 !i10b 1
-R92
-R97
-R98
+R91
+R108
+R109
 !i113 1
 R13
 R14
@@ -772,19 +815,19 @@ Peecs361
 R1
 R3
 R4
-w1544317287
+w1544505507
 R5
 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361.vhd
 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361.vhd
 l0
 L15
-V`Igg7Pa[k@9HFX=ToBkaQ3
-!s100 0L3`johRO6Rl:2Si6]NiU3
+V61UW]TQ0L84D=U:iPVKhi0
+!s100 ;]bzllkGAWeMc^>f`O@Oc0
 R8
 32
-R73
+Z110 !s110 1544505552
 !i10b 1
-R74
+Z111 !s108 1544505552.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361.vhd|
 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361.vhd|
 !i113 1
@@ -793,7 +836,7 @@ R14
 Peecs361_gates
 R3
 R4
-R36
+R39
 R5
 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361_gates.vhd
 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361_gates.vhd
@@ -803,33 +846,33 @@ VG@G3>3naH[gM9iCRR86lk0
 !s100 EFJF``Kkcd:<4LI@jVAPI3
 R8
 32
-R73
+R110
 !i10b 1
-R74
+R111
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361_gates.vhd|
 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/eecs361_gates.vhd|
 !i113 1
 R13
 R14
 Eextender
-Z99 w1543338466
+Z112 w1543338466
 R1
 R3
 R4
 R5
-Z100 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd
-Z101 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd
+Z113 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd
+Z114 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd
 l0
 L5
 Vb;=]Ucd>TVn2zF2WE``i_0
 !s100 0oK89in>[fHG7gcACjV<71
 R8
 32
-Z102 !s110 1544502923
+R84
 !i10b 1
-R54
-Z103 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd|
-Z104 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd|
+R85
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd|
+Z116 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/extender/extender.vhd|
 !i113 1
 R13
 R14
@@ -844,34 +887,34 @@ Vg5j8d4N7P_I<]M76l;<=J3
 !s100 @NUCUZS1=?A]3e3g_4c5^2
 R8
 32
-R102
+R84
 !i10b 1
-R54
-R103
-R104
+R85
+R115
+R116
 !i113 1
 R13
 R14
 Eextender_test
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z105 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd
-Z106 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd
+Z117 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd
+Z118 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd
 l0
 L5
 VR8CfTDB[0B_Wf:R@N3ao12
 !s100 olC:0[BXaZgPXKzJz996?3
 R8
 32
-Z107 !s110 1544502936
+Z119 !s110 1544505607
 !i10b 1
-R92
-Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd|
-Z109 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd|
+R91
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd|
+Z121 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/extender_test.vhd|
 !i113 1
 R13
 R14
@@ -887,34 +930,34 @@ VRQlcX5gUU5zS?2AHk>5cJ0
 !s100 YMV2abTRBdSI2Vfl[IoJ:1
 R8
 32
-R107
+R119
 !i10b 1
-R92
-R108
-R109
+R91
+R120
+R121
 !i113 1
 R13
 R14
 Eid_ex_register
-Z110 w1544502956
+Z122 w1544502956
 R1
 R2
 R3
 R4
 R5
-Z111 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
-Z112 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
+Z123 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
+Z124 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
 l0
 L6
 V4MA7KY0OUh;XFN8kPB>9C1
 !s100 2ho1:[6`4;WYn6mRz7_=Q3
 R8
 32
-Z113 !s110 1544502964
+Z125 !s110 1544505611
 !i10b 1
-Z114 !s108 1544502964.000000
-Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
-Z116 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
+Z126 !s108 1544505611.000000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
+Z128 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
 !i113 1
 R13
 R14
@@ -930,34 +973,77 @@ VM>g`CVL0Qd6H=N]h]4m5H1
 !s100 Q^J1:_n`AA>JE?;@di:WB2
 R8
 32
-R113
+R125
 !i10b 1
-R114
-R115
-R116
+R126
+R127
+R128
 !i113 1
 R13
 R14
-Eif_id_register
-Z117 w1544502914
+Eid_ex_test
+Z129 w1544505189
 R1
 R2
 R3
 R4
 R5
-Z118 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
-Z119 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
+Z130 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd
+Z131 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd
+l0
+L6
+VTPSO`4U1Sz>V;oFKjmS?_1
+!s100 jYik_ONI:5cQOJE:HRbR]3
+R8
+32
+R125
+!i10b 1
+R126
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd|
+Z133 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/id_ex_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 10 id_ex_test 0 22 TPSO`4U1Sz>V;oFKjmS?_1
+l15
+L9
+VZ9FHZ`hc2M0Kh3dQh12=o1
+!s100 SW74V:fKBhCTbYCGPNP2D3
+R8
+32
+R125
+!i10b 1
+R126
+R132
+R133
+!i113 1
+R13
+R14
+Eif_id_register
+Z134 w1544502914
+R1
+R2
+R3
+R4
+R5
+Z135 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
+Z136 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
 l0
 L6
 VmEjdTXH=lCRgORLVQ3AQc2
 !s100 PMJSb3JE=enj>5XANinUU3
 R8
 32
-Z120 !s110 1544502972
+R52
 !i10b 1
-Z121 !s108 1544502971.000000
-Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
-Z123 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
+R74
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
+Z138 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
 !i113 1
 R13
 R14
@@ -966,18 +1052,18 @@ R1
 R2
 R3
 R4
-Z124 DEx4 work 14 if_id_register 0 22 mEjdTXH=lCRgORLVQ3AQc2
+DEx4 work 14 if_id_register 0 22 mEjdTXH=lCRgORLVQ3AQc2
 l19
 L17
-Z125 Vmf^e[Tm2?T63lWb2[NnNc1
-Z126 !s100 2:ea[AWU1@o=m3XjAo8k42
+Vmf^e[Tm2?T63lWb2[NnNc1
+!s100 2:ea[AWU1@o=m3XjAo8k42
 R8
 32
-R120
+R52
 !i10b 1
-R121
-R122
-R123
+R74
+R137
+R138
 !i113 1
 R13
 R14
@@ -985,32 +1071,32 @@ Einstruction_decoder
 R0
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z127 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd
-Z128 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd
+Z139 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd
+Z140 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd
 l0
 L25
 VAU[aEmjRcgARSSL9FC[:M0
 !s100 eO8@K_gIDG2Gd`:>Ib=ol1
 R8
 32
-R53
+R9
 !i10b 1
-R54
-Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd|
-Z130 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd|
+R10
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd|
+Z142 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/instruction_decoder.vhd|
 !i113 1
 R13
 R14
 Ainstruction_decoder_logic
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 19 instruction_decoder 0 22 AU[aEmjRcgARSSL9FC[:M0
@@ -1020,44 +1106,44 @@ V4:CBF^F::E^o;kVBSj_nB3
 !s100 U1SnFXKMJYi^aiP__DIYo0
 R8
 32
-R53
+R9
 !i10b 1
-R54
-R129
-R130
+R10
+R141
+R142
 !i113 1
 R13
 R14
 Einstruction_decoder_test
-R19
+R21
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z131 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
-Z132 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
+Z143 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
+Z144 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
 l0
 L25
 VEzLB=_]5fTAb8:`m9^G?N3
 !s100 ;Y8bi1fJ49D:g`QM8M^8[3
 R8
 32
-R107
+R119
 !i10b 1
-Z133 !s108 1544502936.000000
-Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
-Z135 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
+Z145 !s108 1544505607.000000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
+Z147 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 24 instruction_decoder_test 0 22 EzLB=_]5fTAb8:`m9^G?N3
@@ -1067,34 +1153,34 @@ VP>GHaN6@hJi679jORm[M20
 !s100 _^CSjmZ=Q3KEL6NLe_BoR1
 R8
 32
-R107
+R119
 !i10b 1
-R133
-R134
-R135
+R145
+R146
+R147
 !i113 1
 R13
 R14
 Emux
-R36
+R39
 R1
 R2
 R3
 R4
 R5
-Z136 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd
-Z137 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd
+Z148 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd
+Z149 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd
 l0
 L5
 V>oJ5U=BnI^`ag0=K]WZKO0
 !s100 R7SGh1UNzgRXkDgUzi0Dn0
 R8
 32
-Z138 !s110 1544502925
+Z150 !s110 1544505553
 !i10b 1
-Z139 !s108 1544502925.000000
-Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd|
-Z141 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd|
+Z151 !s108 1544505553.000000
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd|
+Z153 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux.vhd|
 !i113 1
 R13
 R14
@@ -1110,34 +1196,34 @@ V9e3_f``Qg4GhTA>ag5:8o0
 !s100 TMbaX=C3aUF9Pl?TK_bl20
 R8
 32
-R138
+R150
 !i10b 1
-R139
-R140
-R141
+R151
+R152
+R153
 !i113 1
 R13
 R14
 Emux_32
-R36
+R39
 R1
 R2
 R3
 R4
 R5
-Z142 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd
-Z143 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd
+Z154 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd
+Z155 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd
 l0
 L5
 V;ZJB3@XFiFdGS?g@RF1Vc3
 !s100 ciE_BzZP_7gaALUfNcf3V2
 R8
 32
-R138
+R150
 !i10b 1
-R139
-Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd|
-Z145 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd|
+R151
+Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd|
+Z157 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_32.vhd|
 !i113 1
 R13
 R14
@@ -1153,32 +1239,32 @@ V;ZASSMASd=3o_Ld=:eJLS1
 !s100 iiT]gRaJ0BGA@1c7lKGZ;1
 R8
 32
-R138
+R150
 !i10b 1
-R139
-R144
-R145
+R151
+R156
+R157
 !i113 1
 R13
 R14
 Emux_n
-R36
+R39
 R3
 R4
 R5
-Z146 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd
-Z147 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd
+Z158 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd
+Z159 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd
 l0
 L4
 V;Rg1MaANM2BcjIoIGiMR>3
 !s100 DhH_dWUkhZScmPX0PShL>1
 R8
 32
-R138
+R150
 !i10b 1
-R139
-Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd|
-Z149 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd|
+R151
+Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd|
+Z161 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/mux_n.vhd|
 !i113 1
 R13
 R14
@@ -1192,34 +1278,34 @@ Vdbi;>X`Mj01bMajZB2?643
 !s100 VOPJAGmKhfQ>L9L:P_FXf0
 R8
 32
-R138
+R150
 !i10b 1
-R139
-R148
-R149
+R151
+R160
+R161
 !i113 1
 R13
 R14
 Emux_n_test
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z150 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd
-Z151 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd
+Z162 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd
+Z163 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd
 l0
 L5
 VOZMMdDei:To`DVRokWzEk0
 !s100 R><3DnEo`[<Z]oI5KTXLQ1
 R8
 32
-R107
+R119
 !i10b 1
-R133
-Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd|
-Z153 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd|
+R145
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd|
+Z165 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/mux_n_test.vhd|
 !i113 1
 R13
 R14
@@ -1235,32 +1321,32 @@ VY:f1I:]7ibHBO8e@dWMT31
 !s100 a?ga6edNF0PiP8n2<Xfd?0
 R8
 32
-R107
+R119
 !i10b 1
-R133
-R152
-R153
+R145
+R164
+R165
 !i113 1
 R13
 R14
 Enand_gate
-R36
+R39
 R3
 R4
 R5
-Z154 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd
-Z155 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd
+Z166 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd
+Z167 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd
 l0
 L5
 V=i<fNcci6gazbNoz7Zo?B0
 !s100 `;YoNjg98=RO3KEUJb?JH2
 R8
 32
-R138
+Z168 !s110 1544505554
 !i10b 1
-R139
-Z156 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd|
-Z157 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd|
+Z169 !s108 1544505554.000000
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd|
+Z171 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate.vhd|
 !i113 1
 R13
 R14
@@ -1274,32 +1360,32 @@ Vl^zW<z;Pl8NkCT3h`m8f>3
 !s100 DdgXSJTenGYMFNYGk^j2^2
 R8
 32
-R138
+R168
 !i10b 1
-R139
-R156
-R157
+R169
+R170
+R171
 !i113 1
 R13
 R14
 Enand_gate_32
-R36
+R39
 R3
 R4
 R5
-Z158 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd
-Z159 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd
+Z172 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd
+Z173 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd
 l0
 L5
 Vm1GdlgCSaKXEezc1oQ5A53
 !s100 d7`oU3cRhD_iz]OR?aJbM0
 R8
 32
-R138
+R168
 !i10b 1
-R139
-Z160 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
-Z161 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
+R169
+Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
+Z175 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1313,32 +1399,32 @@ V?=O5i19k>6?EO?fWFWmQ33
 !s100 5L7`cY6bRPYMYkmEYAg871
 R8
 32
-R138
+R168
 !i10b 1
-R139
-R160
-R161
+R169
+R174
+R175
 !i113 1
 R13
 R14
 Enand_gate_n
-R36
+R39
 R3
 R4
 R5
-Z162 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd
-Z163 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd
+Z176 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd
+Z177 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd
 l0
 L5
 VR6;g^V_FPW0;nb=i<dJlI3
 !s100 LMidV?0i^0NCQXjDDfE0j1
 R8
 32
-Z164 !s110 1544502926
+Z178 !s110 1544505555
 !i10b 1
-Z165 !s108 1544502926.000000
-Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
-Z167 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
+Z179 !s108 1544505555.000000
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
+Z181 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -1352,32 +1438,32 @@ V`S7jEGJ6CA=AG<0ak5P6D1
 !s100 5mzmEVJ8`Ol]kLAA1ADTS0
 R8
 32
-R164
+R178
 !i10b 1
-R165
-R166
-R167
+R179
+R180
+R181
 !i113 1
 R13
 R14
 Enor_gate
-R36
+R39
 R3
 R4
 R5
-Z168 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd
-Z169 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd
+Z182 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd
+Z183 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd
 l0
 L5
 V0L7S;NMz9_M@NF0N3jjl53
 !s100 Uz[KW04m>JL2N=<Ae_26A3
 R8
 32
-R164
+R178
 !i10b 1
-R165
-Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd|
-Z171 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd|
+R179
+Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd|
+Z185 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate.vhd|
 !i113 1
 R13
 R14
@@ -1391,32 +1477,32 @@ Vg6WmIRLO`^]W8MOk44NQ02
 !s100 kE2E`N:jBl`5f7h@CAkLc3
 R8
 32
-R164
+R178
 !i10b 1
-R165
-R170
-R171
+R179
+R184
+R185
 !i113 1
 R13
 R14
 Enor_gate_32
-R36
+R39
 R3
 R4
 R5
-Z172 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd
-Z173 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd
+Z186 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd
+Z187 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd
 l0
 L5
 VJYT;XbbHkkG9;BF<8bSZ[2
 !s100 3mdJRKLJ_1Z1ih<o1WC>A3
 R8
 32
-R164
+R178
 !i10b 1
-R165
-Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
-Z175 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
+R179
+Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
+Z189 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1430,32 +1516,32 @@ V[3NO3nGH3BHP0aAz4=<U;0
 !s100 4C[N[o;dbNU?^;JAFz8P@0
 R8
 32
-R164
+R178
 !i10b 1
-R165
-R174
-R175
+R179
+R188
+R189
 !i113 1
 R13
 R14
 Enor_gate_n
-R36
+R39
 R3
 R4
 R5
-Z176 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd
-Z177 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd
+Z190 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd
+Z191 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd
 l0
 L5
 VjaFJH5UI;Xc1C=l<5c`S^1
 !s100 WOgXHNaOaa3V@ZQR9[dBF2
 R8
 32
-Z178 !s110 1544502927
+Z192 !s110 1544505557
 !i10b 1
-Z179 !s108 1544502927.000000
-Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
-Z181 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
+Z193 !s108 1544505557.000000
+Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
+Z195 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -1469,32 +1555,32 @@ V9dCFzT;RnT>eMXZgOEFXh2
 !s100 LLY;[lESSHQFLXI0BM0Lk2
 R8
 32
-R178
+R192
 !i10b 1
-R179
-R180
-R181
+R193
+R194
+R195
 !i113 1
 R13
 R14
 Enot_gate
-R36
+R39
 R3
 R4
 R5
-Z182 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd
-Z183 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd
+Z196 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd
+Z197 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd
 l0
 L5
 V?REPgFkfC>l7me3_Cm;h]0
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R8
 32
-R178
+Z198 !s110 1544505558
 !i10b 1
-R179
-Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd|
-Z185 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd|
+Z199 !s108 1544505558.000000
+Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd|
+Z201 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate.vhd|
 !i113 1
 R13
 R14
@@ -1508,32 +1594,32 @@ V^N]`_cihjlkgk@GD2ifne3
 !s100 0K4o_`::YhV<`CcAlY38V3
 R8
 32
-R178
+R198
 !i10b 1
-R179
-R184
-R185
+R199
+R200
+R201
 !i113 1
 R13
 R14
 Enot_gate_32
-R36
+R39
 R3
 R4
 R5
-Z186 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd
-Z187 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd
+Z202 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd
+Z203 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd
 l0
 L5
 V5z8ni8e9GEdi_1z[h3[YT3
 !s100 MlQa>L3D?j3YTME?WDA^I3
 R8
 32
-R178
+R198
 !i10b 1
-R179
-Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd|
-Z189 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd|
+R199
+Z204 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd|
+Z205 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1547,32 +1633,32 @@ VooYb<YVBcg]jka=E1Bz2U2
 !s100 SZ]KSd]7=<``cT7UO3c^32
 R8
 32
-R178
+R198
 !i10b 1
-R179
-R188
-R189
+R199
+R204
+R205
 !i113 1
 R13
 R14
 Enot_gate_n
-R36
+R39
 R3
 R4
 R5
-Z190 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd
-Z191 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd
+Z206 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd
+Z207 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd
 l0
 L5
 VL[_>1Hz4EFXGgW8O0lzPe0
 !s100 IMo29cac8Wo2jk<h1@>Y41
 R8
 32
-R178
+Z208 !s110 1544505559
 !i10b 1
-R179
-Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd|
-Z193 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd|
+R199
+Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd|
+Z210 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/not_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -1586,32 +1672,32 @@ V^?aa<E?_8@T0dJRWCLiMk2
 !s100 f1R?C4QOI1W16^[L00fF`1
 R8
 32
-R178
+R208
 !i10b 1
-R179
-R192
-R193
+R199
+R209
+R210
 !i113 1
 R13
 R14
 Eor_gate
-R36
+R39
 R3
 R4
 R5
-Z194 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd
-Z195 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd
+Z211 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd
+Z212 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd
 l0
 L5
 VO1l5BHjZPQ5?]IFn9;=UE2
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R8
 32
-Z196 !s110 1544502928
+R208
 !i10b 1
-R179
-Z197 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd|
-Z198 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd|
+Z213 !s108 1544505559.000000
+Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd|
+Z215 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate.vhd|
 !i113 1
 R13
 R14
@@ -1625,32 +1711,32 @@ VU4niXK]Pm[B5X9KH>G;F:1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R8
 32
-R196
+R208
 !i10b 1
-R179
-R197
-R198
+R213
+R214
+R215
 !i113 1
 R13
 R14
 Eor_gate_32
-R36
+R39
 R3
 R4
 R5
-Z199 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd
-Z200 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd
+Z216 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd
+Z217 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd
 l0
 L5
 VR4T`[JT7zTSFAT?fEEf591
 !s100 XkkR6QF?Vl4ZJYEZjo;0l2
 R8
 32
-R196
+R208
 !i10b 1
-Z201 !s108 1544502928.000000
-Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd|
-Z203 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd|
+R213
+Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd|
+Z219 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1664,32 +1750,32 @@ Vm<XLcN8OGfnn6foi[Re=10
 !s100 K:BE?onG;^0[1Z5dkfcRR0
 R8
 32
-R196
+R208
 !i10b 1
-R201
-R202
-R203
+R213
+R218
+R219
 !i113 1
 R13
 R14
 Eor_gate_n
-R36
+R39
 R3
 R4
 R5
-Z204 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd
-Z205 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd
+Z220 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd
+Z221 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd
 l0
 L5
 VhcjC8YfR[BWVL];cJhOKi1
 !s100 Y[01iFT>714d^L[KJ4VM82
 R8
 32
-R196
+Z222 !s110 1544505560
 !i10b 1
-R201
-Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd|
-Z207 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd|
+Z223 !s108 1544505560.000000
+Z224 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd|
+Z225 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/or_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -1703,11 +1789,11 @@ VJC>ZhgR[jGRkBeQ>4LTHl1
 !s100 X0T0eOJ7Mi7@HZjHoZO6:3
 R8
 32
-R196
+R222
 !i10b 1
-R201
-R206
-R207
+R223
+R224
+R225
 !i113 1
 R13
 R14
@@ -1715,32 +1801,32 @@ Epc_controller
 R0
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z208 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd
-Z209 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd
+Z226 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd
+Z227 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd
 l0
 L25
 VoUDU`WPaBJ`dkdLkXWm241
 !s100 2oN^K>CCoeZU`2T14?K0d3
 R8
 32
-R53
+R9
 !i10b 1
-R54
-Z210 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd|
-Z211 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd|
+R10
+Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd|
+Z229 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/control/pc_controller.vhd|
 !i113 1
 R13
 R14
 Apc_controller_logic
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 13 pc_controller 0 22 oUDU`WPaBJ`dkdLkXWm241
@@ -1750,42 +1836,42 @@ VUUXU[C3J>e3?C[]bNEh9O1
 !s100 OzY=RY5n9bg`YiJ3z6gI43
 R8
 32
-R53
+R9
 !i10b 1
-R54
-R210
-R211
+R10
+R228
+R229
 !i113 1
 R13
 R14
 Epc_controller_test
-R19
+R21
 R1
 R2
-R31
+R33
 R3
 R4
 R5
-Z212 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd
-Z213 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd
+Z230 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd
+Z231 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd
 l0
 L7
 VRPAzNhkJh59oWK9[i_A7Q0
 !s100 :][5iZ=10F@jmgjbJcXdY0
 R8
 32
-R107
+R119
 !i10b 1
-R133
-Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd|
-Z215 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd|
+R145
+Z232 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd|
+Z233 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/pc_controller_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R31
+R33
 R3
 R4
 DEx4 work 18 pc_controller_test 0 22 RPAzNhkJh59oWK9[i_A7Q0
@@ -1795,11 +1881,11 @@ V3RB]dZ3O7ibJGPU3ZS3?f0
 !s100 2Qg@Unh<RIGJL6hD66zj32
 R8
 32
-R107
+R119
 !i10b 1
-R133
-R214
-R215
+R145
+R232
+R233
 !i113 1
 R13
 R14
@@ -1807,32 +1893,32 @@ Eprocessor
 R0
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z216 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd
-Z217 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd
+Z234 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd
+Z235 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd
 l0
 L8
 V[X7Pf3bBGP;VWTMTIk0LU1
 !s100 =jhD>Xj@A3KA1oAM[bSJ20
 R8
 32
-Z218 !s110 1544502938
+R125
 !i10b 1
-Z219 !s108 1544502938.000000
-Z220 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd|
-Z221 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd|
+R126
+Z236 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd|
+Z237 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/processor.vhd|
 !i113 1
 R13
 R14
 Aprocessor_logic
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 9 processor 0 22 [X7Pf3bBGP;VWTMTIk0LU1
@@ -1842,42 +1928,42 @@ VdPz]D;2PB=Bk`KPb5K4Id2
 !s100 @k0zoc2;hjz_6z:9dPRK13
 R8
 32
-R218
+R125
 !i10b 1
-R219
-R220
-R221
+R126
+R236
+R237
 !i113 1
 R13
 R14
 Eprocessor_bills_branch_test
-R19
+R21
 R1
 R2
-R31
+R33
 R3
 R4
 R5
-Z222 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
-Z223 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
+Z238 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
+Z239 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
 l0
 L7
 VNjlQ;B1BEi69fYRR62_Z52
 !s100 HIX?EZHS_NKbgh@X?Pzbz1
 R8
 32
-Z224 !s110 1544502937
+R119
 !i10b 1
-Z225 !s108 1544502937.000000
-Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
-Z227 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
+R145
+Z240 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
+Z241 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R31
+R33
 R3
 R4
 DEx4 work 27 processor_bills_branch_test 0 22 NjlQ;B1BEi69fYRR62_Z52
@@ -1887,42 +1973,42 @@ V@Phebz3h<Ng8@@Qg4GZ`]2
 !s100 1klPHdiiRb^k0S7a54oZ53
 R8
 32
-R224
+R119
 !i10b 1
-R225
-R226
-R227
+R145
+R240
+R241
 !i113 1
 R13
 R14
 Eprocessor_sort_corrected_branch_test
-R19
+R21
 R1
 R2
-R31
+R33
 R3
 R4
 R5
-Z228 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
-Z229 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
+Z242 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
+Z243 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
 l0
 L7
 Vljc8>hcMD5kZkMaMbTC=F3
 !s100 z>?iX]KP=7T>6nn=_GAn90
 R8
 32
-R224
+Z244 !s110 1544505608
 !i10b 1
-R225
-Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
-Z231 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
+Z245 !s108 1544505608.000000
+Z246 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
+Z247 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R31
+R33
 R3
 R4
 DEx4 work 36 processor_sort_corrected_branch_test 0 22 ljc8>hcMD5kZkMaMbTC=F3
@@ -1932,42 +2018,42 @@ VAgUDC;K94`CaeQN@[mA5F1
 !s100 ?l25VEeF17dD=ioZXVQ=31
 R8
 32
-R224
+R244
 !i10b 1
-R225
-R230
-R231
+R245
+R246
+R247
 !i113 1
 R13
 R14
 Eprocessor_unsigned_add_test
-R19
+R21
 R1
 R2
-R31
+R33
 R3
 R4
 R5
-Z232 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
-Z233 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
+Z248 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
+Z249 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
 l0
 L7
 V@R<=kn`1S=W]dfbFF:5Tz2
 !s100 ]Vif5YmD7[BM45EnV^THe2
 R8
 32
-R224
+R244
 !i10b 1
-R225
-Z234 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
-Z235 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
+R245
+Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
+Z251 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R31
+R33
 R3
 R4
 DEx4 work 27 processor_unsigned_add_test 0 22 @R<=kn`1S=W]dfbFF:5Tz2
@@ -1977,34 +2063,34 @@ V[ZlJ?FVi2jBCKDK9X^P103
 !s100 eSXbNgELMQULodDJP<YMJ2
 R8
 32
-R224
+R244
 !i10b 1
-R225
-R234
-R235
+R245
+R250
+R251
 !i113 1
 R13
 R14
 Eread_32x32registers
-Z236 w1543338467
+Z252 w1543338467
 R1
 R2
 R3
 R4
 R5
-Z237 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd
-Z238 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd
+Z253 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd
+Z254 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd
 l0
 L6
 V^FfNm8OzbQCNj2SXIQk;B2
 !s100 mTgmC<KZ0OVTK[:4oHWJf3
 R8
 32
-Z239 !s110 1544502932
+R52
 !i10b 1
-Z240 !s108 1544502932.000000
-Z241 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd|
-Z242 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd|
+R74
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd|
+Z256 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/read_32x32registers.vhd|
 !i113 1
 R13
 R14
@@ -2020,34 +2106,34 @@ VGzimP3OA>>1ka8^z@zV`j3
 !s100 jhQa?UH@1Aefb0j@6>97<0
 R8
 32
-R239
+R52
 !i10b 1
-R240
-R241
-R242
+R74
+R255
+R256
 !i113 1
 R13
 R14
 Eregister_1
-R236
+R252
 R1
 R2
 R3
 R4
 R5
-Z243 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd
-Z244 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd
+Z257 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd
+Z258 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd
 l0
 L6
 VQW58Ljc]CKI8PCcTi^1RE0
 !s100 f;G9GUF5DjDE95WFYGT9d1
 R8
 32
-R239
+Z259 !s110 1544505602
 !i10b 1
-R240
-Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd|
-Z246 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd|
+Z260 !s108 1544505601.000000
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd|
+Z262 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_1.vhd|
 !i113 1
 R13
 R14
@@ -2063,44 +2149,44 @@ V^CL0fK_@;@9XQHjodBH9z3
 !s100 Fi1G8U?VEYEomSj]WGJ0X0
 R8
 32
-R239
+R259
 !i10b 1
-R240
-R245
-R246
+R260
+R261
+R262
 !i113 1
 R13
 R14
 Eregister_1_test
-R19
+R21
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z247 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd
-Z248 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd
+Z263 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd
+Z264 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd
 l0
 L18
 VWCb:3C_58aRo:Egk9CJM62
 !s100 kVgz`^Hkf57]n;kDHbQBO1
 R8
 32
-R224
+Z265 !s110 1544505609
 !i10b 1
-R225
-Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd|
-Z250 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd|
+Z266 !s108 1544505609.000000
+Z267 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd|
+Z268 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_1_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 15 register_1_test 0 22 WCb:3C_58aRo:Egk9CJM62
@@ -2110,34 +2196,34 @@ VWJJCTW:o7d4HIEBQ1VEcz3
 !s100 G=eDQkfXlQS70l5K`65TF0
 R8
 32
-R224
+R265
 !i10b 1
-R225
-R249
-R250
+R266
+R267
+R268
 !i113 1
 R13
 R14
 Eregister_file
-R19
+R21
 R1
 R2
 R3
 R4
 R5
-Z251 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd
-Z252 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd
+Z269 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd
+Z270 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd
 l0
 L6
 V<2a7Z@iDhijoT;h3=_F=O0
 !s100 bK0HZE8aW5U5f5T@Zj<@z1
 R8
 32
-R239
+Z271 !s110 1544505601
 !i10b 1
-R240
-Z253 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd|
-Z254 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd|
+R74
+Z272 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd|
+Z273 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/register/register_file.vhd|
 !i113 1
 R13
 R14
@@ -2153,77 +2239,77 @@ V3;6^Qe@J3i28z^nXK:=_T2
 !s100 O2P]>X?:F5a:k`PEH8<?^0
 R8
 32
-R239
+R271
 !i10b 1
-R240
-R253
-R254
+R74
+R272
+R273
 !i113 1
 R13
 R14
 Eregister_file_test
-R19
+R21
 R1
 R2
-R31
+R33
 R3
 R4
 R5
-Z255 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd
-Z256 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd
+Z274 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd
+Z275 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd
 l0
 L7
 VBP`B8mSlSGKo9[QQ?=UDU0
 !s100 3HB<eGnMmC[HRUCl1WoZC0
 R8
 32
-R218
+Z276 !s110 1544505610
 !i10b 1
-R225
-Z257 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd|
-Z258 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd|
+Z277 !s108 1544505610.000000
+Z278 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd|
+Z279 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/register_file_test.vhd|
 !i113 1
 R13
 R14
 Ainit_test
 R1
 R2
-R31
+R33
 R3
 R4
-Z259 DEx4 work 18 register_file_test 0 22 BP`B8mSlSGKo9[QQ?=UDU0
+Z280 DEx4 work 18 register_file_test 0 22 BP`B8mSlSGKo9[QQ?=UDU0
 l114
 L102
 VdUP]_2e4E@337nfl2@3LA1
 !s100 I?8;JMRnZ3Vco^=U66A<c3
 R8
 32
-R218
+R276
 !i10b 1
-R225
-R257
-R258
+R277
+R278
+R279
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R31
+R33
 R3
 R4
-R259
+R280
 l22
 L10
 VSG^L`lh0>_lfnS[ko1m6L3
 !s100 QO3@RYPRmY=7UFUiT`3ED0
 R8
 32
-R218
+R276
 !i10b 1
-R225
-R257
-R258
+R277
+R278
+R279
 !i113 1
 R13
 R14
@@ -2234,19 +2320,19 @@ R2
 R3
 R4
 R5
-Z260 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd
-Z261 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd
+Z281 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd
+Z282 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd
 l0
 L6
 V8zboDFQIJeUk]X7OicJF93
 !s100 3G`79gm1^QkBoj=VY8BOX0
 R8
 32
-R9
+R17
 !i10b 1
-R10
-Z262 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd|
-Z263 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd|
+R18
+Z283 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd|
+Z284 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/alu/shifter_32.vhd|
 !i113 1
 R13
 R14
@@ -2262,44 +2348,44 @@ V4@?ihN<06FM`Nb^elAlH_0
 !s100 OJ;6[LK_TOmkoVcC_:ZSH3
 R8
 32
-R9
+R17
 !i10b 1
-R10
-R262
-R263
+R18
+R283
+R284
 !i113 1
 R13
 R14
 Eshifter_32_test
-R19
+R21
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 R5
-Z264 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd
-Z265 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd
+Z285 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd
+Z286 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd
 l0
 L9
 VJiA21fU=Vo?z_e<fKM:;e2
 !s100 i;g@Eo=fhc^5<bX0ob9ZA0
 R8
 32
-R218
+R276
 !i10b 1
-R219
-Z266 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd|
-Z267 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd|
+R277
+Z287 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd|
+Z288 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/shifter_32_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R30
-R31
+R32
+R33
 R3
 R4
 DEx4 work 15 shifter_32_test 0 22 JiA21fU=Vo?z_e<fKM:;e2
@@ -2309,44 +2395,44 @@ V20E2S6h^7bAX]UCjfHUXS1
 !s100 EO9Wm56ETMf3obVDTNjVi1
 R8
 32
-R218
+R276
 !i10b 1
-R219
-R266
-R267
+R277
+R287
+R288
 !i113 1
 R13
 R14
 Esram
-R36
-R31
-Z268 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-R30
-Z269 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R39
+R33
+Z289 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R32
+Z290 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R3
 R4
 R5
-Z270 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd
-Z271 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd
+Z291 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd
+Z292 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd
 l0
 L13
 VFLG`C39Ab9GzQ=^bY]PbI0
 !s100 dFa2^0bCm0FVM`Q9B=_f60
 R8
 32
-R196
+R222
 !i10b 1
-R201
-Z272 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd|
-Z273 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd|
+R223
+Z293 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd|
+Z294 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/sram.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
-R268
-R30
-R269
+R33
+R289
+R32
+R290
 R3
 R4
 DEx4 work 4 sram 0 22 FLG`C39Ab9GzQ=^bY]PbI0
@@ -2356,46 +2442,46 @@ VLRD]SNjG8@LM@IX=zhb1z3
 !s100 ;NlLnEhi3^n7W2I^9UJ2d3
 R8
 32
-R196
+R222
 !i10b 1
-R201
-R272
-R273
+R223
+R293
+R294
 !i113 1
 R13
 R14
 Esram_test
-R19
+R21
 R1
 R2
-R31
-R30
-R269
+R33
+R32
+R290
 R3
 R4
 R5
-Z274 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd
-Z275 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd
+Z295 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd
+Z296 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd
 l0
 L7
 V<zU9:eoHl_Az]8hWDW<hl3
 !s100 G00?HLJVNDc1cW66I<Bgm0
 R8
 32
-R22
+R259
 !i10b 1
-R240
-Z276 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd|
-Z277 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd|
+Z297 !s108 1544505602.000000
+Z298 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd|
+Z299 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/test/sram_test.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R1
 R2
-R31
-R30
-R269
+R33
+R32
+R290
 R3
 R4
 DEx4 work 9 sram_test 0 22 <zU9:eoHl_Az]8hWDW<hl3
@@ -2405,44 +2491,44 @@ VdLlMnRSaSD_[kJ^W>E7]n1
 !s100 J7eMdLScNF_aI`87P6:MM0
 R8
 32
-R22
+R259
 !i10b 1
-R240
-R276
-R277
+R297
+R298
+R299
 !i113 1
 R13
 R14
 Esyncram
-R36
-R31
-R268
-R30
-R269
+R39
+R33
+R289
+R32
+R290
 R3
 R4
 R5
-Z278 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd
-Z279 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd
+Z300 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd
+Z301 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd
 l0
 L12
 VD=e][Y8<;9NigS>`niT123
 !s100 aFnLlL1@m415d6em?MG^21
 R8
 32
-R196
+Z302 !s110 1544505561
 !i10b 1
-R201
-Z280 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd|
-Z281 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd|
+R223
+Z303 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd|
+Z304 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/syncram.vhd|
 !i113 1
 R13
 R14
 Abehavioral
-R31
-R268
-R30
-R269
+R33
+R289
+R32
+R290
 R3
 R4
 DEx4 work 7 syncram 0 22 D=e][Y8<;9NigS>`niT123
@@ -2452,32 +2538,32 @@ Vb4bLTLnQ<96RWXh<@96:U0
 !s100 W:<cVUTVPgIfz60fOOgQ20
 R8
 32
-R196
+R302
 !i10b 1
-R201
-R280
-R281
+R223
+R303
+R304
 !i113 1
 R13
 R14
 Exnor_gate
-R36
+R39
 R3
 R4
 R5
-Z282 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd
-Z283 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd
+Z305 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd
+Z306 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd
 l0
 L5
 V0h2SEDJmYfE@NbVLih1891
 !s100 VMF9C>DP[5;VOiN5[aESd3
 R8
 32
-Z284 !s110 1544502929
+R302
 !i10b 1
-Z285 !s108 1544502929.000000
-Z286 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd|
-Z287 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd|
+Z307 !s108 1544505561.000000
+Z308 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd|
+Z309 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate.vhd|
 !i113 1
 R13
 R14
@@ -2491,32 +2577,32 @@ V7FVFb1NIF1?iJ4PQQ`S`<0
 !s100 ]_>oDFZN:PJ[HJie3IcK81
 R8
 32
-R284
+R302
 !i10b 1
-R285
-R286
-R287
+R307
+R308
+R309
 !i113 1
 R13
 R14
 Exnor_gate_32
-R36
+R39
 R3
 R4
 R5
-Z288 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
-Z289 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
+Z310 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
+Z311 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
 l0
 L5
 VI^Fo_SJbE0W]UUm=ZlX691
 !s100 7TK64^z14nVXPK]cWgS3=0
 R8
 32
-R284
+Z312 !s110 1544505564
 !i10b 1
-R285
-Z290 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
-Z291 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
+Z313 !s108 1544505563.000000
+Z314 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
+Z315 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -2530,32 +2616,32 @@ VUZHHDf582f^BFOE?@V5cO3
 !s100 l]IKGhY:hL2aDUPV;>SB?0
 R8
 32
-R284
+R312
 !i10b 1
-R285
-R290
-R291
+R313
+R314
+R315
 !i113 1
 R13
 R14
 Exnor_gate_n
-R36
+R39
 R3
 R4
 R5
-Z292 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
-Z293 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
+Z316 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
+Z317 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
 l0
 L5
 VR_LmOEJa:d>5N49>W0ZA?3
 !s100 UCY45ZALOU6@I^4jz3eW33
 R8
 32
-Z294 !s110 1544502930
+Z318 !s110 1544505581
 !i10b 1
-R285
-Z295 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
-Z296 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
+Z319 !s108 1544505580.000000
+Z320 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
+Z321 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -2569,32 +2655,32 @@ VKnfTaCK^6h<JR^FmC<>0m1
 !s100 dDail5hL?0zna@N:=D@8b2
 R8
 32
-R294
+R318
 !i10b 1
-R285
-R295
-R296
+R319
+R320
+R321
 !i113 1
 R13
 R14
 Exor_gate
-R36
+R39
 R3
 R4
 R5
-Z297 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd
-Z298 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd
+Z322 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd
+Z323 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd
 l0
 L5
 V[fBJY?oh1=l=lj];5ikcY1
 !s100 K_6H3f?zAK@4`dnkC2j[K2
 R8
 32
-R294
+Z324 !s110 1544505598
 !i10b 1
-Z299 !s108 1544502930.000000
-Z300 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd|
-Z301 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd|
+Z325 !s108 1544505598.000000
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd|
+Z327 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate.vhd|
 !i113 1
 R13
 R14
@@ -2608,32 +2694,32 @@ VX2I>jC5Dl4K41ohhQ=lfz2
 !s100 e;mL^F4ENl;O2f_Ae@3MU2
 R8
 32
-R294
+R324
 !i10b 1
-R299
-R300
-R301
+R325
+R326
+R327
 !i113 1
 R13
 R14
 Exor_gate_32
-R36
+R39
 R3
 R4
 R5
-Z302 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd
-Z303 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd
+Z328 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd
+Z329 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd
 l0
 L5
 V:TDC7[J^<4Z0hN7K<U@nz0
 !s100 IY:zIdH0EdL@PUV4ISe5M0
 R8
 32
-R294
+R42
 !i10b 1
-R299
-Z304 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
-Z305 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
+R43
+Z330 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
+Z331 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -2647,32 +2733,32 @@ V3VRg<SB0Cd8ehW<H[PS>T1
 !s100 [@^nmEj?djZ;8jS41JD]@3
 R8
 32
-R294
+R42
 !i10b 1
-R299
-R304
-R305
+R43
+R330
+R331
 !i113 1
 R13
 R14
 Exor_gate_n
-R36
+R39
 R3
 R4
 R5
-Z306 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd
-Z307 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd
+Z332 8C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd
+Z333 FC:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd
 l0
 L5
 VoXcGmO7Td517G9;DAlGa]0
 !s100 LPoPXbzH8=CBB]^6S5Unf1
 R8
 32
-R39
+R42
 !i10b 1
-R299
-Z308 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
-Z309 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
+R43
+Z334 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
+Z335 !s107 C:/Users/Armaan Dhingra/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -2686,11 +2772,11 @@ Vh:7hVmgL6jc9L=6foTP0N1
 !s100 29oXRe`]fm02Bce^Do[3m2
 R8
 32
-R39
+R42
 !i10b 1
-R299
-R308
-R309
+R43
+R334
+R335
 !i113 1
 R13
 R14
