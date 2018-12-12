@@ -623,16 +623,23 @@ package eecs361 is
  -- Pipeline registers
   component id_ex_register
 	port (
-		clk		: in std_logic;
-		reset		: in std_logic;
-		input_pc	: in std_logic_vector(31 downto 0);
-		input_a		: in std_logic_vector(31 downto 0);
-		input_b		: in std_logic_vector(31 downto 0);
-		input_immediate	: in std_logic_vector(31 downto 0);
-		output_pc	: out std_logic_vector(31 downto 0);
-		output_a	: out std_logic_vector(31 downto 0);
-		output_b	: out std_logic_vector(31 downto 0);
-		output_immediate: out std_logic_vector(31 downto 0));
+		clk			: in std_logic;
+		reset			: in std_logic;
+		input_pc		: in std_logic_vector(31 downto 0);
+		input_a			: in std_logic_vector(31 downto 0);
+		input_b			: in std_logic_vector(31 downto 0);
+		input_immediate		: in std_logic_vector(31 downto 0);
+		input_shamt_extended	: in std_logic_vector(31 downto 0);
+		input_instruction	: in std_logic_vector(31 downto 0);
+		input_alu_op		: in std_logic_vector(5 downto 0);		
+		output_pc		: out std_logic_vector(31 downto 0);
+		output_a		: out std_logic_vector(31 downto 0);
+		output_b		: out std_logic_vector(31 downto 0);
+		output_immediate	: out std_logic_vector(31 downto 0);
+		output_shamt_extended	: out std_logic_vector(31 downto 0);
+		output_instruction	: out std_logic_vector(31 downto 0);
+		output_alu_op		: out std_logic_vector(5 downto 0)
+	);
   end component id_ex_register;
 
   component control_signals
@@ -646,6 +653,8 @@ package eecs361 is
 		in_sign_extend		: in std_logic;	
 		in_use_imm		: in std_logic;
 		in_use_sa		: in std_logic;
+		in_rs			: in std_logic_vector(4 downto 0);
+		in_rt			: in std_logic_vector(4 downto 0);
 		in_rd			: in std_logic_vector(4 downto 0);
 		in_stall		: in std_logic;		
 		out_mem_to_reg		: out std_logic;
@@ -656,7 +665,10 @@ package eecs361 is
 		out_use_imm		: out std_logic;
 		out_use_sa		: out std_logic;
 		out_stall		: out std_logic;
-		out_rd			: out std_logic_vector(4 downto 0));
+		out_rs			: out std_logic_vector(4 downto 0);
+		out_rt			: out std_logic_vector(4 downto 0);
+		out_rd			: out std_logic_vector(4 downto 0)
+	);
   end component control_signals;
 
   component ex_mem_register is 
