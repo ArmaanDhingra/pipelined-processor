@@ -507,6 +507,7 @@ package eecs361 is
 		immediate_extended	: in std_logic_vector (31 downto 0);
 
 		take_branch		: in std_logic;	
+		stall			: in std_logic;
 
 		pc			: out std_logic_vector (31 downto 0)
 
