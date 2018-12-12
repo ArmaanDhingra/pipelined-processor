@@ -1,0 +1,3085 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Yehya Elmasry/Desktop/pipelined-processor
+Eadder_1
+Z1 w1544559194
+Z2 DPx4 work 13 eecs361_gates 0 22 G@G3>3naH[gM9iCRR86lk0
+Z3 DPx4 work 7 eecs361 0 22 TDCYRNN3^[PjTCl<Ez^c>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/full_adder_1.vhd
+Z7 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/full_adder_1.vhd
+l0
+L6
+Vha=k9Mm[W5?n;]XFl79UF0
+!s100 @gkoDmdIJMQ8Oo;2?65Qb3
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1544583145
+!i10b 1
+Z10 !s108 1544583145.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/full_adder_1.vhd|
+Z12 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/full_adder_1.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Aadder_1_logic
+R2
+R3
+R4
+R5
+DEx4 work 7 adder_1 0 22 ha=k9Mm[W5?n;]XFl79UF0
+l18
+L16
+V7Yd[<VMDYhOfNCdQ;d:`j3
+!s100 Q<R6ZbPTGN`FDAKQzkzPe1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ealu_1
+R1
+R2
+R3
+R4
+R5
+R0
+Z15 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_1.vhd
+Z16 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_1.vhd
+l0
+L22
+V9Ym]X]DFF<dz_o[S2:YUg0
+!s100 2S2fKJlKPV?z[G^mFk1MW3
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_1.vhd|
+Z18 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_1.vhd|
+!i113 1
+R13
+R14
+Aalu_1_logic
+R2
+R3
+R4
+R5
+DEx4 work 5 alu_1 0 22 9Ym]X]DFF<dz_o[S2:YUg0
+l37
+L33
+VWBNR2kD`o[mYN^;0GV0?>2
+!s100 @lBZGOQ=mKa1gzEPJ27n[0
+R8
+32
+R9
+!i10b 1
+R10
+R17
+R18
+!i113 1
+R13
+R14
+Ealu_1_test
+R1
+R2
+Z19 DPx4 work 7 eecs361 0 22 `EbJU1GIN?QPJz=d89n6n1
+R4
+R5
+R0
+Z20 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_1_test.vhd
+Z21 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_1_test.vhd
+l0
+L16
+VEVL4P0B=95O3L]ALj;^nY1
+!s100 H:G:`?@=Sf2nY0ilo>`BO1
+R8
+32
+Z22 !s110 1544583152
+!i10b 1
+Z23 !s108 1544583152.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_1_test.vhd|
+Z25 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_1_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 10 alu_1_test 0 22 EVL4P0B=95O3L]ALj;^nY1
+l29
+L19
+VoG:nL<H03_dMU3]fDgQgd1
+!s100 k5cF8;`7MZFR5nVXAMC=73
+R8
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R13
+R14
+Ealu_32
+R1
+R2
+R3
+R4
+R5
+R0
+Z26 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_32.vhd
+Z27 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_32.vhd
+l0
+L17
+V7OXS[z60e]<Ld^[W`7Gm^0
+!s100 :gJRcM9W7nWz9Wi?8jmYF2
+R8
+32
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_32.vhd|
+Z29 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/alu_32.vhd|
+!i113 1
+R13
+R14
+Aalu_32_logic
+R2
+R3
+R4
+R5
+DEx4 work 6 alu_32 0 22 7OXS[z60e]<Ld^[W`7Gm^0
+l36
+L28
+VkWcA<ZULWhAfNAZWXL7f51
+!s100 4@AVTgOlh=VZNTd5bb[B[2
+R8
+32
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Ealu_32_test
+R1
+R2
+R19
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z31 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R4
+R5
+R0
+Z32 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_32_test.vhd
+Z33 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_32_test.vhd
+l0
+L19
+VcFOcGTlF>6YhBWoLIRzL`1
+!s100 BIAY]TQ1j_GTd;HCJZ0N90
+R8
+32
+R22
+!i10b 1
+R23
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_32_test.vhd|
+Z35 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_32_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R30
+R31
+R4
+R5
+DEx4 work 11 alu_32_test 0 22 cFOcGTlF>6YhBWoLIRzL`1
+l34
+L22
+VUze<:kM:994zM=n=g`U]E3
+!s100 CJ:=]U;9GK[WbcbD7gYlZ2
+R8
+32
+R22
+!i10b 1
+R23
+R34
+R35
+!i113 1
+R13
+R14
+Eand_gate
+R1
+R4
+R5
+R0
+Z36 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate.vhd
+Z37 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate.vhd
+l0
+L5
+VhE_e_Rgm[N3PdZh[V=Az?1
+!s100 9zM?`;meNomBE;big9UG12
+R8
+32
+Z38 !s110 1544583149
+!i10b 1
+Z39 !s108 1544583149.000000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate.vhd|
+Z41 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 8 and_gate 0 22 hE_e_Rgm[N3PdZh[V=Az?1
+l14
+L13
+VC@ldnBQ6jEzl^]@212YPz1
+!s100 Wc2cnMoUL`Rn2T[ECHYDg0
+R8
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R13
+R14
+Eand_gate_32
+R1
+R4
+R5
+R0
+Z42 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd
+Z43 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd
+l0
+L5
+V;K@lPb^fUn5NRPE9^YUWn1
+!s100 KSRcRaLU>DVF[looI[MAB1
+R8
+32
+R38
+!i10b 1
+R39
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd|
+Z45 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 11 and_gate_32 0 22 ;K@lPb^fUn5NRPE9^YUWn1
+l14
+L13
+V_L`Mb12In>DaA6S>F3dR_2
+!s100 7eGi4aE3j0c6RNWj8;hYn2
+R8
+32
+R38
+!i10b 1
+R39
+R44
+R45
+!i113 1
+R13
+R14
+Eand_gate_n
+R1
+R4
+R5
+R0
+Z46 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd
+Z47 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd
+l0
+L5
+V9MR1C1[7b:z414JH]o[Q72
+!s100 BgW1<b848=U4b0Fm5IB4V0
+R8
+32
+R38
+!i10b 1
+R39
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd|
+Z49 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 10 and_gate_n 0 22 9MR1C1[7b:z414JH]o[Q72
+l17
+L16
+VNZceK8zIhSAfFLMf;8WfJ0
+!s100 TlhKh<Ln2>7=AINQTiM_c3
+R8
+32
+R38
+!i10b 1
+R39
+R48
+R49
+!i113 1
+R13
+R14
+Ebranch_resolver
+R1
+R2
+R3
+R30
+R31
+R4
+R5
+R0
+Z50 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd
+Z51 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd
+l0
+L25
+VkgNHO[WiiZU;i]UD7ZDC;2
+!s100 Q5cZin:maMXGJRV<;kSFa3
+R8
+32
+R9
+!i10b 1
+R10
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd|
+Z53 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd|
+!i113 1
+R13
+R14
+Abranch_resolver_logic
+R2
+R3
+R30
+R31
+R4
+R5
+DEx4 work 15 branch_resolver 0 22 kgNHO[WiiZU;i]UD7ZDC;2
+l42
+L35
+VnzjTmeFL;>kHHZDSWTMz<2
+!s100 V6km7[hH_@WD1P@oc[;711
+R8
+32
+R9
+!i10b 1
+R10
+R52
+R53
+!i113 1
+R13
+R14
+Ebranch_resolver_test
+R1
+R2
+R19
+R30
+R31
+R4
+R5
+R0
+Z54 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd
+Z55 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd
+l0
+L25
+Vh8O>:1WbfL8ieN<ILB>kY3
+!s100 BQ3jTz[7[Dk;ADh=BbAk?1
+R8
+32
+Z56 !s110 1544583153
+!i10b 1
+R23
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
+Z58 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R30
+R31
+R4
+R5
+DEx4 work 20 branch_resolver_test 0 22 h8O>:1WbfL8ieN<ILB>kY3
+l38
+L28
+V9Dhh6n`g]OEjBY16l8Lg_2
+!s100 Eb`7DlAz7]JKQ;>EE3TA60
+R8
+32
+R56
+!i10b 1
+R23
+R57
+R58
+!i113 1
+R13
+R14
+Econtrol_signals
+Z59 w1544578635
+R2
+R19
+R4
+R5
+R0
+Z60 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd
+Z61 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd
+l0
+L6
+VGX]7oz>74kLE:zmMYefhL3
+!s100 6L;Of:ZRD43Kcn@f>D33g0
+R8
+32
+Z62 !s110 1544583150
+!i10b 1
+Z63 !s108 1544583150.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd|
+Z65 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd|
+!i113 1
+R13
+R14
+Acs_logic
+R2
+R19
+R4
+R5
+DEx4 work 15 control_signals 0 22 GX]7oz>74kLE:zmMYefhL3
+l35
+L32
+Vj5_`KJUmH`7Dd9=Ao?6;J3
+!s100 bbGAPg@VnBMOFlzhV0iLY0
+R8
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R13
+R14
+Econtrol_signals_test
+R59
+R2
+R19
+R4
+R5
+R0
+Z66 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/control_signals_test.vhd
+Z67 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/control_signals_test.vhd
+l0
+L6
+V0ceT<gPOgKNhDgFZQ6kk62
+!s100 :24maGSoe9PXf:68Z_2z@0
+R8
+32
+R56
+!i10b 1
+Z68 !s108 1544583153.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/control_signals_test.vhd|
+Z70 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/control_signals_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 20 control_signals_test 0 22 0ceT<gPOgKNhDgFZQ6kk62
+l15
+L9
+VVJOz6VH[710`dmMk^gGNk3
+!s100 <SW^ZhPAYF<^PmF2=2`172
+R8
+32
+R56
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R13
+R14
+Edec_n
+R1
+R31
+R4
+R5
+R0
+Z71 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd
+Z72 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd
+l0
+L5
+V0a>XSXG3^zhkzX^i4@9Ea1
+!s100 TFYiE@E?[zcS;UYZJZ]e]0
+R8
+32
+R38
+!i10b 1
+R39
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd|
+Z74 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R31
+R4
+R5
+DEx4 work 5 dec_n 0 22 0a>XSXG3^zhkzX^i4@9Ea1
+l16
+L15
+VaL_C;f4Cnzb@MDAjLf1Ed3
+!s100 55g?PRCWKJcmYh6jzUGZ80
+R8
+32
+R38
+!i10b 1
+R39
+R73
+R74
+!i113 1
+R13
+R14
+Edec_n_test
+R1
+R2
+R19
+R4
+R5
+R0
+Z75 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd
+Z76 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd
+l0
+L5
+VYR<f20Ihg5MNEiM4HkRb:3
+!s100 7;bA2Rd;bzQgEnz4gE0;i0
+R8
+32
+R56
+!i10b 1
+R68
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd|
+Z78 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 10 dec_n_test 0 22 YR<f20Ihg5MNEiM4HkRb:3
+l11
+L8
+V[1EV8U7emfXUlJIBI7_MW1
+!s100 @lB8XF3IO2^4MdLFKBQ9?0
+R8
+32
+R56
+!i10b 1
+R68
+R77
+R78
+!i113 1
+R13
+R14
+Edff
+R1
+R4
+R5
+R0
+Z79 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd
+Z80 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd
+l0
+L4
+V?Dl0]I?oihzd6e58lnTeT3
+!s100 6RF6aKO;bLUdc^Uo1TlJA1
+R8
+32
+Z81 !s110 1544583146
+!i10b 1
+Z82 !s108 1544583146.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd|
+Z84 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 3 dff 0 22 ?Dl0]I?oihzd6e58lnTeT3
+l13
+L12
+Ve^^=95d6ZUNM<z0RP@Q=G0
+!s100 YQ?Mf61<mPk;FAfQWmbPe2
+R8
+32
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R13
+R14
+Edff_test
+R1
+R2
+R19
+R4
+R5
+R0
+Z85 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd
+Z86 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd
+l0
+L5
+VcS:67emY2M3B15DeD>T??0
+!s100 RMU:49IZZEnM@B`5Yd>5b3
+R8
+32
+R56
+!i10b 1
+R68
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd|
+Z88 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 8 dff_test 0 22 cS:67emY2M3B15DeD>T??0
+l12
+L8
+V>UilPnM>5ZNMN3diUmCUg1
+!s100 ;1KT;H9Ee8ZG2;mUbhi4O3
+R8
+32
+R56
+!i10b 1
+R68
+R87
+R88
+!i113 1
+R13
+R14
+Edffr
+R1
+R4
+R5
+R0
+Z89 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd
+Z90 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd
+l0
+L4
+V]V0nCm<P[hMQe1HJ>dK>m2
+!s100 8^h72ccPiicFMoll6;?B^1
+R8
+32
+R81
+!i10b 1
+R82
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd|
+Z92 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 4 dffr 0 22 ]V0nCm<P[hMQe1HJ>dK>m2
+l13
+L12
+VeUY?8[LZleUS82iiKEe5Y0
+!s100 [jSDjV[;ooEXI1fbj<kQH2
+R8
+32
+R81
+!i10b 1
+R82
+R91
+R92
+!i113 1
+R13
+R14
+Edffr_a
+R1
+R4
+R5
+R0
+Z93 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd
+Z94 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd
+l0
+L4
+V4[b^00[Ug:gIIbna]26832
+!s100 Ae06@YlEN>^ZBC[J]R^j?2
+R8
+32
+R81
+!i10b 1
+R82
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd|
+Z96 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 6 dffr_a 0 22 4[b^00[Ug:gIIbna]26832
+l17
+L16
+V2e``[JLG1V9mIKaN=UMS62
+!s100 18jIoW:5CWgj6bjeXK^2W3
+R8
+32
+R81
+!i10b 1
+R82
+R95
+R96
+!i113 1
+R13
+R14
+Edffr_a_test
+R1
+R2
+R19
+R4
+R5
+R0
+Z97 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd
+Z98 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd
+l0
+L5
+VoS8ZAB@j<XB@DCRTPgbAm2
+!s100 iQQKEaWhl1j:`9aDfg`2X1
+R8
+32
+R56
+!i10b 1
+R68
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd|
+Z100 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 11 dffr_a_test 0 22 oS8ZAB@j<XB@DCRTPgbAm2
+l16
+L8
+VmjPfQ;G6<TJD8c2R3Gg0d2
+!s100 0ozhNEQFXaNL1<C];]]212
+R8
+32
+R56
+!i10b 1
+R68
+R99
+R100
+!i113 1
+R13
+R14
+Edffr_test
+R1
+R2
+R19
+R4
+R5
+R0
+Z101 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd
+Z102 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd
+l0
+L5
+VEnK_CDY7Y_oJ4Ok5Fca=X3
+!s100 i:K0ZmhBIZU0BKZacn^Ra1
+R8
+32
+Z103 !s110 1544583151
+!i10b 1
+R63
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd|
+Z105 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 9 dffr_test 0 22 EnK_CDY7Y_oJ4Ok5Fca=X3
+l12
+L8
+VR5SOeEjNQ;;5A6NK8=]K12
+!s100 E3of8[IV2z]8@4`WRB4R@0
+R8
+32
+R103
+!i10b 1
+R63
+R104
+R105
+!i113 1
+R13
+R14
+Peecs361
+R2
+R4
+R5
+w1544583141
+R0
+8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361.vhd
+FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361.vhd
+l0
+L15
+V`EbJU1GIN?QPJz=d89n6n1
+!s100 ;DdED8Ih7^kCO[EH5Wd^J0
+R8
+32
+R81
+!i10b 1
+R82
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361.vhd|
+!s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361.vhd|
+!i113 1
+R13
+R14
+Peecs361_gates
+R4
+R5
+R1
+R0
+8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361_gates.vhd
+FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361_gates.vhd
+l0
+L4
+VG@G3>3naH[gM9iCRR86lk0
+!s100 EFJF``Kkcd:<4LI@jVAPI3
+R8
+32
+R81
+!i10b 1
+R82
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361_gates.vhd|
+!s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361_gates.vhd|
+!i113 1
+R13
+R14
+Eex_mem_register
+Z106 w1544581313
+R2
+R19
+R4
+R5
+R0
+Z107 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/ex_mem_register.vhd
+Z108 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/ex_mem_register.vhd
+l0
+L6
+VO9zndN71=2gZF3jVGmn@@2
+!s100 BcSFUY1=ITA=KVb;hCJN41
+R8
+32
+R62
+!i10b 1
+R63
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/ex_mem_register.vhd|
+Z110 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/ex_mem_register.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R19
+R4
+R5
+DEx4 work 15 ex_mem_register 0 22 O9zndN71=2gZF3jVGmn@@2
+l28
+L26
+VYc_Gj`fM?KOAQ`b=aR;in2
+!s100 onazmW:C0W0m03D>;l]U>3
+R8
+32
+R62
+!i10b 1
+R63
+R109
+R110
+!i113 1
+R13
+R14
+Eex_mem_register_tb
+Z111 w1544581311
+R31
+R2
+R19
+R4
+R5
+R0
+Z112 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd
+Z113 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd
+l0
+L9
+V98^RcId`MF0meoO;^@U]>3
+!s100 2g;WF5?C2m[lEVnfL7PBN0
+R8
+32
+R103
+!i10b 1
+Z114 !s108 1544583151.000000
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd|
+Z116 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd|
+!i113 1
+R13
+R14
+Atb
+R31
+R2
+R19
+R4
+R5
+DEx4 work 18 ex_mem_register_tb 0 22 98^RcId`MF0meoO;^@U]>3
+l26
+L12
+VM5X7:TIRc@N^8U0Jzn:`b1
+!s100 n]b^=cIaCVkj0oR06>2QF1
+R8
+32
+R103
+!i10b 1
+R114
+R115
+R116
+!i113 1
+R13
+R14
+Eextender
+R1
+R2
+R4
+R5
+R0
+Z117 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd
+Z118 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd
+l0
+L5
+Vb;=]Ucd>TVn2zF2WE``i_0
+!s100 0oK89in>[fHG7gcACjV<71
+R8
+32
+R9
+!i10b 1
+R10
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd|
+Z120 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd|
+!i113 1
+R13
+R14
+Aextender_logic
+R2
+R4
+R5
+DEx4 work 8 extender 0 22 b;=]Ucd>TVn2zF2WE``i_0
+l17
+L13
+Vg5j8d4N7P_I<]M76l;<=J3
+!s100 @NUCUZS1=?A]3e3g_4c5^2
+R8
+32
+R9
+!i10b 1
+R10
+R119
+R120
+!i113 1
+R13
+R14
+Eextender_test
+R1
+R2
+R19
+R4
+R5
+R0
+Z121 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd
+Z122 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd
+l0
+L5
+VR8CfTDB[0B_Wf:R@N3ao12
+!s100 olC:0[BXaZgPXKzJz996?3
+R8
+32
+R103
+!i10b 1
+R114
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd|
+Z124 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 13 extender_test 0 22 R8CfTDB[0B_Wf:R@N3ao12
+l14
+L8
+VRQlcX5gUU5zS?2AHk>5cJ0
+!s100 YMV2abTRBdSI2Vfl[IoJ:1
+R8
+32
+R103
+!i10b 1
+R114
+R123
+R124
+!i113 1
+R13
+R14
+Eforwarding_unit
+Z125 w1544581307
+R2
+R4
+R5
+R0
+Z126 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd
+Z127 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd
+l0
+L8
+V5Xh?e?^CY[MFLD[:a4XhW0
+!s100 S3[kBZL[I=51H_6jZJS^73
+R8
+32
+R62
+!i10b 1
+R63
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd|
+Z129 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R4
+R5
+DEx4 work 15 forwarding_unit 0 22 5Xh?e?^CY[MFLD[:a4XhW0
+l67
+L30
+VV4dKN::N]Wj7klG_^Wl1n2
+!s100 G>=A2;WhdODj]<2QTJYdV3
+R8
+32
+R62
+!i10b 1
+R63
+R128
+R129
+!i113 1
+R13
+R14
+Eforwarding_unit_tb
+Z130 w1544581312
+R19
+R2
+R31
+R4
+R5
+R0
+Z131 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd
+Z132 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd
+l0
+L9
+V[UU[352]<^QKnW>cM1MdW2
+!s100 X_JaNha<b_VGz0gl?RMG03
+R8
+32
+R103
+!i10b 1
+R114
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd|
+Z134 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd|
+!i113 1
+R13
+R14
+Atb
+R19
+R2
+R31
+R4
+R5
+DEx4 work 18 forwarding_unit_tb 0 22 [UU[352]<^QKnW>cM1MdW2
+l26
+L12
+Vd@^d5k3mFQmh@CI2OG[dX2
+!s100 CC^j5fa8G[X7YfNz>VS4Z3
+R8
+32
+R103
+!i10b 1
+R114
+R133
+R134
+!i113 1
+R13
+R14
+Eid_ex_register
+R1
+R2
+R19
+R4
+R5
+R0
+Z135 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
+Z136 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
+l0
+L6
+V4MA7KY0OUh;XFN8kPB>9C1
+!s100 2ho1:[6`4;WYn6mRz7_=Q3
+R8
+32
+R62
+!i10b 1
+R63
+Z137 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
+Z138 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
+!i113 1
+R13
+R14
+Aid_ex_logic
+R2
+R19
+R4
+R5
+DEx4 work 14 id_ex_register 0 22 4MA7KY0OUh;XFN8kPB>9C1
+l23
+L21
+VM>g`CVL0Qd6H=N]h]4m5H1
+!s100 Q^J1:_n`AA>JE?;@di:WB2
+R8
+32
+R62
+!i10b 1
+R63
+R137
+R138
+!i113 1
+R13
+R14
+Eid_ex_test
+R59
+R2
+R19
+R4
+R5
+R0
+Z139 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/id_ex_test.vhd
+Z140 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/id_ex_test.vhd
+l0
+L6
+VTPSO`4U1Sz>V;oFKjmS?_1
+!s100 jYik_ONI:5cQOJE:HRbR]3
+R8
+32
+R103
+!i10b 1
+R114
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/id_ex_test.vhd|
+Z142 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/id_ex_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 10 id_ex_test 0 22 TPSO`4U1Sz>V;oFKjmS?_1
+l15
+L9
+V9obf@Y^k^_S5jCdhio9V42
+!s100 <aY7Oi3ZjZ<Z<5gbTJ`>W0
+R8
+32
+R103
+!i10b 1
+R114
+R141
+R142
+!i113 1
+R13
+R14
+Eif_id_register
+Z143 w1544583031
+R2
+R19
+R4
+R5
+R0
+Z144 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
+Z145 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
+l0
+L6
+VmEjdTXH=lCRgORLVQ3AQc2
+!s100 PMJSb3JE=enj>5XANinUU3
+R8
+32
+R62
+!i10b 1
+R63
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
+Z147 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
+!i113 1
+R13
+R14
+Aif_id_logic
+R2
+R19
+R4
+R5
+DEx4 work 14 if_id_register 0 22 mEjdTXH=lCRgORLVQ3AQc2
+l19
+L17
+Vmf^e[Tm2?T63lWb2[NnNc1
+!s100 2:ea[AWU1@o=m3XjAo8k42
+R8
+32
+R62
+!i10b 1
+R63
+R146
+R147
+!i113 1
+R13
+R14
+Eif_id_test
+Z148 w1544582990
+R2
+R19
+R4
+R5
+R0
+Z149 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd
+Z150 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd
+l0
+L6
+VXF5fTgQ9;7o7eDJcYbX2z3
+!s100 R2znlQFIJA?ciUMa`ChLD3
+R8
+32
+R56
+!i10b 1
+R68
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd|
+Z152 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 10 if_id_test 0 22 XF5fTgQ9;7o7eDJcYbX2z3
+l15
+L9
+VQ1d[Q4nZG<ooPW_]K`GnL2
+!s100 `Y<lDOlI9mT^HW<IkQ`UV0
+R8
+32
+R56
+!i10b 1
+R68
+R151
+R152
+!i113 1
+R13
+R14
+Einstruction_decoder
+R1
+R2
+R3
+R30
+R31
+R4
+R5
+R0
+Z153 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd
+Z154 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd
+l0
+L25
+VAU[aEmjRcgARSSL9FC[:M0
+!s100 eO8@K_gIDG2Gd`:>Ib=ol1
+R8
+32
+R9
+!i10b 1
+R10
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd|
+Z156 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd|
+!i113 1
+R13
+R14
+Ainstruction_decoder_logic
+R2
+R3
+R30
+R31
+R4
+R5
+DEx4 work 19 instruction_decoder 0 22 AU[aEmjRcgARSSL9FC[:M0
+l50
+L42
+V4:CBF^F::E^o;kVBSj_nB3
+!s100 U1SnFXKMJYi^aiP__DIYo0
+R8
+32
+R9
+!i10b 1
+R10
+R155
+R156
+!i113 1
+R13
+R14
+Einstruction_decoder_test
+R1
+R2
+R19
+R30
+R31
+R4
+R5
+R0
+Z157 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
+Z158 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
+l0
+L25
+VEzLB=_]5fTAb8:`m9^G?N3
+!s100 ;Y8bi1fJ49D:g`QM8M^8[3
+R8
+32
+R103
+!i10b 1
+R114
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
+Z160 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R30
+R31
+R4
+R5
+DEx4 work 24 instruction_decoder_test 0 22 EzLB=_]5fTAb8:`m9^G?N3
+l43
+L28
+VP>GHaN6@hJi679jORm[M20
+!s100 _^CSjmZ=Q3KEL6NLe_BoR1
+R8
+32
+R103
+!i10b 1
+R114
+R159
+R160
+!i113 1
+R13
+R14
+Emem_wb_register
+Z161 w1544581305
+R2
+R19
+R4
+R5
+R0
+Z162 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd
+Z163 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd
+l0
+L6
+VRoEae6^;Ya3Yk_5Ve:Zm;1
+!s100 IkBTWClc8SclhnZ:B2`jm3
+R8
+32
+R62
+!i10b 1
+R63
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd|
+Z165 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R19
+R4
+R5
+DEx4 work 15 mem_wb_register 0 22 RoEae6^;Ya3Yk_5Ve:Zm;1
+l22
+L20
+VU7IX0;fjLh47<9k;NKnV03
+!s100 WQzN4jF3l5f>]0CZB9jB13
+R8
+32
+R62
+!i10b 1
+R63
+R164
+R165
+!i113 1
+R13
+R14
+Emux
+R1
+R2
+R19
+R4
+R5
+R0
+Z166 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd
+Z167 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd
+l0
+L5
+V>oJ5U=BnI^`ag0=K]WZKO0
+!s100 R7SGh1UNzgRXkDgUzi0Dn0
+R8
+32
+R81
+!i10b 1
+R82
+Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd|
+Z169 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R19
+R4
+R5
+DEx4 work 3 mux 0 22 >oJ5U=BnI^`ag0=K]WZKO0
+l15
+L14
+V9e3_f``Qg4GhTA>ag5:8o0
+!s100 TMbaX=C3aUF9Pl?TK_bl20
+R8
+32
+R81
+!i10b 1
+R82
+R168
+R169
+!i113 1
+R13
+R14
+Emux_32
+R1
+R2
+R19
+R4
+R5
+R0
+Z170 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd
+Z171 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd
+l0
+L5
+V;ZJB3@XFiFdGS?g@RF1Vc3
+!s100 ciE_BzZP_7gaALUfNcf3V2
+R8
+32
+R81
+!i10b 1
+R82
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd|
+Z173 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd|
+!i113 1
+R13
+R14
+Astructural
+R2
+R19
+R4
+R5
+DEx4 work 6 mux_32 0 22 ;ZJB3@XFiFdGS?g@RF1Vc3
+l15
+L14
+V;ZASSMASd=3o_Ld=:eJLS1
+!s100 iiT]gRaJ0BGA@1c7lKGZ;1
+R8
+32
+R81
+!i10b 1
+R82
+R172
+R173
+!i113 1
+R13
+R14
+Emux_n
+R1
+R4
+R5
+R0
+Z174 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd
+Z175 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd
+l0
+L4
+V;Rg1MaANM2BcjIoIGiMR>3
+!s100 DhH_dWUkhZScmPX0PShL>1
+R8
+32
+R81
+!i10b 1
+R82
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd|
+Z177 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+DEx4 work 5 mux_n 0 22 ;Rg1MaANM2BcjIoIGiMR>3
+l17
+L16
+Vdbi;>X`Mj01bMajZB2?643
+!s100 VOPJAGmKhfQ>L9L:P_FXf0
+R8
+32
+R81
+!i10b 1
+R82
+R176
+R177
+!i113 1
+R13
+R14
+Emux_n_test
+R1
+R2
+R19
+R4
+R5
+R0
+Z178 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd
+Z179 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd
+l0
+L5
+VOZMMdDei:To`DVRokWzEk0
+!s100 R><3DnEo`[<Z]oI5KTXLQ1
+R8
+32
+R103
+!i10b 1
+R114
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd|
+Z181 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R4
+R5
+DEx4 work 10 mux_n_test 0 22 OZMMdDei:To`DVRokWzEk0
+l13
+L8
+VY:f1I:]7ibHBO8e@dWMT31
+!s100 a?ga6edNF0PiP8n2<Xfd?0
+R8
+32
+R103
+!i10b 1
+R114
+R180
+R181
+!i113 1
+R13
+R14
+Enand_gate
+R1
+R4
+R5
+R0
+Z182 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd
+Z183 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd
+l0
+L5
+V=i<fNcci6gazbNoz7Zo?B0
+!s100 `;YoNjg98=RO3KEUJb?JH2
+R8
+32
+Z184 !s110 1544583147
+!i10b 1
+R82
+Z185 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd|
+Z186 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 9 nand_gate 0 22 =i<fNcci6gazbNoz7Zo?B0
+l14
+L13
+Vl^zW<z;Pl8NkCT3h`m8f>3
+!s100 DdgXSJTenGYMFNYGk^j2^2
+R8
+32
+R184
+!i10b 1
+R82
+R185
+R186
+!i113 1
+R13
+R14
+Enand_gate_32
+R1
+R4
+R5
+R0
+Z187 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_32.vhd
+Z188 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_32.vhd
+l0
+L5
+Vm1GdlgCSaKXEezc1oQ5A53
+!s100 d7`oU3cRhD_iz]OR?aJbM0
+R8
+32
+R184
+!i10b 1
+Z189 !s108 1544583147.000000
+Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
+Z191 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 12 nand_gate_32 0 22 m1GdlgCSaKXEezc1oQ5A53
+l14
+L13
+V?=O5i19k>6?EO?fWFWmQ33
+!s100 5L7`cY6bRPYMYkmEYAg871
+R8
+32
+R184
+!i10b 1
+R189
+R190
+R191
+!i113 1
+R13
+R14
+Enand_gate_n
+R1
+R4
+R5
+R0
+Z192 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_n.vhd
+Z193 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_n.vhd
+l0
+L5
+VR6;g^V_FPW0;nb=i<dJlI3
+!s100 LMidV?0i^0NCQXjDDfE0j1
+R8
+32
+R184
+!i10b 1
+R189
+Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
+Z195 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 11 nand_gate_n 0 22 R6;g^V_FPW0;nb=i<dJlI3
+l17
+L16
+V`S7jEGJ6CA=AG<0ak5P6D1
+!s100 5mzmEVJ8`Ol]kLAA1ADTS0
+R8
+32
+R184
+!i10b 1
+R189
+R194
+R195
+!i113 1
+R13
+R14
+Enor_gate
+R1
+R4
+R5
+R0
+Z196 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd
+Z197 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd
+l0
+L5
+V0L7S;NMz9_M@NF0N3jjl53
+!s100 Uz[KW04m>JL2N=<Ae_26A3
+R8
+32
+R184
+!i10b 1
+R189
+Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd|
+Z199 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 8 nor_gate 0 22 0L7S;NMz9_M@NF0N3jjl53
+l14
+L13
+Vg6WmIRLO`^]W8MOk44NQ02
+!s100 kE2E`N:jBl`5f7h@CAkLc3
+R8
+32
+R184
+!i10b 1
+R189
+R198
+R199
+!i113 1
+R13
+R14
+Enor_gate_32
+R1
+R4
+R5
+R0
+Z200 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd
+Z201 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd
+l0
+L5
+VJYT;XbbHkkG9;BF<8bSZ[2
+!s100 3mdJRKLJ_1Z1ih<o1WC>A3
+R8
+32
+R184
+!i10b 1
+R189
+Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
+Z203 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 11 nor_gate_32 0 22 JYT;XbbHkkG9;BF<8bSZ[2
+l14
+L13
+V[3NO3nGH3BHP0aAz4=<U;0
+!s100 4C[N[o;dbNU?^;JAFz8P@0
+R8
+32
+R184
+!i10b 1
+R189
+R202
+R203
+!i113 1
+R13
+R14
+Enor_gate_n
+R1
+R4
+R5
+R0
+Z204 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd
+Z205 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd
+l0
+L5
+VjaFJH5UI;Xc1C=l<5c`S^1
+!s100 WOgXHNaOaa3V@ZQR9[dBF2
+R8
+32
+R184
+!i10b 1
+R189
+Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
+Z207 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 10 nor_gate_n 0 22 jaFJH5UI;Xc1C=l<5c`S^1
+l17
+L16
+V9dCFzT;RnT>eMXZgOEFXh2
+!s100 LLY;[lESSHQFLXI0BM0Lk2
+R8
+32
+R184
+!i10b 1
+R189
+R206
+R207
+!i113 1
+R13
+R14
+Enot_gate
+R1
+R4
+R5
+R0
+Z208 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd
+Z209 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd
+l0
+L5
+V?REPgFkfC>l7me3_Cm;h]0
+!s100 ZFL^eh?^CT8f=9?@;fY^P1
+R8
+32
+R184
+!i10b 1
+R189
+Z210 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd|
+Z211 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 8 not_gate 0 22 ?REPgFkfC>l7me3_Cm;h]0
+l13
+L12
+V^N]`_cihjlkgk@GD2ifne3
+!s100 0K4o_`::YhV<`CcAlY38V3
+R8
+32
+R184
+!i10b 1
+R189
+R210
+R211
+!i113 1
+R13
+R14
+Enot_gate_32
+R1
+R4
+R5
+R0
+Z212 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd
+Z213 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd
+l0
+L5
+V5z8ni8e9GEdi_1z[h3[YT3
+!s100 MlQa>L3D?j3YTME?WDA^I3
+R8
+32
+R184
+!i10b 1
+R189
+Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd|
+Z215 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 11 not_gate_32 0 22 5z8ni8e9GEdi_1z[h3[YT3
+l13
+L12
+VooYb<YVBcg]jka=E1Bz2U2
+!s100 SZ]KSd]7=<``cT7UO3c^32
+R8
+32
+R184
+!i10b 1
+R189
+R214
+R215
+!i113 1
+R13
+R14
+Enot_gate_n
+R1
+R4
+R5
+R0
+Z216 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd
+Z217 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd
+l0
+L5
+VL[_>1Hz4EFXGgW8O0lzPe0
+!s100 IMo29cac8Wo2jk<h1@>Y41
+R8
+32
+R184
+!i10b 1
+R189
+Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd|
+Z219 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 10 not_gate_n 0 22 L[_>1Hz4EFXGgW8O0lzPe0
+l16
+L15
+V^?aa<E?_8@T0dJRWCLiMk2
+!s100 f1R?C4QOI1W16^[L00fF`1
+R8
+32
+R184
+!i10b 1
+R189
+R218
+R219
+!i113 1
+R13
+R14
+Eor_gate
+R1
+R4
+R5
+R0
+Z220 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd
+Z221 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd
+l0
+L5
+VO1l5BHjZPQ5?]IFn9;=UE2
+!s100 P4NBKo^c]hz<z`LINQA5?3
+R8
+32
+Z222 !s110 1544583148
+!i10b 1
+R189
+Z223 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd|
+Z224 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 7 or_gate 0 22 O1l5BHjZPQ5?]IFn9;=UE2
+l14
+L13
+VU4niXK]Pm[B5X9KH>G;F:1
+!s100 imjaYVkITBGK@1]KZ;:O?1
+R8
+32
+R222
+!i10b 1
+R189
+R223
+R224
+!i113 1
+R13
+R14
+Eor_gate_32
+R1
+R4
+R5
+R0
+Z225 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd
+Z226 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd
+l0
+L5
+VR4T`[JT7zTSFAT?fEEf591
+!s100 XkkR6QF?Vl4ZJYEZjo;0l2
+R8
+32
+R222
+!i10b 1
+Z227 !s108 1544583148.000000
+Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd|
+Z229 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 10 or_gate_32 0 22 R4T`[JT7zTSFAT?fEEf591
+l14
+L13
+Vm<XLcN8OGfnn6foi[Re=10
+!s100 K:BE?onG;^0[1Z5dkfcRR0
+R8
+32
+R222
+!i10b 1
+R227
+R228
+R229
+!i113 1
+R13
+R14
+Eor_gate_n
+R1
+R4
+R5
+R0
+Z230 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_n.vhd
+Z231 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_n.vhd
+l0
+L5
+VhcjC8YfR[BWVL];cJhOKi1
+!s100 Y[01iFT>714d^L[KJ4VM82
+R8
+32
+R222
+!i10b 1
+R227
+Z232 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_n.vhd|
+Z233 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 9 or_gate_n 0 22 hcjC8YfR[BWVL];cJhOKi1
+l17
+L16
+VJC>ZhgR[jGRkBeQ>4LTHl1
+!s100 X0T0eOJ7Mi7@HZjHoZO6:3
+R8
+32
+R222
+!i10b 1
+R227
+R232
+R233
+!i113 1
+R13
+R14
+Epc_controller
+Z234 w1544571244
+R2
+R3
+R30
+R31
+R4
+R5
+R0
+Z235 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/pc_controller.vhd
+Z236 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/pc_controller.vhd
+l0
+L25
+V8@_DVbz<QGU]jKSM[>d8>3
+!s100 4JkZYK`:K9ohONCc=0?162
+R8
+32
+R9
+!i10b 1
+R10
+Z237 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/pc_controller.vhd|
+Z238 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/pc_controller.vhd|
+!i113 1
+R13
+R14
+Apc_controller_logic
+R2
+R3
+R30
+R31
+R4
+R5
+DEx4 work 13 pc_controller 0 22 8@_DVbz<QGU]jKSM[>d8>3
+l43
+L37
+VWARNWT;R44c93GS04Hb<`0
+!s100 `NO_a4?4QS2AMSDzcO_O[3
+R8
+32
+R9
+!i10b 1
+R10
+R237
+R238
+!i113 1
+R13
+R14
+Epc_controller_test
+Z239 w1544572209
+R2
+R19
+R31
+R4
+R5
+R0
+Z240 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd
+Z241 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd
+l0
+L7
+VRPAzNhkJh59oWK9[i_A7Q0
+!s100 :][5iZ=10F@jmgjbJcXdY0
+R8
+32
+R103
+!i10b 1
+R114
+Z242 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd|
+Z243 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R31
+R4
+R5
+DEx4 work 18 pc_controller_test 0 22 RPAzNhkJh59oWK9[i_A7Q0
+l22
+L10
+V5jKYC<>odzGMTeS^0B;W12
+!s100 coG0C>3JV<hT_JHOHCST;1
+R8
+32
+R103
+!i10b 1
+R114
+R242
+R243
+!i113 1
+R13
+R14
+Eprocessor
+Z244 w1544576783
+R2
+R19
+R30
+R31
+R4
+R5
+R0
+Z245 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd
+Z246 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd
+l0
+L8
+V[X7Pf3bBGP;VWTMTIk0LU1
+!s100 =jhD>Xj@A3KA1oAM[bSJ20
+R8
+32
+R62
+!i10b 1
+R63
+Z247 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd|
+Z248 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd|
+!i113 1
+R13
+R14
+Aprocessor_logic
+R2
+R19
+R30
+R31
+R4
+R5
+DEx4 work 9 processor 0 22 [X7Pf3bBGP;VWTMTIk0LU1
+l105
+L60
+VG4FdHAzUf;z82>DOKVM`Y3
+!s100 ?dAme<1]JW8AH`IEVoXV40
+R8
+32
+R62
+!i10b 1
+R63
+R247
+R248
+!i113 1
+R13
+R14
+Eprocessor_bills_branch_test
+R1
+R2
+R19
+R31
+R4
+R5
+R0
+Z249 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
+Z250 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
+l0
+L7
+VNjlQ;B1BEi69fYRR62_Z52
+!s100 HIX?EZHS_NKbgh@X?Pzbz1
+R8
+32
+R22
+!i10b 1
+R114
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
+Z252 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R31
+R4
+R5
+DEx4 work 27 processor_bills_branch_test 0 22 NjlQ;B1BEi69fYRR62_Z52
+l52
+L10
+V@Phebz3h<Ng8@@Qg4GZ`]2
+!s100 1klPHdiiRb^k0S7a54oZ53
+R8
+32
+R22
+!i10b 1
+R114
+R251
+R252
+!i113 1
+R13
+R14
+Eprocessor_sort_corrected_branch_test
+R1
+R2
+R19
+R31
+R4
+R5
+R0
+Z253 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
+Z254 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
+l0
+L7
+Vljc8>hcMD5kZkMaMbTC=F3
+!s100 z>?iX]KP=7T>6nn=_GAn90
+R8
+32
+R22
+!i10b 1
+R23
+Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
+Z256 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R31
+R4
+R5
+DEx4 work 36 processor_sort_corrected_branch_test 0 22 ljc8>hcMD5kZkMaMbTC=F3
+l52
+L10
+VAgUDC;K94`CaeQN@[mA5F1
+!s100 ?l25VEeF17dD=ioZXVQ=31
+R8
+32
+R22
+!i10b 1
+R23
+R255
+R256
+!i113 1
+R13
+R14
+Eprocessor_unsigned_add_test
+R1
+R2
+R19
+R31
+R4
+R5
+R0
+Z257 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
+Z258 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
+l0
+L7
+V@R<=kn`1S=W]dfbFF:5Tz2
+!s100 ]Vif5YmD7[BM45EnV^THe2
+R8
+32
+R22
+!i10b 1
+R23
+Z259 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
+Z260 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R31
+R4
+R5
+DEx4 work 27 processor_unsigned_add_test 0 22 @R<=kn`1S=W]dfbFF:5Tz2
+l52
+L10
+V[ZlJ?FVi2jBCKDK9X^P103
+!s100 eSXbNgELMQULodDJP<YMJ2
+R8
+32
+R22
+!i10b 1
+R23
+R259
+R260
+!i113 1
+R13
+R14
+Eread_32x32registers
+R1
+R2
+R19
+R4
+R5
+R0
+Z261 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd
+Z262 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd
+l0
+L6
+V^FfNm8OzbQCNj2SXIQk;B2
+!s100 mTgmC<KZ0OVTK[:4oHWJf3
+R8
+32
+R38
+!i10b 1
+R39
+Z263 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd|
+Z264 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd|
+!i113 1
+R13
+R14
+Aread_32x32registers_logic
+R2
+R19
+R4
+R5
+DEx4 work 19 read_32x32registers 0 22 ^FfNm8OzbQCNj2SXIQk;B2
+l28
+L14
+VGzimP3OA>>1ka8^z@zV`j3
+!s100 jhQa?UH@1Aefb0j@6>97<0
+R8
+32
+R38
+!i10b 1
+R39
+R263
+R264
+!i113 1
+R13
+R14
+Eregister_1
+R1
+R2
+R19
+R4
+R5
+R0
+Z265 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd
+Z266 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd
+l0
+L6
+VQW58Ljc]CKI8PCcTi^1RE0
+!s100 f;G9GUF5DjDE95WFYGT9d1
+R8
+32
+R62
+!i10b 1
+R39
+Z267 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd|
+Z268 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd|
+!i113 1
+R13
+R14
+Aregister_1_logic
+R2
+R19
+R4
+R5
+DEx4 work 10 register_1 0 22 QW58Ljc]CKI8PCcTi^1RE0
+l18
+L16
+V^CL0fK_@;@9XQHjodBH9z3
+!s100 Fi1G8U?VEYEomSj]WGJ0X0
+R8
+32
+R62
+!i10b 1
+R39
+R267
+R268
+!i113 1
+R13
+R14
+Eregister_1_test
+R1
+R2
+R19
+R30
+R31
+R4
+R5
+R0
+Z269 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd
+Z270 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd
+l0
+L18
+VWCb:3C_58aRo:Egk9CJM62
+!s100 kVgz`^Hkf57]n;kDHbQBO1
+R8
+32
+R22
+!i10b 1
+R23
+Z271 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd|
+Z272 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R30
+R31
+R4
+R5
+DEx4 work 15 register_1_test 0 22 WCb:3C_58aRo:Egk9CJM62
+l30
+L21
+VWJJCTW:o7d4HIEBQ1VEcz3
+!s100 G=eDQkfXlQS70l5K`65TF0
+R8
+32
+R22
+!i10b 1
+R23
+R271
+R272
+!i113 1
+R13
+R14
+Eregister_file
+R1
+R2
+R19
+R4
+R5
+R0
+Z273 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd
+Z274 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd
+l0
+L6
+V<2a7Z@iDhijoT;h3=_F=O0
+!s100 bK0HZE8aW5U5f5T@Zj<@z1
+R8
+32
+R38
+!i10b 1
+R39
+Z275 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd|
+Z276 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd|
+!i113 1
+R13
+R14
+Aregister_file_logic
+R2
+R19
+R4
+R5
+DEx4 work 13 register_file 0 22 <2a7Z@iDhijoT;h3=_F=O0
+l28
+L20
+V3;6^Qe@J3i28z^nXK:=_T2
+!s100 O2P]>X?:F5a:k`PEH8<?^0
+R8
+32
+R38
+!i10b 1
+R39
+R275
+R276
+!i113 1
+R13
+R14
+Eregister_file_test
+R1
+R2
+R19
+R31
+R4
+R5
+R0
+Z277 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd
+Z278 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd
+l0
+L7
+VBP`B8mSlSGKo9[QQ?=UDU0
+!s100 3HB<eGnMmC[HRUCl1WoZC0
+R8
+32
+R22
+!i10b 1
+R23
+Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd|
+Z280 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd|
+!i113 1
+R13
+R14
+Ainit_test
+R2
+R19
+R31
+R4
+R5
+Z281 DEx4 work 18 register_file_test 0 22 BP`B8mSlSGKo9[QQ?=UDU0
+l114
+L102
+VdUP]_2e4E@337nfl2@3LA1
+!s100 I?8;JMRnZ3Vco^=U66A<c3
+R8
+32
+R22
+!i10b 1
+R23
+R279
+R280
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R31
+R4
+R5
+R281
+l22
+L10
+VSG^L`lh0>_lfnS[ko1m6L3
+!s100 QO3@RYPRmY=7UFUiT`3ED0
+R8
+32
+R22
+!i10b 1
+R23
+R279
+R280
+!i113 1
+R13
+R14
+Eshifter_32
+R1
+R2
+R3
+R4
+R5
+R0
+Z282 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd
+Z283 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd
+l0
+L6
+V8zboDFQIJeUk]X7OicJF93
+!s100 3G`79gm1^QkBoj=VY8BOX0
+R8
+32
+R9
+!i10b 1
+R10
+Z284 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd|
+Z285 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd|
+!i113 1
+R13
+R14
+Ashifter_32_logic
+R2
+R3
+R4
+R5
+DEx4 work 10 shifter_32 0 22 8zboDFQIJeUk]X7OicJF93
+l17
+L14
+V4@?ihN<06FM`Nb^elAlH_0
+!s100 OJ;6[LK_TOmkoVcC_:ZSH3
+R8
+32
+R9
+!i10b 1
+R10
+R284
+R285
+!i113 1
+R13
+R14
+Eshifter_32_test
+R1
+R2
+R19
+R30
+R31
+R4
+R5
+R0
+Z286 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd
+Z287 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd
+l0
+L9
+VJiA21fU=Vo?z_e<fKM:;e2
+!s100 i;g@Eo=fhc^5<bX0ob9ZA0
+R8
+32
+R22
+!i10b 1
+R23
+Z288 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd|
+Z289 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R30
+R31
+R4
+R5
+DEx4 work 15 shifter_32_test 0 22 JiA21fU=Vo?z_e<fKM:;e2
+l21
+L12
+V20E2S6h^7bAX]UCjfHUXS1
+!s100 EO9Wm56ETMf3obVDTNjVi1
+R8
+32
+R22
+!i10b 1
+R23
+R288
+R289
+!i113 1
+R13
+R14
+Esram
+R1
+R31
+Z290 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R30
+Z291 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R4
+R5
+R0
+Z292 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd
+Z293 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd
+l0
+L13
+VFLG`C39Ab9GzQ=^bY]PbI0
+!s100 dFa2^0bCm0FVM`Q9B=_f60
+R8
+32
+R222
+!i10b 1
+R227
+Z294 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd|
+Z295 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R31
+R290
+R30
+R291
+R4
+R5
+DEx4 work 4 sram 0 22 FLG`C39Ab9GzQ=^bY]PbI0
+l28
+L27
+VLRD]SNjG8@LM@IX=zhb1z3
+!s100 ;NlLnEhi3^n7W2I^9UJ2d3
+R8
+32
+R222
+!i10b 1
+R227
+R294
+R295
+!i113 1
+R13
+R14
+Esram_test
+R1
+R2
+R19
+R31
+R30
+R291
+R4
+R5
+R0
+Z296 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd
+Z297 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd
+l0
+L7
+V<zU9:eoHl_Az]8hWDW<hl3
+!s100 G00?HLJVNDc1cW66I<Bgm0
+R8
+32
+R22
+!i10b 1
+R23
+Z298 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd|
+Z299 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R19
+R31
+R30
+R291
+R4
+R5
+DEx4 work 9 sram_test 0 22 <zU9:eoHl_Az]8hWDW<hl3
+l17
+L10
+VdLlMnRSaSD_[kJ^W>E7]n1
+!s100 J7eMdLScNF_aI`87P6:MM0
+R8
+32
+R22
+!i10b 1
+R23
+R298
+R299
+!i113 1
+R13
+R14
+Esyncram
+R1
+R31
+R290
+R30
+R291
+R4
+R5
+R0
+Z300 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd
+Z301 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd
+l0
+L12
+VD=e][Y8<;9NigS>`niT123
+!s100 aFnLlL1@m415d6em?MG^21
+R8
+32
+R222
+!i10b 1
+R227
+Z302 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd|
+Z303 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R31
+R290
+R30
+R291
+R4
+R5
+DEx4 work 7 syncram 0 22 D=e][Y8<;9NigS>`niT123
+l28
+L27
+Vb4bLTLnQ<96RWXh<@96:U0
+!s100 W:<cVUTVPgIfz60fOOgQ20
+R8
+32
+R222
+!i10b 1
+R227
+R302
+R303
+!i113 1
+R13
+R14
+Exnor_gate
+R1
+R4
+R5
+R0
+Z304 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd
+Z305 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd
+l0
+L5
+V0h2SEDJmYfE@NbVLih1891
+!s100 VMF9C>DP[5;VOiN5[aESd3
+R8
+32
+R222
+!i10b 1
+R227
+Z306 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd|
+Z307 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 9 xnor_gate 0 22 0h2SEDJmYfE@NbVLih1891
+l14
+L13
+V7FVFb1NIF1?iJ4PQQ`S`<0
+!s100 ]_>oDFZN:PJ[HJie3IcK81
+R8
+32
+R222
+!i10b 1
+R227
+R306
+R307
+!i113 1
+R13
+R14
+Exnor_gate_32
+R1
+R4
+R5
+R0
+Z308 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
+Z309 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
+l0
+L5
+VI^Fo_SJbE0W]UUm=ZlX691
+!s100 7TK64^z14nVXPK]cWgS3=0
+R8
+32
+R222
+!i10b 1
+R227
+Z310 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
+Z311 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 12 xnor_gate_32 0 22 I^Fo_SJbE0W]UUm=ZlX691
+l14
+L13
+VUZHHDf582f^BFOE?@V5cO3
+!s100 l]IKGhY:hL2aDUPV;>SB?0
+R8
+32
+R222
+!i10b 1
+R227
+R310
+R311
+!i113 1
+R13
+R14
+Exnor_gate_n
+R1
+R4
+R5
+R0
+Z312 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
+Z313 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
+l0
+L5
+VR_LmOEJa:d>5N49>W0ZA?3
+!s100 UCY45ZALOU6@I^4jz3eW33
+R8
+32
+R222
+!i10b 1
+R227
+Z314 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
+Z315 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 11 xnor_gate_n 0 22 R_LmOEJa:d>5N49>W0ZA?3
+l17
+L16
+VKnfTaCK^6h<JR^FmC<>0m1
+!s100 dDail5hL?0zna@N:=D@8b2
+R8
+32
+R222
+!i10b 1
+R227
+R314
+R315
+!i113 1
+R13
+R14
+Exor_gate
+R1
+R4
+R5
+R0
+Z316 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd
+Z317 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd
+l0
+L5
+V[fBJY?oh1=l=lj];5ikcY1
+!s100 K_6H3f?zAK@4`dnkC2j[K2
+R8
+32
+R38
+!i10b 1
+R227
+Z318 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd|
+Z319 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 8 xor_gate 0 22 [fBJY?oh1=l=lj];5ikcY1
+l14
+L13
+VX2I>jC5Dl4K41ohhQ=lfz2
+!s100 e;mL^F4ENl;O2f_Ae@3MU2
+R8
+32
+R38
+!i10b 1
+R227
+R318
+R319
+!i113 1
+R13
+R14
+Exor_gate_32
+R1
+R4
+R5
+R0
+Z320 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd
+Z321 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd
+l0
+L5
+V:TDC7[J^<4Z0hN7K<U@nz0
+!s100 IY:zIdH0EdL@PUV4ISe5M0
+R8
+32
+R38
+!i10b 1
+R39
+Z322 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
+Z323 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 11 xor_gate_32 0 22 :TDC7[J^<4Z0hN7K<U@nz0
+l14
+L13
+V3VRg<SB0Cd8ehW<H[PS>T1
+!s100 [@^nmEj?djZ;8jS41JD]@3
+R8
+32
+R38
+!i10b 1
+R39
+R322
+R323
+!i113 1
+R13
+R14
+Exor_gate_n
+R1
+R4
+R5
+R0
+Z324 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd
+Z325 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd
+l0
+L5
+VoXcGmO7Td517G9;DAlGa]0
+!s100 LPoPXbzH8=CBB]^6S5Unf1
+R8
+32
+R38
+!i10b 1
+R39
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
+Z327 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
+!i113 1
+R13
+R14
+Adataflow
+R4
+R5
+DEx4 work 10 xor_gate_n 0 22 oXcGmO7Td517G9;DAlGa]0
+l17
+L16
+Vh:7hVmgL6jc9L=6foTP0N1
+!s100 29oXRe`]fm02Bce^Do[3m2
+R8
+32
+R38
+!i10b 1
+R39
+R326
+R327
+!i113 1
+R13
+R14

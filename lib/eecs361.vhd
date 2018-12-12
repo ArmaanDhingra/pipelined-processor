@@ -620,6 +620,7 @@ package eecs361 is
 
   end component processor;
 
+ -- Pipeline registers
   component id_ex_register
 	port (
 		clk		: in std_logic;
@@ -658,4 +659,67 @@ package eecs361 is
 		out_rd			: out std_logic_vector(4 downto 0));
   end component control_signals;
 
+  component ex_mem_register is 
+	port (
+		-- Inputs
+		clk		: in std_logic;
+		reset		: in std_logic;
+		ALU_result	: in std_logic_vector (31 downto 0);
+		ALU_of		: in std_logic;
+		ALU_zero	: in std_logic;
+		data_to_mem	: in std_logic_vector (31 downto 0);
+
+		-- Outputs
+		ALU_result_out	: out std_logic_vector (31 downto 0);
+		ALU_of_out	: out std_logic;
+		ALU_zero_out	: out std_logic;
+		data_to_mem_out	: out std_logic_vector (31 downto 0)
+	);
+  end component ex_mem_register;
+
+  component mem_wb_register is 
+	port (
+		-- Inputs
+		clk			: in std_logic;
+		reset			: in std_logic;
+		ALU_result		: in std_logic_vector (31 downto 0);
+		data_from_mem		: in std_logic_vector (31 downto 0);
+
+		-- Outputs
+		ALU_result_out		: out std_logic_vector (31 downto 0);
+		data_from_mem_out	: out std_logic_vector (31 downto 0)
+	);
+  end component mem_wb_register;
+
+  component if_id_register is
+	port (
+		clk		: in std_logic;
+		reset		: in std_logic;
+		input_pc	: in std_logic_vector(31 downto 0);
+		input_inst	: in std_logic_vector(31 downto 0);
+		output_pc	: out std_logic_vector(31 downto 0); 
+		output_inst	: out std_logic_vector(31 downto 0)
+	);
+  end component if_id_register;
+  
+  -- Forwarding unit
+  component forwarding_unit is
+	port (
+		-- Continue from ID stage
+		rs_ID_EX		: in std_logic_vector (4 downto 0);
+		rt_ID_EX		: in std_logic_vector (4 downto 0);
+		use_imm_ID_EX		: in std_logic; -- Flag, do not forward Rt
+		use_sa_ID_EX		: in std_logic; -- Flag, do not forward Rt
+			-- Forward from EX/MEM pipeline register
+		rd_EX_MEM		: in std_logic_vector (4 downto 0); 
+		reg_wrt_EX_MEM		: in std_logic;
+			-- Forward from MEM/WB pipeline register
+		reg_wrt_MEM_WB		: in std_logic;
+		rd_MEM_WB		: in std_logic_vector (4 downto 0);
+
+		-- Outputs, ALU operands
+		forward_rs		: out std_logic_vector (1 downto 0); 
+		forward_rt		: out std_logic_vector (1 downto 0)
+		);
+ end component forwarding_unit;
 end;
