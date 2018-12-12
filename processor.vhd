@@ -83,6 +83,10 @@ architecture processor_logic of processor is
 	signal alu_r			: std_logic_vector (31 downto 0);
 	signal of_flag			: std_logic;
 	signal z_flag			: std_logic;
+	signal alu_a_mem_wb		: std_logic_vector (31 downto 0);
+	signal alu_a_valid		: std_logic_vector (31 downto 0);
+	signal alu_b_mem_wb		: std_logic_vector (31 downto 0);
+	signal alu_b_valid		: std_logic_vector (31 downto 0);
 
 	-- Register
 	signal rs			: std_logic_vector (4 downto 0); 
@@ -154,6 +158,10 @@ architecture processor_logic of processor is
 	signal rs_mem_wb		: std_logic_vector(4 downto 0);
 	signal rt_mem_wb		: std_logic_vector(4 downto 0);
 	signal rd_mem_wb		: std_logic_vector(4 downto 0);
+
+	-- Forwarding
+	signal forward_rs		: std_logic_vector (1 downto 0);
+	signal forward_rt		: std_logic_vector (1 downto 0);
 
 begin
 	stall <= '0';
@@ -358,12 +366,61 @@ begin
 		z	=>	alu_b
 	);
 
+	-- Forward from previous instructions
+	forwarding_unit_inst : forwarding_unit
+	port map (
+		rs_ID_EX		=>	rs_id_ex,
+		rt_ID_EX		=>	rt_id_ex,
+		use_imm_ID_EX		=>	use_imm_id_ex,	
+		use_sa_ID_EX		=>	use_sa_id_ex,
+		rd_EX_MEM		=>	rd_ex_mem,
+		reg_wrt_EX_MEM		=>	reg_wrt_ex_mem,
+		reg_wrt_MEM_WB		=>	reg_wrt_mem_wb,	
+		rd_MEM_WB		=>	rd_mem_wb,
+		forward_rs		=>	forward_rs,	 
+		forward_rt		=>	forward_rt	
+	);
+
+	-- Decide if forwarding for operand a for ALU
+	alu_a_mem_wb_data : mux_32
+	port map (
+		sel			=>	forward_rs(0),
+		src0			=>	alu_a,
+		src1			=>	reg_bus_wrt,
+		z			=>	alu_a_mem_wb
+	);
+
+	alu_a_ex_mem_data : mux_32
+	port map (
+		sel			=>	forward_rs(1),
+		src0			=>	alu_a_mem_wb,
+		src1			=>	alu_r_ex_mem,
+		z			=>	alu_a_valid
+	);
+
+	-- Decide f forwarding for operand b for ALU
+	alu_b_mem_wb_data : mux_32
+	port map (
+		sel			=>	forward_rt(0),
+		src0			=>	alu_b,
+		src1			=>	reg_bus_wrt,
+		z			=>	alu_b_mem_wb
+	);
+
+	alu_b_ex_mem_data : mux_32
+	port map (
+		sel			=>	forward_rt(1),
+		src0			=>	alu_b_mem_wb,
+		src1			=>	alu_r_ex_mem,
+		z			=>	alu_b_valid
+	);
+
 	-- Perform desired alu operation
 	alu	:	alu_32
 	port map (
 		ctrl	=>	alu_op_id_ex,
-		a	=>	alu_a,
-		b	=>	alu_b,
+		a	=>	alu_a_valid,
+		b	=>	alu_b_valid,
 		r	=>	alu_r,
 		of_flag	=>	of_flag,
 		z_flag	=>	z_flag
