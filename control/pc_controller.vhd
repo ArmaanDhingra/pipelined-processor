@@ -98,7 +98,7 @@ begin
 	port map (
 		sel	=>	stall,
 		src0	=>	pc_next_val,
-		src1	=>	conv_std_logic_vector(0,32),
+		src1	=>	pc_curr,
 		z	=>	pc_next
 	);
 

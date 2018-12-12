@@ -100,9 +100,64 @@ architecture processor_logic of processor is
 
 	-- Timing
 	signal clk_inv			: std_logic;
-
+	
+	-- Stage Registers
+		-- if_id
+	signal pc_if_id			: std_logic_vector(31 downto 0);
+	signal instruction_if_id	: std_logic_vector(31 downto 0);
+		-- id_ex
+	signal reg_bus_a_id_ex		: std_logic_vector(31 downto 0);
+	signal reg_bus_b_id_ex		: std_logic_vector(31 downto 0);
+	signal immediate_extended_id_ex	: std_logic_vector(31 downto 0);
+	signal shamt_extended_id_ex	: std_logic_vector(31 downto 0);
+	signal alu_op_id_ex		: std_logic_vector(5 downto 0);	
+	signal instruction_id_ex	: std_logic_vector(31 downto 0);
+	signal pc_id_ex			: std_logic_vector(31 downto 0);
+	signal mem_to_reg_id_ex		: std_logic;
+	signal reg_wrt_id_ex		: std_logic;
+	signal mem_wrt_id_ex		: std_logic;
+	signal branch_id_ex		: std_logic;
+	signal sign_extend_id_ex	: std_logic;
+	signal use_imm_id_ex		: std_logic;
+	signal use_sa_id_ex		: std_logic;
+	signal stall_id_ex		: std_logic;
+	signal rs_id_ex			: std_logic_vector(4 downto 0);
+	signal rt_id_ex			: std_logic_vector(4 downto 0);
+	signal rd_id_ex			: std_logic_vector(4 downto 0);
+		--ex_mem
+	signal alu_r_ex_mem		: std_logic_vector(31 downto 0);
+	signal reg_bus_b_ex_mem		: std_logic_vector(31 downto 0);
+	signal alu_of_ex_mem		: std_logic;
+	signal alu_z_ex_mem		: std_logic;
+	signal mem_to_reg_ex_mem	: std_logic;
+	signal reg_wrt_ex_mem		: std_logic;
+	signal mem_wrt_ex_mem		: std_logic;
+	signal branch_ex_mem		: std_logic;
+	signal sign_extend_ex_mem	: std_logic;
+	signal use_imm_ex_mem		: std_logic;
+	signal use_sa_ex_mem		: std_logic;
+	signal stall_ex_mem		: std_logic;
+	signal rs_ex_mem		: std_logic_vector(4 downto 0);
+	signal rt_ex_mem		: std_logic_vector(4 downto 0);
+	signal rd_ex_mem		: std_logic_vector(4 downto 0);
+		--mem_wb
+	signal alu_r_mem_wb		: std_logic_vector(31 downto 0);
+	signal data_mem_out_mem_wb	: std_logic_vector(31 downto 0);
+	signal mem_to_reg_mem_wb	: std_logic;
+	signal sign_extend_mem_wb	: std_logic;
+	signal reg_wrt_mem_wb		: std_logic;
+	signal mem_wrt_mem_wb		: std_logic;
+	signal branch_mem_wb		: std_logic;
+	signal use_imm_mem_wb		: std_logic;
+	signal use_sa_mem_wb		: std_logic;
+	signal stall_mem_wb		: std_logic;
+	signal rs_mem_wb		: std_logic_vector(4 downto 0);
+	signal rt_mem_wb		: std_logic_vector(4 downto 0);
+	signal rd_mem_wb		: std_logic_vector(4 downto 0);
 
 begin
+	stall <= '0';
+
 	-- Debugging signals for simulation
 	-- Flow control
 	pc_ins			<=	pc;
@@ -139,19 +194,9 @@ begin
 	
 	-- Data Memory
 	data_mem_out_ins	<=	data_mem_out;
-	
-	-- Obtain current pc and advance pc the end of clock cycle
-	pc_control	:	pc_controller
-	port map(
-		pc_init			=>	init,
-		pc_init_data		=>	pc_init_data,
-		clk			=>	clk,
-		immediate_extended	=>	immediate_extended,
-		take_branch		=>	take_branch,
-		stall			=>	stall,
-		pc			=>	pc
-	);
-	
+
+	-- STAGE 1: IF
+
 	-- Fetch instruction from instruction memory
 	instruction_mem	:	sram
 	generic map (
@@ -166,10 +211,35 @@ begin
 		dout	=>	instruction
 	);
 	
+	-- Obtain current pc and advance pc the end of clock cycle
+	pc_control	:	pc_controller
+	port map(
+		pc_init			=>	init,
+		pc_init_data		=>	pc_init_data,
+		clk			=>	clk,
+		immediate_extended	=>	immediate_extended,
+		take_branch		=>	take_branch,
+		stall			=>	stall,
+		pc			=>	pc
+	);
+
+	if_id_reg : if_id_register
+	port map (
+		clk		=>	clk,
+		reset		=>	init,
+		input_pc	=>	pc,
+		input_inst	=>	instruction,
+		output_pc	=>	pc_if_id,
+		output_inst	=>	instruction_if_id
+	);
+	
+	
+	-- STAGE 2: ID/REG
+
 	-- Decode instruction and set control signals
 	instruction_decoding	: instruction_decoder
 	port map(
-		instruction	=>	instruction,
+		instruction	=>	instruction_if_id,
 		rs		=>	rs,
 		rt		=>	rt,
 		rd		=>	rd,
@@ -186,63 +256,112 @@ begin
 	-- Read and write to register file
 	register_file_inst : register_file
 	port map (
-		init		=> init,
-		reg_wr		=> reg_wrt,
-		reg_dst		=> rd,
-		rs		=> rs,		 
-		rt		=> rt, 		
-		busW		=> reg_bus_wrt,
-		clk		=> clk,		
-		busA		=> reg_bus_a,		
-		busB		=> reg_bus_b
+		init		=>	init,
+		reg_wr		=>	reg_wrt_mem_wb,
+		reg_dst		=>	rd_mem_wb,
+		rs		=>	rs,		 
+		rt		=>	rt, 		
+		busW		=>	reg_bus_wrt,
+		clk		=>	clk_inv,		
+		busA		=>	reg_bus_a,		
+		busB		=>	reg_bus_b
 	);
 	
 	-- Extend immediate for addi, load/store or branch instructions
 	immediate_extender	: extender
 	port map (
 		sign	=>	sign_extend,
-		input	=>	instruction (15 downto 0),
+		input	=>	instruction_if_id(15 downto 0),
 		output	=>	immediate_extended
 	);
 	
 	-- Extend (zero extend) shamt for sll 
 	sa_16_gen_0 : for i in 0 to 4 generate
-		shamt_extended (i) <= instruction(6+i);
+		shamt_extended (i) <= instruction_if_id(6+i);
 	end generate;
 	sa_16_gen : for i in 5 to 31 generate
 		shamt_extended (i) <= '0';
 	end generate;
 
+	id_ex_reg : id_ex_register
+	port map (
+		clk			=>	clk,
+		reset			=>	init,
+		input_pc		=>	pc_if_id,
+		input_a			=>	reg_bus_a,
+		input_b			=>	reg_bus_b,
+		input_immediate		=>	immediate_extended,
+		input_shamt_extended	=>	shamt_extended,
+		input_instruction	=>	instruction_if_id,
+		input_alu_op		=>	alu_op,
+		output_pc		=>	pc_id_ex,
+		output_a		=>	reg_bus_a_id_ex,
+		output_b		=>	reg_bus_b_id_ex,
+		output_immediate	=>	immediate_extended_id_ex,
+		output_shamt_extended	=>	shamt_extended_id_ex,
+		output_instruction	=>	instruction_id_ex,
+		output_alu_op		=>	alu_op_id_ex
+	);
+
+	control_id_ex : control_signals
+	port map (
+		clk			=>	clk,
+		reset			=>	init,
+		in_mem_to_reg		=>	mem_to_reg,
+		in_reg_wrt		=>	reg_wrt,
+		in_mem_wrt		=>	mem_wrt,
+		in_branch		=>	branch,
+		in_sign_extend		=>	sign_extend,
+		in_use_imm		=>	use_imm,
+		in_use_sa		=>	use_sa,
+		in_stall		=>	stall,
+		in_rs			=>	rs,
+		in_rt			=>	rt,
+		in_rd			=>	rd,
+		out_mem_to_reg		=>	mem_to_reg_id_ex,
+		out_reg_wrt		=>	reg_wrt_id_ex,
+		out_mem_wrt		=>	mem_wrt_id_ex,
+		out_branch		=>	branch_id_ex,
+		out_sign_extend		=>	sign_extend_id_ex,
+		out_use_imm		=>	use_imm_id_ex,
+		out_use_sa		=>	use_sa_id_ex,
+		out_stall		=>	stall_id_ex,
+		out_rs			=>	rs_id_ex,
+		out_rt			=>	rt_id_ex,
+		out_rd			=>	rd_id_ex
+	);
+
+	-- STAGE 3: EX
+
 	-- Adjust alu first source based on if sll (rd=rt<<sa) instruction or not
 	alu_a_mux	:	mux_32
 	port map (
-		sel	=>	use_sa,
-		src0	=>	reg_bus_a,
-		src1	=>	reg_bus_b,
+		sel	=>	use_sa_id_ex,
+		src0	=>	reg_bus_a_id_ex,
+		src1	=>	reg_bus_b_id_ex,
 		z	=>	alu_a
 	);
 	
 	-- Adjust alu second source based on if addi, load/store or branch instructions or not	 
 	alu_b_reg_imm_mux	:	mux_32
 	port map (
-		sel	=>	use_imm,
-		src0	=>	reg_bus_b,
-		src1	=>	immediate_extended,
+		sel	=>	use_imm_id_ex,
+		src0	=>	reg_bus_b_id_ex,
+		src1	=>	immediate_extended_id_ex,
 		z	=>	alu_b_reg_imm
 	);
 	alu_b_mux	:	mux_32
 	port map (
-		sel	=>	use_sa,
+		sel	=>	use_sa_id_ex,
 		src0	=>	alu_b_reg_imm,
-		src1	=>	shamt_extended,
+		src1	=>	shamt_extended_id_ex,
 		z	=>	alu_b
 	);
-
 
 	-- Perform desired alu operation
 	alu	:	alu_32
 	port map (
-		ctrl	=>	alu_op,
+		ctrl	=>	alu_op_id_ex,
 		a	=>	alu_a,
 		b	=>	alu_b,
 		r	=>	alu_r,
@@ -250,27 +369,71 @@ begin
 		z_flag	=>	z_flag
 	);
 
-	-- In case of writing to register file, write from memory or alu result
-	reg_bus_wrt_mux	:	mux_32
+	-- If instruction was branch, decide if branch should be taken or not
+	branch_decision : branch_resolver
 	port map (
-		sel	=>	mem_to_reg,
-		src0	=>	alu_r,
-		src1	=>	data_mem_out,
-		z	=>	reg_bus_wrt
+		branch		=>	branch_id_ex,
+		opcode		=>	instruction_id_ex(31 downto 26),
+		z_flag		=>	z_flag,
+		s_flag		=>	alu_r(31),
+		take_branch	=>	take_branch
 	);
 
+	ex_mem_reg : ex_mem_register
+	port map (
+		clk		=>	clk,
+		reset		=>	init,
+		ALU_result	=>	alu_r,
+		ALU_of		=>	of_flag,
+		ALU_zero	=>	z_flag,
+		data_to_mem	=>	reg_bus_b_id_ex,
+		ALU_result_out	=>	alu_r_ex_mem,
+		ALU_of_out	=>	alu_of_ex_mem,
+		ALU_zero_out	=>	alu_z_ex_mem,
+		data_to_mem_out	=>	reg_bus_b_ex_mem
+	);
+
+	control_reg_ex_mem : control_signals
+	port map (
+		clk			=>	clk,
+		reset			=>	init,
+		in_mem_to_reg		=>	mem_to_reg_id_ex,
+		in_reg_wrt		=>	reg_wrt_id_ex,
+		in_mem_wrt		=>	mem_wrt_id_ex,
+		in_branch		=>	branch_id_ex,
+		in_sign_extend		=>	sign_extend_id_ex,
+		in_use_imm		=>	use_imm_id_ex,
+		in_use_sa		=>	use_sa_id_ex,
+		in_stall		=>	stall_id_ex,
+		in_rs			=>	rs_id_ex,
+		in_rt			=>	rt_id_ex,
+		in_rd			=>	rd_id_ex,
+		out_mem_to_reg		=>	mem_to_reg_ex_mem,
+		out_reg_wrt		=>	reg_wrt_ex_mem,
+		out_mem_wrt		=>	mem_wrt_ex_mem,
+		out_branch		=>	branch_ex_mem,
+		out_sign_extend		=>	sign_extend_ex_mem,
+		out_use_imm		=>	use_imm_ex_mem,
+		out_use_sa		=>	use_sa_ex_mem,
+		out_stall		=>	stall_ex_mem,
+		out_rs			=>	rs_ex_mem,
+		out_rt			=>	rt_ex_mem,
+		out_rd			=>	rd_ex_mem
+	);
+
+	-- STAGE 4: MEM
 
 	-- Check if manually reading from data memory
 	data_mem_read_or	:	or_gate
 	port map(
 		x	=>	manual_mem_inspect,
-		y	=>	mem_to_reg,
+		y	=>	mem_to_reg_ex_mem,
 		z	=>	data_mem_read	-- read from memory if manually inspecting or lw instruction
 	);
 	data_mem_address	:	mux_32
 	port map(
 		sel	=>	manual_mem_inspect,
-		src0	=>	alu_r,
+		src0	=>	alu_r_ex_mem,
 		src1	=>	manual_mem_inspect_addr,
 		z	=>	data_mem_addr	-- memory address is either alu result (lw or sw) or manual address
 	);
@@ -285,7 +448,7 @@ begin
 
 	data_mem_wrt_and	:	and_gate
 	port map (
-		x	=>	mem_wrt,
+		x	=>	mem_wrt_ex_mem,
 		y	=>	clk_inv,
 		z	=>	data_mem_wrt
 	);
@@ -297,21 +460,60 @@ begin
 	)
 	port map (
 		cs	=>	'1',
-		oe	=>	data_mem_read,	-- only read if writing to register (lw instruction) or manually inspecting memory
-		we	=>	data_mem_wrt,	-- only write if sw insturction and clk is low (only allowed to write in the second half of the clock cycle)
-		addr	=>	data_mem_addr,	-- effective address calculated by alu or given manually from test bench
-		din	=>	reg_bus_b,	-- data in is the reg_busB
+		oe	=>	data_mem_read,		-- only read if writing to register (lw instruction) or manually inspecting memory
+		we	=>	data_mem_wrt,		-- only write if sw insturction and clk is low (only allowed to write in the second half of the clock cycle)
+		addr	=>	data_mem_addr,		-- effective address calculated by alu or given manually from test bench
+		din	=>	reg_bus_b_ex_mem,	-- data in is the reg_busB
 		dout	=>	data_mem_out
 	);
 
-	-- If instruction was branch, decide if branch should be taken or not
-	branch_decision : branch_resolver
+	mem_wb_reg : mem_wb_register
+		port map (
+		clk			=>	clk,
+		reset			=>	init,
+		ALU_result		=>	alu_r_ex_mem,
+		data_from_mem		=>	data_mem_out,
+		ALU_result_out		=>	alu_r_mem_wb,
+		data_from_mem_out	=>	data_mem_out_mem_wb
+	);
+
+	control_reg_mem_wb : control_signals
 	port map (
-		branch		=>	branch,
-		opcode		=>	instruction(31 downto 26),
-		z_flag		=>	z_flag,
-		s_flag		=>	alu_r(31),
-		take_branch	=>	take_branch
+		clk			=>	clk,
+		reset			=>	init,
+		in_mem_to_reg		=>	mem_to_reg_ex_mem,
+		in_reg_wrt		=>	reg_wrt_ex_mem,
+		in_mem_wrt		=>	mem_wrt_ex_mem,
+		in_branch		=>	branch_ex_mem,
+		in_sign_extend		=>	sign_extend_ex_mem,
+		in_use_imm		=>	use_imm_ex_mem,
+		in_use_sa		=>	use_sa_ex_mem,
+		in_stall		=>	stall_ex_mem,
+		in_rs			=>	rs_ex_mem,
+		in_rt			=>	rt_ex_mem,
+		in_rd			=>	rd_ex_mem,
+		out_mem_to_reg		=>	mem_to_reg_mem_wb,
+		out_reg_wrt		=>	reg_wrt_mem_wb,
+		out_mem_wrt		=>	mem_wrt_mem_wb,
+		out_branch		=>	branch_mem_wb,
+		out_sign_extend		=>	sign_extend_mem_wb,
+		out_use_imm		=>	use_imm_mem_wb,
+		out_use_sa		=>	use_sa_mem_wb,
+		out_stall		=>	stall_mem_wb,
+		out_rs			=>	rs_mem_wb,
+		out_rt			=>	rt_mem_wb,
+		out_rd			=>	rd_mem_wb
+	);
+
+	-- STAGE 5: WB
+
+	-- In case of writing to register file, write from memory or alu result
+	reg_bus_wrt_mux	:	mux_32
+	port map (
+		sel	=>	mem_to_reg_mem_wb,
+		src0	=>	alu_r_mem_wb,
+		src1	=>	data_mem_out_mem_wb,
+		z	=>	reg_bus_wrt
 	);
 
 end processor_logic;
