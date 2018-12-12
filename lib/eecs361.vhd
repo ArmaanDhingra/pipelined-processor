@@ -607,7 +607,6 @@ package eecs361 is
 
 		reg_bus_wrt_ins		: out std_logic_vector (31 downto 0);
 
-		
 
 		-- Data Memory
 
@@ -635,6 +634,28 @@ package eecs361 is
 		output_immediate: out std_logic_vector(31 downto 0));
   end component id_ex_register;
 
-
+  component control_signals
+	port (
+		clk			: in std_logic;
+		reset			: in std_logic;
+		in_mem_to_reg		: in std_logic;
+		in_reg_wrt		: in std_logic;
+		in_mem_wrt		: in std_logic;
+		in_branch		: in std_logic;
+		in_sign_extend		: in std_logic;	
+		in_use_imm		: in std_logic;
+		in_use_sa		: in std_logic;
+		in_rd			: in std_logic_vector(4 downto 0);
+		in_stall		: in std_logic;		
+		out_mem_to_reg		: out std_logic;
+		out_reg_wrt		: out std_logic;
+		out_mem_wrt		: out std_logic;
+		out_branch		: out std_logic;
+		out_sign_extend		: out std_logic;	
+		out_use_imm		: out std_logic;
+		out_use_sa		: out std_logic;
+		out_stall		: out std_logic;
+		out_rd			: out std_logic_vector(4 downto 0));
+  end component control_signals;
 
 end;

@@ -14,20 +14,26 @@ entity control_signals is
 		in_sign_extend		: in std_logic;	
 		in_use_imm		: in std_logic;
 		in_use_sa		: in std_logic;
-		
+		in_rd			: in std_logic_vector(4 downto 0);
+		in_stall		: in std_logic;		
+
 		out_mem_to_reg		: out std_logic;
 		out_reg_wrt		: out std_logic;
 		out_mem_wrt		: out std_logic;
 		out_branch		: out std_logic;
 		out_sign_extend		: out std_logic;	
 		out_use_imm		: out std_logic;
-		out_use_sa		: out std_logic);
+		out_use_sa		: out std_logic;
+		out_stall		: out std_logic;
+		out_rd			: out std_logic_vector(4 downto 0));
 
 end control_signals;
 
 architecture cs_logic of control_signals is
+signal mem_wrt, reg_wrt : std_logic;
 
 begin
+	
 	mem_to_reg_dff : dffr_a
 		port map (clk=>clk, arst=>reset, aload=>'0', adata=>'0', d=>in_mem_to_reg, enable=>'1', q=>out_mem_to_reg);
 	
@@ -49,5 +55,12 @@ begin
 	use_imm_dff : dffr_a
 		port map (clk=>clk, arst=>reset, aload=>'0', adata=>'0', d=>in_use_imm, enable=>'1', q=>out_use_imm);
 
+	stall_dff : dffr_a
+		port map (clk=>clk, arst=>reset, aload=>'0', adata=>'0', d=>in_stall, enable=>'1', q=>out_stall);
+
+	out_rd_dff : for i in 0 to 4 generate
+		rd_dff: dffr_a
+			port map(clk=>clk, arst=>reset, aload=>'0', adata=>'0', d=>in_rd(i), enable=>'1', q=>out_rd(i));
+	end generate;
 end architecture;
 	
