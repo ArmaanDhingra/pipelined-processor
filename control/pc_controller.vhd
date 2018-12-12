@@ -29,6 +29,7 @@ entity pc_controller is
 		clk			: in std_logic;
 		immediate_extended	: in std_logic_vector (31 downto 0);
 		take_branch		: in std_logic;	
+		stall			: in std_logic;	
 		pc			: out std_logic_vector (31 downto 0)
 	);
 end pc_controller;
@@ -37,6 +38,7 @@ architecture pc_controller_logic of pc_controller is
 	signal pc_plus_4, pc_branch	: std_logic_vector (31 downto 0);
 	signal immediate_extended_x4	: std_logic_vector (31 downto 0);
 	signal pc_next			: std_logic_vector (31 downto 0);
+	signal pc_next_val			: std_logic_vector (31 downto 0);
 	signal pc_curr			: std_logic_vector (31 downto 0);
 begin
 	-- Obtain current pc
@@ -89,8 +91,17 @@ begin
 		sel	=>	take_branch,
 		src0	=>	pc_plus_4,
 		src1	=>	pc_branch,
+		z	=>	pc_next_val
+	);
+
+	stall_mux	:	mux_32
+	port map (
+		sel	=>	stall,
+		src0	=>	pc_next_val,
+		src1	=>	conv_std_logic_vector(0,32),
 		z	=>	pc_next
 	);
 
 end pc_controller_logic;
+
 

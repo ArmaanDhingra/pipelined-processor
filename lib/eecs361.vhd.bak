@@ -620,6 +620,20 @@ package eecs361 is
 
   end component processor;
 
+  component id_ex_register
+	port (
+		clk		: in std_logic;
+		reset		: in std_logic;
+		input_pc	: in std_logic_vector(31 downto 0);
+		input_a		: in std_logic_vector(31 downto 0);
+		input_b		: in std_logic_vector(31 downto 0);
+		input_immediate	: in std_logic_vector(31 downto 0);
+		output_pc	: out std_logic_vector(31 downto 0);
+		output_a	: out std_logic_vector(31 downto 0);
+		output_b	: out std_logic_vector(31 downto 0);
+		output_immediate: out std_logic_vector(31 downto 0));
+  end component id_ex_register;
+
 
 
 end;

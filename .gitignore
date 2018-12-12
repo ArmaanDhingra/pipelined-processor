@@ -1,0 +1,14 @@
+*.bak
+*.qdb
+*.qpg
+*.qtl
+*.wlf
+*__Previews*
+*.mti
+transcript
+*/transcript
+*/*.do
+*.do
+*/*.vstf
+*.vstf
+submission/*

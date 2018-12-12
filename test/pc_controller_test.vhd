@@ -15,7 +15,8 @@ architecture behavioral of pc_controller_test is
 	signal immediate_extended	: std_logic_vector (31 downto 0);
 	signal take_branch		: std_logic;
 	signal pc			: std_logic_vector (31 downto 0);
-	
+	signal stall			: std_logic;	
+
 	signal pc_compare		: integer;
 
 begin
@@ -27,6 +28,7 @@ test_comp : pc_controller
 		clk			=>	clk,
 		immediate_extended	=>	immediate_extended,
 		take_branch		=>	take_branch,
+		stall			=>	stall,
 		pc			=>	pc
 	);
 
@@ -43,6 +45,7 @@ testbench : process
 	-- Initialize signals and program counter
 	pc_init <= '1';
 	pc_init_data <= x"00400020";
+	stall <= '0';
 	wait for 5 ns;
 	assert 	pc = pc_init_data report "ERROR: PC did not initialize" severity error;
 
@@ -91,6 +94,11 @@ testbench : process
 	wait for 5 ns;
 	assert 	pc = pc_init_data report "ERROR: PC did not reinitialize" severity error;
 
+	-- Reinitialize program counter
+	pc_init <= '0';
+	stall <= '1';
+	wait for 5 ns;
+	assert 	pc = std_logic_vector(to_signed(0,32)) report "ERROR: PC did not reinitialize" severity error;
 		
 
 	wait;

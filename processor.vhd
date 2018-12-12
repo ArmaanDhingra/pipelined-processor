@@ -58,11 +58,11 @@ entity processor is
 end processor;
 	
 architecture processor_logic of processor is
-
 	-- Flow control
 	signal pc 			: std_logic_vector (31 downto 0);
 	signal instruction		: std_logic_vector (31 downto 0);
 	signal take_branch		: std_logic;
+	signal stall			: std_logic;
 		
 	-- Control signals
 	signal alu_op			: std_logic_vector (5 downto 0);
@@ -100,6 +100,7 @@ architecture processor_logic of processor is
 
 	-- Timing
 	signal clk_inv			: std_logic;
+
 
 begin
 	-- Debugging signals for simulation
@@ -147,6 +148,7 @@ begin
 		clk			=>	clk,
 		immediate_extended	=>	immediate_extended,
 		take_branch		=>	take_branch,
+		stall			=>	stall,
 		pc			=>	pc
 	);
 	
