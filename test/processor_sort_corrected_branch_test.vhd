@@ -122,7 +122,7 @@ testbench : process
 	wait until falling_edge(clk);
 
 	-- Run Code
-	wait for 780 ns;	-- Enough time to run the code
+	wait for 5000 ns;	-- Enough time to run the code
 
 	-- Inspect memory manually to ensure code ran correctly
 	manual_mem_inspect <= '1';
