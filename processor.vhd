@@ -163,8 +163,18 @@ architecture processor_logic of processor is
 	signal forward_rs		: std_logic_vector (1 downto 0);
 	signal forward_rt		: std_logic_vector (1 downto 0);
 
+	-- Stall Calculation
+	signal branch_or_load		: std_logic;
+	signal last_branch_and_stall	: std_logic;
+	signal stall_logic		: std_logic;
+
+	-- Squashing
+	signal last_inst_branch_or_load	: std_logic;
+	signal squash			: std_logic;
+	signal squash_inv		: std_logic;
+	signal reg_wrt_decoder		: std_logic;
+	signal mem_wrt_decoder		: std_logic;
 begin
-	stall <= '0';
 
 	-- Debugging signals for simulation
 	-- Flow control
@@ -227,7 +237,7 @@ begin
 		clk			=>	clk,
 		immediate_extended	=>	immediate_extended,
 		take_branch		=>	take_branch,
-		stall			=>	stall,
+		stall			=>	stall_logic,
 		pc			=>	pc
 	);
 
@@ -252,13 +262,102 @@ begin
 		rt		=>	rt,
 		rd		=>	rd,
 		alu_op		=>	alu_op,
-		mem_to_reg	=>	mem_to_reg,
-		reg_wrt		=>	reg_wrt,
-		mem_wrt		=>	mem_wrt,
+		mem_to_reg	=>	mem_to_reg,	
+		reg_wrt		=>	reg_wrt_decoder,	-- will be modified by squash logic before passing to id_ex reg
+		mem_wrt		=>	mem_wrt_decoder,	-- will be modified by squash logic before passing to id_ex reg
 		branch		=>	branch,
 		sign_extend	=>	sign_extend,
 		use_imm		=>	use_imm,
 		use_sa		=>	use_sa
+	);
+	
+	-- Stall if necessary for branch and load instructions	
+	-- if branch or load
+	--	stall = 1
+	-- else if stall = 1 and last instruction was branch
+	--	stall = 1
+	-- else
+	--	stall = 0
+
+	branch_or_load_or	:	or_gate
+	port map (
+		x	=>	branch,
+		y	=>	mem_to_reg,
+		z	=>	branch_or_load
+	);
+
+	last_branch_and_stall_and	:	and_gate
+	port map (
+		x	=>	branch_id_ex,
+		y	=>	stall,
+		z	=>	last_branch_and_stall
+	);
+
+	stall_or	:	or_gate
+	port map (
+		x	=>	branch_or_load,
+		y	=>	last_branch_and_stall,
+		z	=>	stall_logic
+	);
+
+	stall_ff	:	dffr_a 
+	port map (
+		clk	=>	clk,
+		arst	=>	init,
+		aload	=>	'0',
+		adata	=>	'0',
+		enable	=>	'1',
+		d	=>	stall_logic,
+		q	=>	stall
+	);
+
+	-- Squashing logic
+
+	-- if (last_instruction = branch or load)
+	-- 	squash = 1
+	-- else if second_to_last instruction = branch
+	-- 	squash = 1
+	-- else
+	--	squash = 0
+
+	--
+
+	-- if last instruction is branch or load
+	last_inst_branch_or_load_or	:	or_gate
+	port map (
+		x	=>	branch_id_ex,		-- last instruction branch
+		y	=>	mem_to_reg_id_ex,	-- last instruction load
+		z	=>	last_inst_branch_or_load
+	);
+
+	-- squash or no squash
+	squash_or	:	or_gate
+	port map (
+		x	=>	last_inst_branch_or_load,
+		y	=>	branch_ex_mem,		-- second to last instruction is branch
+		z	=>	squash
+	);
+
+	squash_inv_not	:	not_gate
+	port map (
+		x	=>	squash,
+		z	=>	squash_inv
+	);
+
+	-- reg_wrt = reg_wrt_decoder and not squash
+	reg_wrt_and	:	and_gate
+	port map (
+		x	=>	reg_wrt_decoder,
+		y	=>	squash_inv,
+		z	=>	reg_wrt
+	);
+
+	-- mem_wrt = mem_wrt_decoder and not squash
+	mem_wrt_and	:	and_gate
+	port map (
+		x	=>	mem_wrt_decoder,
+		y	=>	squash_inv,
+		z	=>	mem_wrt
 	);
 
 	-- Read and write to register file
@@ -572,5 +671,6 @@ begin
 		src1	=>	data_mem_out_mem_wb,
 		z	=>	reg_bus_wrt
 	);
+	
 
 end processor_logic;

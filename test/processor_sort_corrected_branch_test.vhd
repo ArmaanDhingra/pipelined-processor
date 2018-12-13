@@ -49,6 +49,8 @@ architecture behavioral of processor_sort_corrected_branch_test is
 	signal manual_mem_inspect_addr	: std_logic_vector (31 downto 0);
 	signal data_mem_out		: std_logic_vector (31 downto 0);
 
+	signal clk_cnt			: integer := -1;
+
 begin
 
 test_comp : processor
@@ -101,6 +103,9 @@ test_comp : processor
 clk_process : process 
 begin
 	while true loop
+		if (clk = '1') then
+			clk_cnt <= clk_cnt + 1;
+		end if;
 		wait for 1 ns;
 		clk <= not clk;
 	end loop;
