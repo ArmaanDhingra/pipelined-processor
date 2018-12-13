@@ -9,8 +9,9 @@ end id_ex_test;
 architecture behavioral of id_ex_test is
 
 signal clk, reset : std_logic;
-signal input_pc, input_a, input_b, input_immediate : std_logic_vector(31 downto 0);
-signal output_pc, output_a, output_b, output_immediate : std_logic_vector(31 downto 0);
+signal input_pc, input_a, input_b, input_immediate, input_shamt_extended, input_instruction : std_logic_vector(31 downto 0);
+signal output_pc, output_a, output_b, output_immediate, output_shamt_extended,output_instruction : std_logic_vector(31 downto 0);
+signal input_alu_op, output_alu_op : std_logic_vector(5 downto 0);
 
 begin
 test_comp : id_ex_register
@@ -21,10 +22,16 @@ test_comp : id_ex_register
 		input_a=>input_a,
 		input_b=>input_b,
 		input_immediate=>input_immediate,
+		input_shamt_extended=>input_shamt_extended,
+		input_instruction=>input_instruction,
+		input_alu_op=>input_alu_op,
 		output_pc=>output_pc,
 		output_a=>output_a,
 		output_b=>output_b,
-		output_immediate=>output_immediate);
+		output_immediate=>output_immediate,
+		output_shamt_extended=>output_shamt_extended, 
+		output_instruction=>output_instruction, 
+		output_alu_op=>output_alu_op);
 testbench : process
 begin
 clk <= '0';

@@ -10,7 +10,7 @@ architecture behavioral of control_signals_test is
 
 signal clk, reset, in_stall, in_mem_to_reg, in_reg_wrt, in_mem_wrt, in_branch, in_sign_extend, in_use_imm, in_use_sa : std_logic;
 signal out_mem_to_reg, out_stall, out_reg_wrt, out_mem_wrt, out_branch, out_sign_extend, out_use_imm, out_use_sa : std_logic;
-signal in_rd, out_rd : std_logic_vector(4 downto 0);
+signal in_rs, out_rs, in_rt, out_rt, in_rd, out_rd : std_logic_vector(4 downto 0);
 
 begin
 test_comp : control_signals
@@ -25,6 +25,9 @@ test_comp : control_signals
 		in_use_imm=>in_use_imm,
 		in_use_sa=>in_use_sa,
 		in_stall=>in_stall,
+		in_rs=>in_rs,
+		in_rt=>in_rt,
+		in_rd=>in_rd,
 		out_mem_to_reg=>out_mem_to_reg,
 		out_reg_wrt=>out_reg_wrt,
 		out_mem_wrt=>out_mem_wrt,
@@ -33,7 +36,8 @@ test_comp : control_signals
 		out_use_imm=>out_use_imm,
 		out_use_sa=>out_use_sa,
 		out_stall=>out_stall,
-		in_rd=>in_rd,
+		out_rs=>out_rs,
+		out_rt=>out_rt,
 		out_rd=>out_rd);
 
 testbench : process
