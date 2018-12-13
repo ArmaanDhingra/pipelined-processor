@@ -15,46 +15,11 @@ entity processor is
 		pc_init_data		: in std_logic_vector (31 downto 0);	-- Initial value for program counter
 		clk			: in std_logic;
 
-		-- Inspection signals
-
-		-- Flow control
-		pc_ins			: out std_logic_vector (31 downto 0);
-		instruction_ins		: out std_logic_vector (31 downto 0);
-		take_branch_ins		: out std_logic;
-			
-		-- Control signals
-		alu_op_ins		: out std_logic_vector (5 downto 0);
-		mem_to_reg_ins		: out std_logic;
-		reg_wrt_ins		: out std_logic;
-		mem_wrt_ins		: out std_logic;
-		branch_ins		: out std_logic;
-		sign_extend_ins		: out std_logic;	-- sign extend = 1, zero extend = 0
-		use_imm_ins		: out std_logic;	-- use immediate = 1, use registers = 0
-		use_sa_ins		: out std_logic;	-- use shamt = 1
-	
-		-- ALU
-	 	immediate_extended_ins	: out std_logic_vector (31 downto 0);
-		shamt_extended_ins	: out std_logic_vector (31 downto 0);
-		alu_b_reg_imm_ins	: out std_logic_vector (31 downto 0);
-		alu_a_ins		: out std_logic_vector (31 downto 0);
-		alu_b_ins		: out std_logic_vector (31 downto 0);
-		alu_r_ins		: out std_logic_vector (31 downto 0);
-		of_flag_ins		: out std_logic;
-		z_flag_ins		: out std_logic;
-	
-		-- Register
-		rs_ins			: out std_logic_vector (4 downto 0); 
-		rt_ins			: out std_logic_vector (4 downto 0); 
-		rd_ins			: out std_logic_vector (4 downto 0);
-		reg_bus_a_ins		: out std_logic_vector (31 downto 0);
-		reg_bus_b_ins		: out std_logic_vector (31 downto 0);
-		reg_bus_wrt_ins		: out std_logic_vector (31 downto 0);
-		
-		-- Data Memory
+		-- Data Memory Inspect
 		manual_mem_inspect	: in std_logic;
 		manual_mem_inspect_addr	: in std_logic_vector (31 downto 0);
 		data_mem_out_ins	: out std_logic_vector (31 downto 0)
-		);
+	);
 end processor;
 	
 architecture processor_logic of processor is
@@ -175,42 +140,7 @@ architecture processor_logic of processor is
 	signal reg_wrt_decoder		: std_logic;
 	signal mem_wrt_decoder		: std_logic;
 begin
-
-	-- Debugging signals for simulation
-	-- Flow control
-	pc_ins			<=	pc;
-	instruction_ins		<=	instruction;
-	take_branch_ins		<=	take_branch;
-		
-	-- Control signals
-	alu_op_ins		<=	alu_op;
-	mem_to_reg_ins		<=	mem_to_reg;
-	reg_wrt_ins		<=	reg_wrt;
-	mem_wrt_ins		<=	mem_wrt;
-	branch_ins		<=	branch;
-	sign_extend_ins		<=	sign_extend;
-	use_imm_ins		<=	use_imm;
-	use_sa_ins		<=	use_sa;
-
-	-- ALU;
- 	immediate_extended_ins	<=	immediate_extended;
-	shamt_extended_ins	<=	shamt_extended;
-	alu_b_reg_imm_ins	<=	alu_b_reg_imm;
-	alu_a_ins		<=	alu_a;
-	alu_b_ins		<=	alu_b;
-	alu_r_ins		<=	alu_r;
-	of_flag_ins		<=	of_flag;
-	z_flag_ins		<=	z_flag;
-
-	-- Register
-	rs_ins			<=	rs;
-	rt_ins			<=	rt;
-	rd_ins			<=	rd;
-	reg_bus_a_ins		<=	reg_bus_a;
-	reg_bus_b_ins		<=	reg_bus_b;
-	reg_bus_wrt_ins		<=	reg_bus_wrt;
-	
-	-- Data Memory
+	-- Data Memory Inspect
 	data_mem_out_ins	<=	data_mem_out;
 
 	-- STAGE 1: IF
