@@ -4,10 +4,10 @@ use ieee.numeric_std.all;
 use work.eecs361.all;
 use work.eecs361_gates.all;
 
-entity processor_unsigned_add_test is
-end entity processor_unsigned_add_test;
+entity processor_forwarding_stall is
+end entity processor_forwarding_stall;
 
-architecture behavioral of processor_unsigned_add_test is
+architecture behavioral of processor_forwarding_stall is
 	signal init			: std_logic;				-- Set pc to pc_init_data if pc_init is set
 	signal pc_init_data		: std_logic_vector (31 downto 0);	-- Initial value for program counter
 	signal clk			: std_logic := '0';
@@ -50,11 +50,12 @@ architecture behavioral of processor_unsigned_add_test is
 	signal data_mem_out		: std_logic_vector (31 downto 0);
 
 	signal clk_cnt			: integer := -1;
+
 begin
 
 test_comp : processor
 	generic map (
-		code			=>	"data/unsigned_sum.dat"
+		code			=>	"data/forwarding_stalls.dat"
 	)
 	port map (
 		init			=>	init,
@@ -118,16 +119,67 @@ testbench : process
 	pc_init_data <= x"00400020";
 	wait until  rising_edge(clk);
 	init <= '0';
+	wait until falling_edge(clk);
 
 	-- Run Code
-	wait for 100 ns;	-- Enough time to run the code
+	wait for 170 ns;	-- Enough time to run the code
 
-	-- Inspect memory manually to ensure code ran correctly
-	wait until rising_edge(clk);
+-- Inspect memory manually to ensure code ran correctly
 	manual_mem_inspect <= '1';
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000000";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000004";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000008";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"1000000c";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"000002bc" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000010";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000014";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000018";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000190" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"1000001c";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000020";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+	
+	wait until rising_edge(clk);
+	manual_mem_inspect_addr <= x"10000024";
+	wait until falling_edge(clk);
+	assert data_mem_out = x"00000000" report "ERROR: Code did not execute correctly" severity error;
+	
+	wait until rising_edge(clk);
 	manual_mem_inspect_addr <= x"10000028";
 	wait until falling_edge(clk);
-	assert data_mem_out = x"ffffffff" report "ERROR: Code did not execute correctly" severity error;
+	assert data_mem_out = x"00000038" report "ERROR: Code did not execute correctly" severity error;
 
 	wait;
   end process testbench;

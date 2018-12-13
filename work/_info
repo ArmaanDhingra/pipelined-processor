@@ -23,9 +23,9 @@ Vha=k9Mm[W5?n;]XFl79UF0
 !s100 @gkoDmdIJMQ8Oo;2?65Qb3
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1544612068
+Z9 !s110 1544656570
 !i10b 1
-Z10 !s108 1544612068.000000
+Z10 !s108 1544656570.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/full_adder_1.vhd|
 Z12 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/full_adder_1.vhd|
 !i113 1
@@ -109,9 +109,9 @@ VEVL4P0B=95O3L]ALj;^nY1
 !s100 H:G:`?@=Sf2nY0ilo>`BO1
 R8
 32
-Z21 !s110 1544612067
+Z21 !s110 1544656569
 !i10b 1
-Z22 !s108 1544612067.000000
+Z22 !s108 1544656569.000000
 Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_1_test.vhd|
 Z24 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/alu_1_test.vhd|
 !i113 1
@@ -240,9 +240,9 @@ VhE_e_Rgm[N3PdZh[V=Az?1
 !s100 9zM?`;meNomBE;big9UG12
 R8
 32
-Z37 !s110 1544612063
+Z37 !s110 1544656565
 !i10b 1
-Z38 !s108 1544612063.000000
+Z38 !s108 1544656565.000000
 Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate.vhd|
 Z40 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate.vhd|
 !i113 1
@@ -279,11 +279,11 @@ V;K@lPb^fUn5NRPE9^YUWn1
 !s100 KSRcRaLU>DVF[looI[MAB1
 R8
 32
-Z43 !s110 1544612064
+R37
 !i10b 1
-Z44 !s108 1544612064.000000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd|
-Z46 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd|
+R38
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd|
+Z44 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -297,11 +297,11 @@ V_L`Mb12In>DaA6S>F3dR_2
 !s100 7eGi4aE3j0c6RNWj8;hYn2
 R8
 32
-R43
+R37
 !i10b 1
+R38
+R43
 R44
-R45
-R46
 !i113 1
 R13
 R14
@@ -310,19 +310,19 @@ R1
 R4
 R5
 R0
-Z47 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd
-Z48 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd
+Z45 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd
+Z46 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd
 l0
 L5
 V9MR1C1[7b:z414JH]o[Q72
 !s100 BgW1<b848=U4b0Fm5IB4V0
 R8
 32
-R43
+R37
 !i10b 1
-R44
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd|
-Z50 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd|
+R38
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd|
+Z48 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/and_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -336,11 +336,11 @@ VNZceK8zIhSAfFLMf;8WfJ0
 !s100 TlhKh<Ln2>7=AINQTiM_c3
 R8
 32
-R43
+R37
 !i10b 1
-R44
-R49
-R50
+R38
+R47
+R48
 !i113 1
 R13
 R14
@@ -353,19 +353,19 @@ R30
 R4
 R5
 R0
-Z51 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd
-Z52 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd
+Z49 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd
+Z50 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd
 l0
 L25
 VkgNHO[WiiZU;i]UD7ZDC;2
 !s100 Q5cZin:maMXGJRV<;kSFa3
 R8
 32
-Z53 !s110 1544612069
+R9
 !i10b 1
-Z54 !s108 1544612069.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd|
-Z56 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd|
+R10
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd|
+Z52 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/branch_resolver.vhd|
 !i113 1
 R13
 R14
@@ -383,11 +383,11 @@ VnzjTmeFL;>kHHZDSWTMz<2
 !s100 V6km7[hH_@WD1P@oc[;711
 R8
 32
-R53
+R9
 !i10b 1
-R54
-R55
-R56
+R10
+R51
+R52
 !i113 1
 R13
 R14
@@ -400,8 +400,8 @@ R30
 R4
 R5
 R0
-Z57 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd
-Z58 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd
+Z53 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd
+Z54 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd
 l0
 L25
 Vh8O>:1WbfL8ieN<ILB>kY3
@@ -411,8 +411,8 @@ R8
 R21
 !i10b 1
 R22
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
-Z60 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
+Z56 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/branch_resolver_test.vhd|
 !i113 1
 R13
 R14
@@ -433,31 +433,31 @@ R8
 R21
 !i10b 1
 R22
-R59
-R60
+R55
+R56
 !i113 1
 R13
 R14
 Econtrol_signals
-Z61 w1544596444
+Z57 w1544596444
 R2
 R3
 R4
 R5
 R0
-Z62 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd
-Z63 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd
+Z58 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd
+Z59 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd
 l0
 L6
 VzGm>[9=aafS7<hohL@<[12
 !s100 CAlXK<5eCooMH7Az77=_C0
 R8
 32
-Z64 !s110 1544612065
+Z60 !s110 1544656566
 !i10b 1
-Z65 !s108 1544612065.000000
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd|
-Z67 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd|
+Z61 !s108 1544656566.000000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd|
+Z63 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/control_signals.vhd|
 !i113 1
 R13
 R14
@@ -473,16 +473,16 @@ VJ1mR3Lk^2G1Q`X<hDKXdM3
 !s100 ^aeQ^Uch<1n?PCZaFBEhK0
 R8
 32
-R64
+R60
 !i10b 1
-R65
-R66
-R67
+R61
+R62
+R63
 !i113 1
 R13
 R14
 Econtrol_signals_test
-Z68 w1544578635
+Z64 w1544578635
 R2
 R3
 R4
@@ -496,9 +496,9 @@ V0ceT<gPOgKNhDgFZQ6kk62
 !s100 :24maGSoe9PXf:68Z_2z@0
 R8
 32
-R53
+Z65 !s110 1544656571
 !i10b 1
-R54
+Z66 !s108 1544656571.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/control_signals_test.vhd|
 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/control_signals_test.vhd|
 !i113 1
@@ -510,19 +510,19 @@ R30
 R4
 R5
 R0
-Z69 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd
-Z70 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd
+Z67 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd
+Z68 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd
 l0
 L5
 V0a>XSXG3^zhkzX^i4@9Ea1
 !s100 TFYiE@E?[zcS;UYZJZ]e]0
 R8
 32
-R43
+R37
 !i10b 1
-R44
-Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd|
-Z72 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd|
+R38
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd|
+Z70 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dec_n.vhd|
 !i113 1
 R13
 R14
@@ -537,11 +537,11 @@ VaL_C;f4Cnzb@MDAjLf1Ed3
 !s100 55g?PRCWKJcmYh6jzUGZ80
 R8
 32
-R43
+R37
 !i10b 1
-R44
-R71
-R72
+R38
+R69
+R70
 !i113 1
 R13
 R14
@@ -552,8 +552,8 @@ R3
 R4
 R5
 R0
-Z73 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd
-Z74 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd
+Z71 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd
+Z72 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd
 l0
 L5
 VYR<f20Ihg5MNEiM4HkRb:3
@@ -563,8 +563,8 @@ R8
 R21
 !i10b 1
 R22
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd|
-Z76 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd|
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd|
+Z74 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dec_n_test.vhd|
 !i113 1
 R13
 R14
@@ -583,8 +583,8 @@ R8
 R21
 !i10b 1
 R22
-R75
-R76
+R73
+R74
 !i113 1
 R13
 R14
@@ -593,19 +593,19 @@ R1
 R4
 R5
 R0
-Z77 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd
-Z78 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd
+Z75 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd
+Z76 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd
 l0
 L4
 V?Dl0]I?oihzd6e58lnTeT3
 !s100 6RF6aKO;bLUdc^Uo1TlJA1
 R8
 32
-Z79 !s110 1544612061
+Z77 !s110 1544656562
 !i10b 1
-Z80 !s108 1544612061.000000
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd|
-Z82 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd|
+Z78 !s108 1544656562.000000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd|
+Z80 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dff.vhd|
 !i113 1
 R13
 R14
@@ -619,11 +619,11 @@ Ve^^=95d6ZUNM<z0RP@Q=G0
 !s100 YQ?Mf61<mPk;FAfQWmbPe2
 R8
 32
-R79
+R77
 !i10b 1
+R78
+R79
 R80
-R81
-R82
 !i113 1
 R13
 R14
@@ -634,19 +634,19 @@ R3
 R4
 R5
 R0
-Z83 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd
-Z84 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd
+Z81 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd
+Z82 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd
 l0
 L5
 VcS:67emY2M3B15DeD>T??0
 !s100 RMU:49IZZEnM@B`5Yd>5b3
 R8
 32
-R9
+R21
 !i10b 1
 R22
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd|
-Z86 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd|
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd|
+Z84 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dff_test.vhd|
 !i113 1
 R13
 R14
@@ -662,11 +662,11 @@ V>UilPnM>5ZNMN3diUmCUg1
 !s100 ;1KT;H9Ee8ZG2;mUbhi4O3
 R8
 32
-R9
+R21
 !i10b 1
 R22
-R85
-R86
+R83
+R84
 !i113 1
 R13
 R14
@@ -675,19 +675,19 @@ R1
 R4
 R5
 R0
-Z87 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd
-Z88 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd
+Z85 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd
+Z86 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd
 l0
 L4
 V]V0nCm<P[hMQe1HJ>dK>m2
 !s100 8^h72ccPiicFMoll6;?B^1
 R8
 32
-R79
+R77
 !i10b 1
-R80
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd|
-Z90 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd|
+R78
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd|
+Z88 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr.vhd|
 !i113 1
 R13
 R14
@@ -701,11 +701,11 @@ VeUY?8[LZleUS82iiKEe5Y0
 !s100 [jSDjV[;ooEXI1fbj<kQH2
 R8
 32
-R79
+R77
 !i10b 1
-R80
-R89
-R90
+R78
+R87
+R88
 !i113 1
 R13
 R14
@@ -714,19 +714,19 @@ R1
 R4
 R5
 R0
-Z91 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd
-Z92 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd
+Z89 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd
+Z90 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd
 l0
 L4
 V4[b^00[Ug:gIIbna]26832
 !s100 Ae06@YlEN>^ZBC[J]R^j?2
 R8
 32
-R79
+R77
 !i10b 1
-R80
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd|
-Z94 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd|
+R78
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd|
+Z92 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/dffr_a.vhd|
 !i113 1
 R13
 R14
@@ -740,11 +740,11 @@ V2e``[JLG1V9mIKaN=UMS62
 !s100 18jIoW:5CWgj6bjeXK^2W3
 R8
 32
-R79
+R77
 !i10b 1
-R80
-R93
-R94
+R78
+R91
+R92
 !i113 1
 R13
 R14
@@ -755,19 +755,19 @@ R3
 R4
 R5
 R0
-Z95 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd
-Z96 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd
+Z93 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd
+Z94 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd
 l0
 L5
 VoS8ZAB@j<XB@DCRTPgbAm2
 !s100 iQQKEaWhl1j:`9aDfg`2X1
 R8
 32
-R9
+R21
 !i10b 1
-R10
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd|
-Z98 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd|
+R22
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd|
+Z96 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_a_test.vhd|
 !i113 1
 R13
 R14
@@ -783,11 +783,11 @@ VmjPfQ;G6<TJD8c2R3Gg0d2
 !s100 0ozhNEQFXaNL1<C];]]212
 R8
 32
-R9
+R21
 !i10b 1
-R10
-R97
-R98
+R22
+R95
+R96
 !i113 1
 R13
 R14
@@ -798,17 +798,17 @@ R3
 R4
 R5
 R0
-Z99 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd
-Z100 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd
+Z97 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd
+Z98 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd
 l0
 L5
 VEnK_CDY7Y_oJ4Ok5Fca=X3
 !s100 i:K0ZmhBIZU0BKZacn^Ra1
 R8
 32
-R64
+Z99 !s110 1544656567
 !i10b 1
-R65
+Z100 !s108 1544656567.000000
 Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd|
 Z102 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/dffr_test.vhd|
 !i113 1
@@ -826,9 +826,9 @@ VR5SOeEjNQ;;5A6NK8=]K12
 !s100 E3of8[IV2z]8@4`WRB4R@0
 R8
 32
-R64
+R99
 !i10b 1
-R65
+R100
 R101
 R102
 !i113 1
@@ -848,9 +848,9 @@ VHU[VZTkLLf0]9bzmfTb]E3
 !s100 YDzLE<8jQ2fb_TFIY1dH51
 R8
 32
-R43
+R37
 !i10b 1
-R44
+R38
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361.vhd|
 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361.vhd|
 !i113 1
@@ -869,9 +869,9 @@ VG@G3>3naH[gM9iCRR86lk0
 !s100 EFJF``Kkcd:<4LI@jVAPI3
 R8
 32
-R79
+R77
 !i10b 1
-R80
+R78
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361_gates.vhd|
 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/eecs361_gates.vhd|
 !i113 1
@@ -892,9 +892,9 @@ VkRaPM^6E[?QRMjf3R1<>U1
 !s100 Ye]?WDEVmX2kc=fnH78>o2
 R8
 32
-R64
+R60
 !i10b 1
-R65
+R61
 Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/ex_mem_register.vhd|
 Z107 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/ex_mem_register.vhd|
 !i113 1
@@ -912,9 +912,9 @@ Vcm5BlEcjzFbch7Z4_DkK33
 !s100 DI_bMOhS<0bTEHj3mjogn2
 R8
 32
-R64
+R60
 !i10b 1
-R65
+R61
 R106
 R107
 !i113 1
@@ -936,11 +936,11 @@ V98^RcId`MF0meoO;^@U]>3
 !s100 2g;WF5?C2m[lEVnfL7PBN0
 R8
 32
-Z111 !s110 1544612066
+R99
 !i10b 1
-R65
-Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd|
-Z113 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd|
+R100
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd|
+Z112 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/ex_mem_register_test.vhd|
 !i113 1
 R13
 R14
@@ -957,11 +957,11 @@ VM5X7:TIRc@N^8U0Jzn:`b1
 !s100 n]b^=cIaCVkj0oR06>2QF1
 R8
 32
-R111
+R99
 !i10b 1
-R65
+R100
+R111
 R112
-R113
 !i113 1
 R13
 R14
@@ -971,19 +971,19 @@ R2
 R4
 R5
 R0
-Z114 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd
-Z115 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd
+Z113 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd
+Z114 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd
 l0
 L5
 Vb;=]Ucd>TVn2zF2WE``i_0
 !s100 0oK89in>[fHG7gcACjV<71
 R8
 32
-R43
+R37
 !i10b 1
-R44
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd|
-Z117 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd|
+R38
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd|
+Z116 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/extender/extender.vhd|
 !i113 1
 R13
 R14
@@ -998,11 +998,11 @@ Vg5j8d4N7P_I<]M76l;<=J3
 !s100 @NUCUZS1=?A]3e3g_4c5^2
 R8
 32
-R43
+R37
 !i10b 1
-R44
+R38
+R115
 R116
-R117
 !i113 1
 R13
 R14
@@ -1013,19 +1013,19 @@ R3
 R4
 R5
 R0
-Z118 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd
-Z119 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd
+Z117 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd
+Z118 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd
 l0
 L5
 VR8CfTDB[0B_Wf:R@N3ao12
 !s100 olC:0[BXaZgPXKzJz996?3
 R8
 32
-R111
+R99
 !i10b 1
-Z120 !s108 1544612066.000000
-Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd|
-Z122 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd|
+R100
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd|
+Z120 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/extender_test.vhd|
 !i113 1
 R13
 R14
@@ -1041,33 +1041,33 @@ VRQlcX5gUU5zS?2AHk>5cJ0
 !s100 YMV2abTRBdSI2Vfl[IoJ:1
 R8
 32
-R111
+R99
 !i10b 1
+R100
+R119
 R120
-R121
-R122
 !i113 1
 R13
 R14
 Eforwarding_unit
-Z123 w1544581307
+Z121 w1544581307
 R2
 R4
 R5
 R0
-Z124 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd
-Z125 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd
+Z122 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd
+Z123 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd
 l0
 L8
 V5Xh?e?^CY[MFLD[:a4XhW0
 !s100 S3[kBZL[I=51H_6jZJS^73
 R8
 32
-R43
+R37
 !i10b 1
-R44
-Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd|
-Z127 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd|
+R38
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd|
+Z125 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/forwarding_unit.vhd|
 !i113 1
 R13
 R14
@@ -1082,35 +1082,35 @@ VV4dKN::N]Wj7klG_^Wl1n2
 !s100 G>=A2;WhdODj]<2QTJYdV3
 R8
 32
-R43
+R37
 !i10b 1
-R44
-R126
-R127
+R38
+R124
+R125
 !i113 1
 R13
 R14
 Eforwarding_unit_tb
-Z128 w1544581312
+Z126 w1544581312
 R3
 R2
 R30
 R4
 R5
 R0
-Z129 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd
-Z130 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd
+Z127 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd
+Z128 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd
 l0
 L9
 V[UU[352]<^QKnW>cM1MdW2
 !s100 X_JaNha<b_VGz0gl?RMG03
 R8
 32
-R111
+R99
 !i10b 1
-R120
-Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd|
-Z132 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd|
+R100
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd|
+Z130 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/forwarding_unit_test.vhd|
 !i113 1
 R13
 R14
@@ -1127,34 +1127,34 @@ Vd@^d5k3mFQmh@CI2OG[dX2
 !s100 CC^j5fa8G[X7YfNz>VS4Z3
 R8
 32
-R111
+R99
 !i10b 1
-R120
-R131
-R132
+R100
+R129
+R130
 !i113 1
 R13
 R14
 Eid_ex_register
-Z133 w1544603283
+Z131 w1544603283
 R2
 R3
 R4
 R5
 R0
-Z134 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
-Z135 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
+Z132 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
+Z133 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd
 l0
 L6
 Vkf4@`aUPL7V;jEfGRaC9F0
 !s100 g]Xz:dP4KOWUbJ?mRIn782
 R8
 32
-R64
+R60
 !i10b 1
-R65
-Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
-Z137 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
+R61
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
+Z135 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/id_ex_register.vhd|
 !i113 1
 R13
 R14
@@ -1170,16 +1170,16 @@ VO]9<i3>cc7^SIXW:]3=<N1
 !s100 m_l@7WflFST[idI1dZ7_32
 R8
 32
-R64
+R60
 !i10b 1
-R65
-R136
-R137
+R61
+R134
+R135
 !i113 1
 R13
 R14
 Eid_ex_test
-R68
+R64
 R2
 R3
 R4
@@ -1193,34 +1193,34 @@ VTPSO`4U1Sz>V;oFKjmS?_1
 !s100 jYik_ONI:5cQOJE:HRbR]3
 R8
 32
-R53
+R9
 !i10b 1
-R54
+R10
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/id_ex_test.vhd|
 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/id_ex_test.vhd|
 !i113 1
 R13
 R14
 Eif_id_register
-Z138 w1544583031
+Z136 w1544583031
 R2
 R3
 R4
 R5
 R0
-Z139 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
-Z140 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
+Z137 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
+Z138 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd
 l0
 L6
 VmEjdTXH=lCRgORLVQ3AQc2
 !s100 PMJSb3JE=enj>5XANinUU3
 R8
 32
-R64
+R99
 !i10b 1
-R65
-Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
-Z142 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
+R61
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
+Z140 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/if_id_register.vhd|
 !i113 1
 R13
 R14
@@ -1236,34 +1236,34 @@ Vmf^e[Tm2?T63lWb2[NnNc1
 !s100 2:ea[AWU1@o=m3XjAo8k42
 R8
 32
-R64
+R99
 !i10b 1
-R65
-R141
-R142
+R61
+R139
+R140
 !i113 1
 R13
 R14
 Eif_id_test
-Z143 w1544582990
+Z141 w1544582990
 R2
 R3
 R4
 R5
 R0
-Z144 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd
-Z145 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd
+Z142 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd
+Z143 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd
 l0
 L6
 VXF5fTgQ9;7o7eDJcYbX2z3
 !s100 R2znlQFIJA?ciUMa`ChLD3
 R8
 32
-R9
+R21
 !i10b 1
-R10
-Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd|
-Z147 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd|
+R22
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd|
+Z145 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/if_id_test.vhd|
 !i113 1
 R13
 R14
@@ -1279,11 +1279,11 @@ VQ1d[Q4nZG<ooPW_]K`GnL2
 !s100 `Y<lDOlI9mT^HW<IkQ`UV0
 R8
 32
-R9
+R21
 !i10b 1
-R10
-R146
-R147
+R22
+R144
+R145
 !i113 1
 R13
 R14
@@ -1296,19 +1296,19 @@ R30
 R4
 R5
 R0
-Z148 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd
-Z149 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd
+Z146 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd
+Z147 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd
 l0
 L25
 VAU[aEmjRcgARSSL9FC[:M0
 !s100 eO8@K_gIDG2Gd`:>Ib=ol1
 R8
 32
-R53
+R9
 !i10b 1
-R54
-Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd|
-Z151 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd|
+R10
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd|
+Z149 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/control/instruction_decoder.vhd|
 !i113 1
 R13
 R14
@@ -1326,11 +1326,11 @@ V4:CBF^F::E^o;kVBSj_nB3
 !s100 U1SnFXKMJYi^aiP__DIYo0
 R8
 32
-R53
+R9
 !i10b 1
-R54
-R150
-R151
+R10
+R148
+R149
 !i113 1
 R13
 R14
@@ -1343,19 +1343,19 @@ R30
 R4
 R5
 R0
-Z152 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
-Z153 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
+Z150 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
+Z151 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd
 l0
 L25
 VEzLB=_]5fTAb8:`m9^G?N3
 !s100 ;Y8bi1fJ49D:g`QM8M^8[3
 R8
 32
-R111
+R99
 !i10b 1
-R120
-Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
-Z155 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
+R100
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
+Z153 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/instruction_decoder_test.vhd|
 !i113 1
 R13
 R14
@@ -1373,34 +1373,34 @@ VP>GHaN6@hJi679jORm[M20
 !s100 _^CSjmZ=Q3KEL6NLe_BoR1
 R8
 32
-R111
+R99
 !i10b 1
-R120
-R154
-R155
+R100
+R152
+R153
 !i113 1
 R13
 R14
 Emem_wb_register
-Z156 w1544603879
+Z154 w1544603879
 R2
 R3
 R4
 R5
 R0
-Z157 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd
-Z158 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd
+Z155 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd
+Z156 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd
 l0
 L6
 VQG3GbFe]WBV]OR<Cj1??c2
 !s100 9AAI2c@c2634[RZg9VMT83
 R8
 32
-R64
+R99
 !i10b 1
-R65
-Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd|
-Z160 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd|
+R100
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd|
+Z158 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/pipeline_registers/mem_wb_register.vhd|
 !i113 1
 R13
 R14
@@ -1416,35 +1416,35 @@ V>SnT>R:?bn1>4_kPA]6Pk0
 !s100 ?8ikEXDzBZAL[i^C4k63[3
 R8
 32
-R64
+R99
 !i10b 1
-R65
-R159
-R160
+R100
+R157
+R158
 !i113 1
 R13
 R14
 Emem_wb_register_tb
-Z161 w1544597885
+Z159 w1544597885
 R30
 R2
 R3
 R4
 R5
 R0
-Z162 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd
-Z163 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd
+Z160 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd
+Z161 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd
 l0
 L9
 Vn0eV?1N06JB2X8`3fMzlV1
 !s100 eV[_jR`WMHGmR]]=z?B3F3
 R8
 32
-R9
+R21
 !i10b 1
-R10
-Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd|
-Z165 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd|
+R22
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd|
+Z163 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mem_wb_register_test.vhd|
 !i113 1
 R13
 R14
@@ -1461,11 +1461,11 @@ V5U>:A67oHT1[d8>]CA8Bm1
 !s100 6k5Y:1Bk[1]3oT7]ROoHa3
 R8
 32
-R9
+R21
 !i10b 1
-R10
-R164
-R165
+R22
+R162
+R163
 !i113 1
 R13
 R14
@@ -1476,19 +1476,19 @@ R3
 R4
 R5
 R0
-Z166 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd
-Z167 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd
+Z164 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd
+Z165 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd
 l0
 L5
 V>oJ5U=BnI^`ag0=K]WZKO0
 !s100 R7SGh1UNzgRXkDgUzi0Dn0
 R8
 32
-R43
+R60
 !i10b 1
-R44
-Z168 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd|
-Z169 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd|
+R38
+Z166 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd|
+Z167 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux.vhd|
 !i113 1
 R13
 R14
@@ -1504,11 +1504,11 @@ V9e3_f``Qg4GhTA>ag5:8o0
 !s100 TMbaX=C3aUF9Pl?TK_bl20
 R8
 32
-R43
+R60
 !i10b 1
-R44
-R168
-R169
+R38
+R166
+R167
 !i113 1
 R13
 R14
@@ -1519,19 +1519,19 @@ R3
 R4
 R5
 R0
-Z170 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd
-Z171 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd
+Z168 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd
+Z169 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd
 l0
 L5
 V;ZJB3@XFiFdGS?g@RF1Vc3
 !s100 ciE_BzZP_7gaALUfNcf3V2
 R8
 32
-R43
+R60
 !i10b 1
-R44
-Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd|
-Z173 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd|
+R61
+Z170 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd|
+Z171 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_32.vhd|
 !i113 1
 R13
 R14
@@ -1547,11 +1547,11 @@ V;ZASSMASd=3o_Ld=:eJLS1
 !s100 iiT]gRaJ0BGA@1c7lKGZ;1
 R8
 32
-R43
+R60
 !i10b 1
-R44
-R172
-R173
+R61
+R170
+R171
 !i113 1
 R13
 R14
@@ -1560,19 +1560,19 @@ R1
 R4
 R5
 R0
-Z174 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd
-Z175 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd
+Z172 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd
+Z173 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd
 l0
 L4
 V;Rg1MaANM2BcjIoIGiMR>3
 !s100 DhH_dWUkhZScmPX0PShL>1
 R8
 32
-R79
+R77
 !i10b 1
-R80
-Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd|
-Z177 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd|
+R78
+Z174 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd|
+Z175 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/mux_n.vhd|
 !i113 1
 R13
 R14
@@ -1586,11 +1586,11 @@ Vdbi;>X`Mj01bMajZB2?643
 !s100 VOPJAGmKhfQ>L9L:P_FXf0
 R8
 32
-R79
+R77
 !i10b 1
-R80
-R176
-R177
+R78
+R174
+R175
 !i113 1
 R13
 R14
@@ -1601,19 +1601,19 @@ R3
 R4
 R5
 R0
-Z178 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd
-Z179 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd
+Z176 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd
+Z177 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd
 l0
 L5
 VOZMMdDei:To`DVRokWzEk0
 !s100 R><3DnEo`[<Z]oI5KTXLQ1
 R8
 32
-R111
+R99
 !i10b 1
-R120
-Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd|
-Z181 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd|
+R100
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd|
+Z179 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/mux_n_test.vhd|
 !i113 1
 R13
 R14
@@ -1629,11 +1629,11 @@ VY:f1I:]7ibHBO8e@dWMT31
 !s100 a?ga6edNF0PiP8n2<Xfd?0
 R8
 32
-R111
+R99
 !i10b 1
-R120
-R180
-R181
+R100
+R178
+R179
 !i113 1
 R13
 R14
@@ -1642,17 +1642,17 @@ R1
 R4
 R5
 R0
-Z182 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd
-Z183 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd
+Z180 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd
+Z181 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd
 l0
 L5
 V=i<fNcci6gazbNoz7Zo?B0
 !s100 `;YoNjg98=RO3KEUJb?JH2
 R8
 32
-R79
+Z182 !s110 1544656563
 !i10b 1
-R80
+Z183 !s108 1544656563.000000
 Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd|
 Z185 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate.vhd|
 !i113 1
@@ -1668,9 +1668,9 @@ Vl^zW<z;Pl8NkCT3h`m8f>3
 !s100 DdgXSJTenGYMFNYGk^j2^2
 R8
 32
-R79
+R182
 !i10b 1
-R80
+R183
 R184
 R185
 !i113 1
@@ -1689,9 +1689,9 @@ Vm1GdlgCSaKXEezc1oQ5A53
 !s100 d7`oU3cRhD_iz]OR?aJbM0
 R8
 32
-R79
+R182
 !i10b 1
-R80
+R183
 Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
 Z189 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_32.vhd|
 !i113 1
@@ -1707,9 +1707,9 @@ V?=O5i19k>6?EO?fWFWmQ33
 !s100 5L7`cY6bRPYMYkmEYAg871
 R8
 32
-R79
+R182
 !i10b 1
-R80
+R183
 R188
 R189
 !i113 1
@@ -1728,9 +1728,9 @@ VR6;g^V_FPW0;nb=i<dJlI3
 !s100 LMidV?0i^0NCQXjDDfE0j1
 R8
 32
-R79
+R182
 !i10b 1
-R80
+R183
 Z192 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
 Z193 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nand_gate_n.vhd|
 !i113 1
@@ -1746,9 +1746,9 @@ V`S7jEGJ6CA=AG<0ak5P6D1
 !s100 5mzmEVJ8`Ol]kLAA1ADTS0
 R8
 32
-R79
+R182
 !i10b 1
-R80
+R183
 R192
 R193
 !i113 1
@@ -1767,11 +1767,11 @@ V0L7S;NMz9_M@NF0N3jjl53
 !s100 Uz[KW04m>JL2N=<Ae_26A3
 R8
 32
-Z196 !s110 1544612062
+R182
 !i10b 1
-Z197 !s108 1544612062.000000
-Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd|
-Z199 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd|
+R183
+Z196 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd|
+Z197 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate.vhd|
 !i113 1
 R13
 R14
@@ -1785,11 +1785,11 @@ Vg6WmIRLO`^]W8MOk44NQ02
 !s100 kE2E`N:jBl`5f7h@CAkLc3
 R8
 32
-R196
+R182
 !i10b 1
+R183
+R196
 R197
-R198
-R199
 !i113 1
 R13
 R14
@@ -1798,19 +1798,19 @@ R1
 R4
 R5
 R0
-Z200 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd
-Z201 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd
+Z198 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd
+Z199 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd
 l0
 L5
 VJYT;XbbHkkG9;BF<8bSZ[2
 !s100 3mdJRKLJ_1Z1ih<o1WC>A3
 R8
 32
-R196
+R182
 !i10b 1
-R197
-Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
-Z203 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
+R183
+Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
+Z201 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1824,11 +1824,11 @@ V[3NO3nGH3BHP0aAz4=<U;0
 !s100 4C[N[o;dbNU?^;JAFz8P@0
 R8
 32
-R196
+R182
 !i10b 1
-R197
-R202
-R203
+R183
+R200
+R201
 !i113 1
 R13
 R14
@@ -1837,19 +1837,19 @@ R1
 R4
 R5
 R0
-Z204 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd
-Z205 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd
+Z202 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd
+Z203 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd
 l0
 L5
 VjaFJH5UI;Xc1C=l<5c`S^1
 !s100 WOgXHNaOaa3V@ZQR9[dBF2
 R8
 32
-R196
+R182
 !i10b 1
-R197
-Z206 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
-Z207 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
+R183
+Z204 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
+Z205 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/nor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -1863,11 +1863,11 @@ V9dCFzT;RnT>eMXZgOEFXh2
 !s100 LLY;[lESSHQFLXI0BM0Lk2
 R8
 32
-R196
+R182
 !i10b 1
-R197
-R206
-R207
+R183
+R204
+R205
 !i113 1
 R13
 R14
@@ -1876,19 +1876,19 @@ R1
 R4
 R5
 R0
-Z208 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd
-Z209 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd
+Z206 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd
+Z207 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd
 l0
 L5
 V?REPgFkfC>l7me3_Cm;h]0
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R8
 32
-R196
+R182
 !i10b 1
-R197
-Z210 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd|
-Z211 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd|
+R183
+Z208 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd|
+Z209 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate.vhd|
 !i113 1
 R13
 R14
@@ -1902,11 +1902,11 @@ V^N]`_cihjlkgk@GD2ifne3
 !s100 0K4o_`::YhV<`CcAlY38V3
 R8
 32
-R196
+R182
 !i10b 1
-R197
-R210
-R211
+R183
+R208
+R209
 !i113 1
 R13
 R14
@@ -1915,19 +1915,19 @@ R1
 R4
 R5
 R0
-Z212 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd
-Z213 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd
+Z210 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd
+Z211 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd
 l0
 L5
 V5z8ni8e9GEdi_1z[h3[YT3
 !s100 MlQa>L3D?j3YTME?WDA^I3
 R8
 32
-R196
+R182
 !i10b 1
-R197
-Z214 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd|
-Z215 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd|
+R183
+Z212 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd|
+Z213 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -1941,11 +1941,11 @@ VooYb<YVBcg]jka=E1Bz2U2
 !s100 SZ]KSd]7=<``cT7UO3c^32
 R8
 32
-R196
+R182
 !i10b 1
-R197
-R214
-R215
+R183
+R212
+R213
 !i113 1
 R13
 R14
@@ -1954,19 +1954,19 @@ R1
 R4
 R5
 R0
-Z216 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd
-Z217 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd
+Z214 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd
+Z215 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd
 l0
 L5
 VL[_>1Hz4EFXGgW8O0lzPe0
 !s100 IMo29cac8Wo2jk<h1@>Y41
 R8
 32
-R196
+R182
 !i10b 1
-R197
-Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd|
-Z219 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd|
+R183
+Z216 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd|
+Z217 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/not_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -1980,11 +1980,11 @@ V^?aa<E?_8@T0dJRWCLiMk2
 !s100 f1R?C4QOI1W16^[L00fF`1
 R8
 32
-R196
+R182
 !i10b 1
-R197
-R218
-R219
+R183
+R216
+R217
 !i113 1
 R13
 R14
@@ -1993,19 +1993,19 @@ R1
 R4
 R5
 R0
-Z220 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd
-Z221 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd
+Z218 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd
+Z219 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd
 l0
 L5
 VO1l5BHjZPQ5?]IFn9;=UE2
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R8
 32
-R196
+Z220 !s110 1544656564
 !i10b 1
-R197
-Z222 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd|
-Z223 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd|
+R183
+Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd|
+Z222 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate.vhd|
 !i113 1
 R13
 R14
@@ -2019,11 +2019,11 @@ VU4niXK]Pm[B5X9KH>G;F:1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R8
 32
-R196
+R220
 !i10b 1
-R197
+R183
+R221
 R222
-R223
 !i113 1
 R13
 R14
@@ -2032,17 +2032,17 @@ R1
 R4
 R5
 R0
-Z224 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd
-Z225 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd
+Z223 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd
+Z224 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd
 l0
 L5
 VR4T`[JT7zTSFAT?fEEf591
 !s100 XkkR6QF?Vl4ZJYEZjo;0l2
 R8
 32
-R196
+R220
 !i10b 1
-R197
+Z225 !s108 1544656564.000000
 Z226 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd|
 Z227 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_32.vhd|
 !i113 1
@@ -2058,9 +2058,9 @@ Vm<XLcN8OGfnn6foi[Re=10
 !s100 K:BE?onG;^0[1Z5dkfcRR0
 R8
 32
-R196
+R220
 !i10b 1
-R197
+R225
 R226
 R227
 !i113 1
@@ -2079,9 +2079,9 @@ VhcjC8YfR[BWVL];cJhOKi1
 !s100 Y[01iFT>714d^L[KJ4VM82
 R8
 32
-R196
+R220
 !i10b 1
-R197
+R225
 Z230 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_n.vhd|
 Z231 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/or_gate_n.vhd|
 !i113 1
@@ -2097,9 +2097,9 @@ VJC>ZhgR[jGRkBeQ>4LTHl1
 !s100 X0T0eOJ7Mi7@HZjHoZO6:3
 R8
 32
-R196
+R220
 !i10b 1
-R197
+R225
 R230
 R231
 !i113 1
@@ -2168,11 +2168,11 @@ VRPAzNhkJh59oWK9[i_A7Q0
 !s100 :][5iZ=10F@jmgjbJcXdY0
 R8
 32
-R111
+Z240 !s110 1544656568
 !i10b 1
-R120
-Z240 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd|
-Z241 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd|
+R100
+Z241 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd|
+Z242 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/pc_controller_test.vhd|
 !i113 1
 R13
 R14
@@ -2189,16 +2189,16 @@ VSiPnZ0j6<n4AYKD5ZO5O00
 !s100 TSY??OI;=T]oaGc2MZn]R0
 R8
 32
-R111
-!i10b 1
-R120
 R240
+!i10b 1
+R100
 R241
+R242
 !i113 1
 R13
 R14
 Eprocessor
-Z242 w1544611005
+Z243 w1544649278
 R2
 R3
 R29
@@ -2206,19 +2206,19 @@ R30
 R4
 R5
 R0
-Z243 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd
-Z244 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd
+Z244 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd
+Z245 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd
 l0
 L8
 V[X7Pf3bBGP;VWTMTIk0LU1
 !s100 =jhD>Xj@A3KA1oAM[bSJ20
 R8
 32
-R64
+R60
 !i10b 1
-R65
-Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd|
-Z246 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd|
+R61
+Z246 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd|
+Z247 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/processor.vhd|
 !i113 1
 R13
 R14
@@ -2230,17 +2230,17 @@ R30
 R4
 R5
 DEx4 work 9 processor 0 22 [X7Pf3bBGP;VWTMTIk0LU1
-l166
+l177
 L60
-V5O<2ZeebM5L_fNCmg`5:b1
-!s100 KzR_=M8U:Vc4a`AJ]NPNA2
+V`GlY:iHa_jgd`R;[@AdHl3
+!s100 <012LTW9zlACZe21QPiP;2
 R8
 32
-R64
+R60
 !i10b 1
-R65
-R245
+R61
 R246
+R247
 !i113 1
 R13
 R14
@@ -2252,19 +2252,19 @@ R30
 R4
 R5
 R0
-Z247 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
-Z248 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
+Z248 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
+Z249 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd
 l0
 L7
 VNjlQ;B1BEi69fYRR62_Z52
 !s100 HIX?EZHS_NKbgh@X?Pzbz1
 R8
 32
-R111
+R240
 !i10b 1
-R120
-Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
-Z250 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
+Z250 !s108 1544656568.000000
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
+Z252 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_bills_branch_test.vhd|
 !i113 1
 R13
 R14
@@ -2281,35 +2281,35 @@ V@Phebz3h<Ng8@@Qg4GZ`]2
 !s100 1klPHdiiRb^k0S7a54oZ53
 R8
 32
-R111
+R240
 !i10b 1
-R120
-R249
 R250
+R251
+R252
 !i113 1
 R13
 R14
 Eprocessor_forwarding_no_stalls
-Z251 w1544612048
+Z253 w1544612048
 R2
 R3
 R30
 R4
 R5
 R0
-Z252 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd
-Z253 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd
+Z254 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd
+Z255 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd
 l0
 L7
 V[gdM]2@m<I[W[F8XH:B8?3
 !s100 K38UeD;`iR161Qj3IQCh=2
 R8
 32
-R53
+R65
 !i10b 1
-R54
-Z254 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd|
-Z255 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd|
+R66
+Z256 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd|
+Z257 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_no_stall.vhd|
 !i113 1
 R13
 R14
@@ -2326,24 +2326,69 @@ V;<f2;4AnL?:7F3Yo[O4bL1
 !s100 Z;hkM2JVf[>=Hh@?agAEZ2
 R8
 32
-R53
+R65
 !i10b 1
-R54
-R254
-R255
+R66
+R256
+R257
 !i113 1
 R13
 R14
-Eprocessor_no_forwarding_no_stalls
-Z256 w1544607738
+Eprocessor_forwarding_stall
+Z258 w1544620682
 R2
 R3
 R30
 R4
 R5
 R0
-Z257 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd
-Z258 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd
+Z259 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_stall.vhd
+Z260 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_stall.vhd
+l0
+L7
+V6?E5TF=hQJDBJncOPNPid3
+!s100 OjjM?4l:12L`az5REaN<03
+R8
+32
+R65
+!i10b 1
+R66
+Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_stall.vhd|
+Z262 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_forwarding_stall.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R30
+R4
+R5
+Z263 DEx4 work 26 processor_forwarding_stall 0 22 6?E5TF=hQJDBJncOPNPid3
+l54
+L10
+Z264 VDdf8o8h1`e`oFSL`60nML3
+Z265 !s100 GiQL=i]N2:`>W^5=XP`dF1
+R8
+32
+R65
+!i10b 1
+R66
+R261
+R262
+!i113 1
+R13
+R14
+Eprocessor_no_forwarding_no_stalls
+Z266 w1544607738
+R2
+R3
+R30
+R4
+R5
+R0
+Z267 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd
+Z268 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd
 l0
 L7
 VG77T:RQhl5f<O0A^z3GN]2
@@ -2353,8 +2398,8 @@ R8
 R9
 !i10b 1
 R10
-Z259 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd|
-Z260 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd|
+Z269 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd|
+Z270 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_no_forwarding_no_stall.vhd|
 !i113 1
 R13
 R14
@@ -2374,32 +2419,32 @@ R8
 R9
 !i10b 1
 R10
-R259
-R260
+R269
+R270
 !i113 1
 R13
 R14
 Eprocessor_sort_corrected_branch_test
-R1
+Z271 w1544656084
 R2
 R3
 R30
 R4
 R5
 R0
-Z261 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
-Z262 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
+Z272 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
+Z273 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd
 l0
 L7
 Vljc8>hcMD5kZkMaMbTC=F3
 !s100 z>?iX]KP=7T>6nn=_GAn90
 R8
 32
-R111
+R240
 !i10b 1
-R120
-Z263 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
-Z264 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
+R250
+Z274 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
+Z275 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_sort_corrected_branch_test.vhd|
 !i113 1
 R13
 R14
@@ -2410,41 +2455,41 @@ R30
 R4
 R5
 DEx4 work 36 processor_sort_corrected_branch_test 0 22 ljc8>hcMD5kZkMaMbTC=F3
-l52
+l54
 L10
-VAgUDC;K94`CaeQN@[mA5F1
-!s100 ?l25VEeF17dD=ioZXVQ=31
+V18AEiI_`mSkX7RH@j@ZCA1
+!s100 ^E^5B05W_i8mkKk2AN:`A0
 R8
 32
-R111
+R240
 !i10b 1
-R120
-R263
-R264
+R250
+R274
+R275
 !i113 1
 R13
 R14
 Eprocessor_unsigned_add_test
-R1
+Z276 w1544656304
 R2
 R3
 R30
 R4
 R5
 R0
-Z265 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
-Z266 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
+Z277 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
+Z278 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd
 l0
 L7
 V@R<=kn`1S=W]dfbFF:5Tz2
 !s100 ]Vif5YmD7[BM45EnV^THe2
 R8
 32
-R111
+R240
 !i10b 1
-R120
-Z267 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
-Z268 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
+R250
+Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
+Z280 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/processor_unsigned_add_test.vhd|
 !i113 1
 R13
 R14
@@ -2455,17 +2500,17 @@ R30
 R4
 R5
 DEx4 work 27 processor_unsigned_add_test 0 22 @R<=kn`1S=W]dfbFF:5Tz2
-l52
+l53
 L10
-V[ZlJ?FVi2jBCKDK9X^P103
-!s100 eSXbNgELMQULodDJP<YMJ2
+VhYV2`4Z>Gk@CJ>n;0a1<h3
+!s100 HGWfHUd2lzj:5COj6FF8j2
 R8
 32
-R111
+R240
 !i10b 1
-R120
-R267
-R268
+R250
+R279
+R280
 !i113 1
 R13
 R14
@@ -2476,19 +2521,19 @@ R3
 R4
 R5
 R0
-Z269 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd
-Z270 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd
+Z281 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd
+Z282 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd
 l0
 L6
 V^FfNm8OzbQCNj2SXIQk;B2
 !s100 mTgmC<KZ0OVTK[:4oHWJf3
 R8
 32
-R43
+R60
 !i10b 1
-R44
-Z271 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd|
-Z272 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd|
+R61
+Z283 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd|
+Z284 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/read_32x32registers.vhd|
 !i113 1
 R13
 R14
@@ -2504,11 +2549,11 @@ VGzimP3OA>>1ka8^z@zV`j3
 !s100 jhQa?UH@1Aefb0j@6>97<0
 R8
 32
-R43
+R60
 !i10b 1
-R44
-R271
-R272
+R61
+R283
+R284
 !i113 1
 R13
 R14
@@ -2519,19 +2564,19 @@ R3
 R4
 R5
 R0
-Z273 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd
-Z274 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd
+Z285 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd
+Z286 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd
 l0
 L6
 VQW58Ljc]CKI8PCcTi^1RE0
 !s100 f;G9GUF5DjDE95WFYGT9d1
 R8
 32
-R64
+R60
 !i10b 1
-R65
-Z275 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd|
-Z276 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd|
+R61
+Z287 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd|
+Z288 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_1.vhd|
 !i113 1
 R13
 R14
@@ -2547,11 +2592,11 @@ V^CL0fK_@;@9XQHjodBH9z3
 !s100 Fi1G8U?VEYEomSj]WGJ0X0
 R8
 32
-R64
+R60
 !i10b 1
-R65
-R275
-R276
+R61
+R287
+R288
 !i113 1
 R13
 R14
@@ -2564,19 +2609,19 @@ R30
 R4
 R5
 R0
-Z277 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd
-Z278 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd
+Z289 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd
+Z290 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd
 l0
 L18
 VWCb:3C_58aRo:Egk9CJM62
 !s100 kVgz`^Hkf57]n;kDHbQBO1
 R8
 32
-R21
+R240
 !i10b 1
-R120
-Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd|
-Z280 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd|
+R250
+Z291 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd|
+Z292 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_1_test.vhd|
 !i113 1
 R13
 R14
@@ -2594,11 +2639,11 @@ VWJJCTW:o7d4HIEBQ1VEcz3
 !s100 G=eDQkfXlQS70l5K`65TF0
 R8
 32
-R21
+R240
 !i10b 1
-R120
-R279
-R280
+R250
+R291
+R292
 !i113 1
 R13
 R14
@@ -2609,19 +2654,19 @@ R3
 R4
 R5
 R0
-Z281 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd
-Z282 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd
+Z293 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd
+Z294 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd
 l0
 L6
 V<2a7Z@iDhijoT;h3=_F=O0
 !s100 bK0HZE8aW5U5f5T@Zj<@z1
 R8
 32
-R64
+R60
 !i10b 1
-R65
-Z283 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd|
-Z284 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd|
+R61
+Z295 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd|
+Z296 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/register/register_file.vhd|
 !i113 1
 R13
 R14
@@ -2637,11 +2682,11 @@ V3;6^Qe@J3i28z^nXK:=_T2
 !s100 O2P]>X?:F5a:k`PEH8<?^0
 R8
 32
-R64
+R60
 !i10b 1
-R65
-R283
-R284
+R61
+R295
+R296
 !i113 1
 R13
 R14
@@ -2653,19 +2698,19 @@ R30
 R4
 R5
 R0
-Z285 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd
-Z286 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd
+Z297 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd
+Z298 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd
 l0
 L7
 VBP`B8mSlSGKo9[QQ?=UDU0
 !s100 3HB<eGnMmC[HRUCl1WoZC0
 R8
 32
-R21
+R240
 !i10b 1
-R22
-Z287 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd|
-Z288 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd|
+R250
+Z299 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd|
+Z300 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/register_file_test.vhd|
 !i113 1
 R13
 R14
@@ -2675,18 +2720,18 @@ R3
 R30
 R4
 R5
-Z289 DEx4 work 18 register_file_test 0 22 BP`B8mSlSGKo9[QQ?=UDU0
+Z301 DEx4 work 18 register_file_test 0 22 BP`B8mSlSGKo9[QQ?=UDU0
 l114
 L102
 VdUP]_2e4E@337nfl2@3LA1
 !s100 I?8;JMRnZ3Vco^=U66A<c3
 R8
 32
-R21
+R240
 !i10b 1
-R22
-R287
-R288
+R250
+R299
+R300
 !i113 1
 R13
 R14
@@ -2696,18 +2741,18 @@ R3
 R30
 R4
 R5
-R289
+R301
 l22
 L10
 VSG^L`lh0>_lfnS[ko1m6L3
 !s100 QO3@RYPRmY=7UFUiT`3ED0
 R8
 32
-R21
+R240
 !i10b 1
-R22
-R287
-R288
+R250
+R299
+R300
 !i113 1
 R13
 R14
@@ -2718,8 +2763,8 @@ R3
 R4
 R5
 R0
-Z290 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd
-Z291 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd
+Z302 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd
+Z303 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd
 l0
 L6
 V8zboDFQIJeUk]X7OicJF93
@@ -2729,8 +2774,8 @@ R8
 R9
 !i10b 1
 R10
-Z292 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd|
-Z293 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd|
+Z304 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd|
+Z305 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/alu/shifter_32.vhd|
 !i113 1
 R13
 R14
@@ -2749,8 +2794,8 @@ R8
 R9
 !i10b 1
 R10
-R292
-R293
+R304
+R305
 !i113 1
 R13
 R14
@@ -2763,19 +2808,19 @@ R30
 R4
 R5
 R0
-Z294 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd
-Z295 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd
+Z306 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd
+Z307 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd
 l0
 L9
 VJiA21fU=Vo?z_e<fKM:;e2
 !s100 i;g@Eo=fhc^5<bX0ob9ZA0
 R8
 32
-R21
+R240
 !i10b 1
-R22
-Z296 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd|
-Z297 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd|
+R250
+Z308 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd|
+Z309 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/shifter_32_test.vhd|
 !i113 1
 R13
 R14
@@ -2793,44 +2838,44 @@ V20E2S6h^7bAX]UCjfHUXS1
 !s100 EO9Wm56ETMf3obVDTNjVi1
 R8
 32
-R21
+R240
 !i10b 1
-R22
-R296
-R297
+R250
+R308
+R309
 !i113 1
 R13
 R14
 Esram
 R1
 R30
-Z298 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z310 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R29
-Z299 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z311 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R4
 R5
 R0
-Z300 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd
-Z301 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd
+Z312 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd
+Z313 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd
 l0
 L13
 VFLG`C39Ab9GzQ=^bY]PbI0
 !s100 dFa2^0bCm0FVM`Q9B=_f60
 R8
 32
-R37
+R220
 !i10b 1
-R197
-Z302 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd|
-Z303 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd|
+R225
+Z314 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd|
+Z315 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/sram.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R30
-R298
+R310
 R29
-R299
+R311
 R4
 R5
 DEx4 work 4 sram 0 22 FLG`C39Ab9GzQ=^bY]PbI0
@@ -2840,11 +2885,11 @@ VLRD]SNjG8@LM@IX=zhb1z3
 !s100 ;NlLnEhi3^n7W2I^9UJ2d3
 R8
 32
-R37
+R220
 !i10b 1
-R197
-R302
-R303
+R225
+R314
+R315
 !i113 1
 R13
 R14
@@ -2854,23 +2899,23 @@ R2
 R3
 R30
 R29
-R299
+R311
 R4
 R5
 R0
-Z304 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd
-Z305 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd
+Z316 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd
+Z317 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd
 l0
 L7
 V<zU9:eoHl_Az]8hWDW<hl3
 !s100 G00?HLJVNDc1cW66I<Bgm0
 R8
 32
-R21
+R240
 !i10b 1
-R22
-Z306 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd|
-Z307 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd|
+R250
+Z318 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd|
+Z319 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/test/sram_test.vhd|
 !i113 1
 R13
 R14
@@ -2879,7 +2924,7 @@ R2
 R3
 R30
 R29
-R299
+R311
 R4
 R5
 DEx4 work 9 sram_test 0 22 <zU9:eoHl_Az]8hWDW<hl3
@@ -2889,44 +2934,44 @@ VdLlMnRSaSD_[kJ^W>E7]n1
 !s100 J7eMdLScNF_aI`87P6:MM0
 R8
 32
-R21
+R240
 !i10b 1
-R22
-R306
-R307
+R250
+R318
+R319
 !i113 1
 R13
 R14
 Esyncram
 R1
 R30
-R298
+R310
 R29
-R299
+R311
 R4
 R5
 R0
-Z308 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd
-Z309 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd
+Z320 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd
+Z321 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd
 l0
 L12
 VD=e][Y8<;9NigS>`niT123
 !s100 aFnLlL1@m415d6em?MG^21
 R8
 32
-R37
+R220
 !i10b 1
-R38
-Z310 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd|
-Z311 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd|
+R225
+Z322 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd|
+Z323 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/syncram.vhd|
 !i113 1
 R13
 R14
 Abehavioral
 R30
-R298
+R310
 R29
-R299
+R311
 R4
 R5
 DEx4 work 7 syncram 0 22 D=e][Y8<;9NigS>`niT123
@@ -2936,11 +2981,11 @@ Vb4bLTLnQ<96RWXh<@96:U0
 !s100 W:<cVUTVPgIfz60fOOgQ20
 R8
 32
-R37
+R220
 !i10b 1
-R38
-R310
-R311
+R225
+R322
+R323
 !i113 1
 R13
 R14
@@ -2949,19 +2994,19 @@ R1
 R4
 R5
 R0
-Z312 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd
-Z313 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd
+Z324 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd
+Z325 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd
 l0
 L5
 V0h2SEDJmYfE@NbVLih1891
 !s100 VMF9C>DP[5;VOiN5[aESd3
 R8
 32
-R37
+R220
 !i10b 1
-R38
-Z314 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd|
-Z315 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd|
+R225
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd|
+Z327 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate.vhd|
 !i113 1
 R13
 R14
@@ -2975,11 +3020,11 @@ V7FVFb1NIF1?iJ4PQQ`S`<0
 !s100 ]_>oDFZN:PJ[HJie3IcK81
 R8
 32
-R37
+R220
 !i10b 1
-R38
-R314
-R315
+R225
+R326
+R327
 !i113 1
 R13
 R14
@@ -2988,19 +3033,19 @@ R1
 R4
 R5
 R0
-Z316 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
-Z317 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
+Z328 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
+Z329 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd
 l0
 L5
 VI^Fo_SJbE0W]UUm=ZlX691
 !s100 7TK64^z14nVXPK]cWgS3=0
 R8
 32
-R37
+R220
 !i10b 1
-R38
-Z318 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
-Z319 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
+R225
+Z330 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
+Z331 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -3014,11 +3059,11 @@ VUZHHDf582f^BFOE?@V5cO3
 !s100 l]IKGhY:hL2aDUPV;>SB?0
 R8
 32
-R37
+R220
 !i10b 1
-R38
-R318
-R319
+R225
+R330
+R331
 !i113 1
 R13
 R14
@@ -3027,19 +3072,19 @@ R1
 R4
 R5
 R0
-Z320 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
-Z321 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
+Z332 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
+Z333 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd
 l0
 L5
 VR_LmOEJa:d>5N49>W0ZA?3
 !s100 UCY45ZALOU6@I^4jz3eW33
 R8
 32
-R37
+R220
 !i10b 1
-R38
-Z322 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
-Z323 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
+R225
+Z334 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
+Z335 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xnor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -3053,11 +3098,11 @@ VKnfTaCK^6h<JR^FmC<>0m1
 !s100 dDail5hL?0zna@N:=D@8b2
 R8
 32
-R37
+R220
 !i10b 1
-R38
-R322
-R323
+R225
+R334
+R335
 !i113 1
 R13
 R14
@@ -3066,19 +3111,19 @@ R1
 R4
 R5
 R0
-Z324 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd
-Z325 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd
+Z336 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd
+Z337 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd
 l0
 L5
 V[fBJY?oh1=l=lj];5ikcY1
 !s100 K_6H3f?zAK@4`dnkC2j[K2
 R8
 32
-R37
+R220
 !i10b 1
-R38
-Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd|
-Z327 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd|
+R225
+Z338 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd|
+Z339 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate.vhd|
 !i113 1
 R13
 R14
@@ -3092,11 +3137,11 @@ VX2I>jC5Dl4K41ohhQ=lfz2
 !s100 e;mL^F4ENl;O2f_Ae@3MU2
 R8
 32
-R37
+R220
 !i10b 1
-R38
-R326
-R327
+R225
+R338
+R339
 !i113 1
 R13
 R14
@@ -3105,8 +3150,8 @@ R1
 R4
 R5
 R0
-Z328 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd
-Z329 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd
+Z340 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd
+Z341 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd
 l0
 L5
 V:TDC7[J^<4Z0hN7K<U@nz0
@@ -3115,9 +3160,9 @@ R8
 32
 R37
 !i10b 1
-R38
-Z330 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
-Z331 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
+R225
+Z342 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
+Z343 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_32.vhd|
 !i113 1
 R13
 R14
@@ -3133,9 +3178,9 @@ R8
 32
 R37
 !i10b 1
-R38
-R330
-R331
+R225
+R342
+R343
 !i113 1
 R13
 R14
@@ -3144,8 +3189,8 @@ R1
 R4
 R5
 R0
-Z332 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd
-Z333 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd
+Z344 8C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd
+Z345 FC:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd
 l0
 L5
 VoXcGmO7Td517G9;DAlGa]0
@@ -3155,8 +3200,8 @@ R8
 R37
 !i10b 1
 R38
-Z334 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
-Z335 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
+Z346 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
+Z347 !s107 C:/Users/Yehya Elmasry/Desktop/pipelined-processor/lib/xor_gate_n.vhd|
 !i113 1
 R13
 R14
@@ -3173,8 +3218,8 @@ R8
 R37
 !i10b 1
 R38
-R334
-R335
+R346
+R347
 !i113 1
 R13
 R14
