@@ -1,7 +1,9 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
+add wave -noupdate /processor_sort_corrected_branch_test/clk_cnt
 add wave -noupdate -radix unsigned /processor_sort_corrected_branch_test/manual_mem_inspect
 add wave -noupdate -radix unsigned /processor_sort_corrected_branch_test/manual_mem_inspect_addr
+add wave -noupdate -radix hexadecimal /processor_sort_corrected_branch_test/data_mem_out
 add wave -noupdate -radix unsigned /processor_sort_corrected_branch_test/init
 add wave -noupdate -radix unsigned /processor_sort_corrected_branch_test/pc_init_data
 add wave -noupdate -color Gold /processor_sort_corrected_branch_test/clk
@@ -101,7 +103,7 @@ add wave -noupdate -group squashing /processor_sort_corrected_branch_test/test_c
 add wave -noupdate -group squashing /processor_sort_corrected_branch_test/test_comp/reg_wrt_decoder
 add wave -noupdate -group squashing /processor_sort_corrected_branch_test/test_comp/mem_wrt_decoder
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {842478 ps} 0}
+WaveRestoreCursors {{Cursor 1} {515708 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 417
 configure wave -valuecolwidth 99

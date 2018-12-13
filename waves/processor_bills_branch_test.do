@@ -6,6 +6,7 @@ add wave -noupdate -radix hexadecimal /processor_bills_branch_test/data_mem_out
 add wave -noupdate -radix unsigned /processor_bills_branch_test/init
 add wave -noupdate -radix unsigned /processor_bills_branch_test/pc_init_data
 add wave -noupdate -color Gold /processor_bills_branch_test/clk
+add wave -noupdate /processor_bills_branch_test/clk_cnt
 add wave -noupdate -expand -group {if stage} -radix hexadecimal /processor_bills_branch_test/test_comp/pc
 add wave -noupdate -expand -group {if stage} -radix hexadecimal /processor_bills_branch_test/test_comp/instruction
 add wave -noupdate -expand -group {if stage} -radix unsigned /processor_bills_branch_test/test_comp/take_branch
@@ -101,7 +102,7 @@ add wave -noupdate -group squashing /processor_bills_branch_test/test_comp/squas
 add wave -noupdate -group squashing /processor_bills_branch_test/test_comp/reg_wrt_decoder
 add wave -noupdate -group squashing /processor_bills_branch_test/test_comp/mem_wrt_decoder
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {314512 ps} 0}
+WaveRestoreCursors {{Cursor 1} {252660 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 417
 configure wave -valuecolwidth 99
@@ -117,4 +118,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {300196 ps} {329170 ps}
+WaveRestoreZoom {0 ps} {2100 ns}
