@@ -166,7 +166,7 @@ architecture processor_logic of processor is
 	-- Stall Calculation
 	signal branch_or_load		: std_logic;
 	signal last_branch_and_stall	: std_logic;
-	signal stall_logic		: std_logic;
+	signal prev_stall		: std_logic;
 
 	-- Squashing
 	signal last_inst_branch_or_load	: std_logic;
@@ -235,9 +235,9 @@ begin
 		pc_init			=>	init,
 		pc_init_data		=>	pc_init_data,
 		clk			=>	clk,
-		immediate_extended	=>	immediate_extended,
+		immediate_extended	=>	immediate_extended_id_ex,
 		take_branch		=>	take_branch,
-		stall			=>	stall_logic,
+		stall			=>	stall,
 		pc			=>	pc
 	);
 
@@ -289,7 +289,7 @@ begin
 	last_branch_and_stall_and	:	and_gate
 	port map (
 		x	=>	branch_id_ex,
-		y	=>	stall,
+		y	=>	prev_stall,
 		z	=>	last_branch_and_stall
 	);
 
@@ -297,7 +297,7 @@ begin
 	port map (
 		x	=>	branch_or_load,
 		y	=>	last_branch_and_stall,
-		z	=>	stall_logic
+		z	=>	stall
 	);
 
 	stall_ff	:	dffr_a 
@@ -307,8 +307,8 @@ begin
 		aload	=>	'0',
 		adata	=>	'0',
 		enable	=>	'1',
-		d	=>	stall_logic,
-		q	=>	stall
+		d	=>	stall,
+		q	=>	prev_stall
 	);
 
 	-- Squashing logic

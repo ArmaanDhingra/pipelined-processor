@@ -35,14 +35,17 @@ entity pc_controller is
 end pc_controller;
 
 architecture pc_controller_logic of pc_controller is
-	signal pc_plus_4, pc_branch	: std_logic_vector (31 downto 0);
-	signal immediate_extended_x4	: std_logic_vector (31 downto 0);
-	signal pc_next			: std_logic_vector (31 downto 0);
-	signal pc_next_val			: std_logic_vector (31 downto 0);
-	signal pc_curr			: std_logic_vector (31 downto 0);
+	signal pc_plus_4, pc_branch		: std_logic_vector (31 downto 0);
+	signal immediate_extended_x4		: std_logic_vector (31 downto 0);
+	signal pc_plus_4x_immediate		: std_logic_vector (31 downto 0);
+	signal pc_plus_4_plus_4x_immediate	: std_logic_vector (31 downto 0);
+	signal pc_next_no_stall			: std_logic_vector (31 downto 0);
+	signal pc_next_stall			: std_logic_vector (31 downto 0);
+	signal pc_next				: std_logic_vector (31 downto 0);
+	signal pc_curr				: std_logic_vector (31 downto 0);
 begin
 	-- Obtain current pc
-	pc_reg	:	register_1
+	pc_reg			:	register_1
 	port map (
 		clk		=>	clk,
 		init		=>	pc_init,
@@ -53,53 +56,77 @@ begin
 
 	pc <= pc_curr;
 
-	--Calculate next pc
+	-- Calculate next pc
 
-	--if branch
-		-- PC <- PC + 4 + ( SignExt(imm16) x 4 )
+	-- if stall
+	--	if take_branch
+	--		PC <- PC + ( SignExt(imm16) x 4 )
+	--	else
+	--		PC <- PC
 	-- else
-		-- PC <- PC + 4
+	-- 	if take_branch
+	--		PC <- PC + 4 + ( SignExt(imm16) x 4 )
+	-- 	else
+	-- 		PC <- PC + 4
 
-	-- pc + 4
-	pc_plus_4_alu	:	alu_32
-	port map (
-		ctrl	=>	"100000",	-- Add
-		a	=>	pc_curr,
-		b	=>	conv_std_logic_vector (4, 32),	-- Add 4 to pc
-		r	=>	pc_plus_4
-	);
 
 	-- SignExt(imm16) * 4 = SignExt(imm16) << 2
-	imm16x4_shifter	:	shifter_32
+	imm16x4_shifter		:	shifter_32
 	port map (
-		a	=>	immediate_extended,
-		b	=>	conv_std_logic_vector (2,32),
-		r	=>	immediate_extended_x4
+		a		=>	immediate_extended,
+		b		=>	conv_std_logic_vector (2,32),
+		r		=>	immediate_extended_x4
 	);
 
-	-- pc + 4 + SignExt(imm16) * 4
-	pc_branch_alu	:	alu_32
+	-- pc + 4
+	pc_plus_4_alu		:	alu_32
 	port map (
-		ctrl	=>	"100000",	-- Add
-		a	=>	pc_plus_4,
-		b	=>	immediate_extended_x4,
-		r	=>	pc_branch
+		ctrl		=>	"100000",	-- Add
+		a		=>	pc_curr,
+		b		=>	conv_std_logic_vector (4, 32), 	-- Add 4 to pc
+		r		=>	pc_plus_4
 	);
 
-	next_pc_mux	:	mux_32
+	-- pc + SignExt(imm16) * 4
+	pc_plus_4x_immediate_alu	:	alu_32
 	port map (
-		sel	=>	take_branch,
-		src0	=>	pc_plus_4,
-		src1	=>	pc_branch,
-		z	=>	pc_next_val
+		ctrl		=>	"100000",	-- Add
+		a		=>	pc_curr,
+		b		=>	immediate_extended_x4,
+		r		=>	pc_plus_4x_immediate
 	);
 
-	stall_mux	:	mux_32
+	-- pc + SignExt(imm16) * 4 + 4
+	pc_plus_4_plus_4x_immediate_alu	:	alu_32
 	port map (
-		sel	=>	stall,
-		src0	=>	pc_next_val,
-		src1	=>	pc_curr,
-		z	=>	pc_next
+		ctrl		=>	"100000",	-- Add
+		a		=>	pc_plus_4x_immediate,
+		b		=>	conv_std_logic_vector (4, 32),	-- Add 4 to pc
+		r		=>	pc_plus_4_plus_4x_immediate
+	);
+
+	next_pc_no_stall_mux	:	mux_32
+	port map (
+		sel		=>	take_branch,
+		src0		=>	pc_plus_4,
+		src1		=>	pc_plus_4_plus_4x_immediate,
+		z		=>	pc_next_no_stall
+	);
+	
+	next_pc_stall_mux	:	mux_32
+	port map (
+		sel		=>	take_branch,
+		src0		=>	pc_curr,
+		src1		=>	pc_plus_4x_immediate,
+		z		=>	pc_next_stall
+	);
+
+	stall_mux		:	mux_32
+	port map (
+		sel		=>	stall,
+		src0		=>	pc_next_no_stall,
+		src1		=>	pc_next_stall,
+		z		=>	pc_next
 	);
 
 end pc_controller_logic;
